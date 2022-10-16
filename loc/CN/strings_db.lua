@@ -7490,6 +7490,123 @@ tooltipui0136="用你選擇的模組開始或者繼續一個戰役。"
 # BlackOps 
 # MOD::BlackOps Unleashed (9e8ea941-c306-4751-b367-a11000000502) Version 5.2 (Is Version 6 alive?)
 
+tooltipui0916="Toggle Anti-Teleport Field"
+bel0402_name="Goliath MKII"
+bel0402_help="Experimental Assault Bot"
+brl0308_desc="Ultra Heavy Assault Mech"
+bsl0008_desc="Elite Sniper Bot"
+bsl0008_name="Hala Usha-Ah"
+bsl0008_help="Elite Sniper Bot"
+tooltipui0900="Launch EMP Nuke"
+tooltipui0901="Fires EMP Nuke."
+tooltipui0902="Recall Drones"
+tooltipui0903="Recalls Drones to Carrier."
+tooltipui0904="Drone Auto-Assist"
+tooltipui0905="Toggles Drone Auto-Assist."
+tooltipui0906="Lambda Field"
+tooltipui0907="Turns on/off the selected unit's Lambda Field"
+tooltipui0908="Fire Main Weapon"
+tooltipui0909="Fires the Special Weapon"
+tooltipui0910="Stationary Mode"
+tooltipui0911="Transforms the unit into a stationary mode."
+tooltipui0912="Mobile Mode"
+tooltipui0913="Transforms the unit into a mobile mode."
+tooltipui0914="Spoof Toggle"
+tooltipui0915="Turns on/off the selected unit's Radar Spoofing"
+Unit_Description_20001=" Ambush Assault unit.The Scorpion is equipped with a personal stealth field, and becomes cloaked when standing still; allowing for ambushes against enemy forces."
+Unit_Description_20002=" Medium Range Artillery Unit. The Hailfire fires a slavo of rockets at the target which detonate in a Low Yield EMP Blast stunning enemy units."
+Unit_Description_20003=" Ultimate weapon in the Cybran Military, derived from the original Basilisk design, while in assault mode it is armed with an Experimental Electron Accelerator Cannon, a pair of Electron Scrambler Cannons, two Electron Bolters, Nanite swarm missiles and Microwave Nanite Anti-air missiles. In Siege mode it sports the original Plasma cannon and LOA TML system. The AI is still known to occasionally wander off on its own to attack the enemy."
+Unit_Description_20003=" Originally created by QAI after the first Basilisk design was captured, Dr. Brackman took the design and altered it to suit the Cybran nation's needs. The original back mounted cannon was scaled down, additional missile tubes were added, and an Experimental Bolter and Anti-air system were installed. The Basilisk MKII still carries its original siege mode but no longer requires it to be stationary.There is some speculation that a portion of QAI's original programming still resides within the MKII, as it will occationally hunt for enemies on it's own accord."
+Unit_Description_20003=" The Basilisk, the badassery of this unit cannot be put into words. "
+Unit_Description_20004=" The Reaper serves as an escort and a battlecriuser, capable of fighting every type of enemy."
+Unit_Description_20005=" Pride of the Cybran Navy, the Seadragon Class Dreadnought is armed with 2 X Class Rail Cannons, several deck cannons, AA, and torpedoes; enemies shake in fear at the sight of this vessel. Also able to repair and refuel aircraft in the field."
+Unit_Description_20006=" The Vanisher is the Cybran's Tier 3 transport, equipped with Cloak Field Generators, it can become very useful to a clever Commander."
+Unit_Description_20007=" The Gargantuan Experimental transport, capable of transporting a small army of up to 20 tier 3 units to the front lines or behind a well fortified enemy position. Can also provide adequate air support."
+Unit_Description_20008=" Fires a Microwave laser along with a high concentration of electromagnetic energy into the target, causing it to explode damaging and shutting down all units in the affected area."
+Unit_Description_20009=" The Naval Staging Yard is used as a front line repair/refuel station for both air and naval units. Comes equiped with Flak, Torpedoes and Radar/Sonar Stealth."
+Unit_Description_20011=" Heavy attack sub. Armed with the latest and most advanced torpedos from the cybran Navy. Uses twin bolters when surfaced and come equiped with a Torpedo Redirection System."
+Unit_Description_20012=" Advanced Attack & Sensor Frigate, armed with a Microwave laser cannon, a SAM Nanite Missile Battery, Nanite Torpedoes, and Torpedo defense. Is also equipped with Omni Radar, Radar, and Sonar."
+Unit_Description_20013=" When built the Hydra will activate one of its many weapon systems to use in combat, only one weapon may be active on a single Hydra."
+Unit_Description_20014=" Low end repair pad, quick to build for early refuel and repair."
+Unit_Description_20015=" The Shadow creates an energy field around it and bends light to make it and anyting else close by invisible visual sensors."
+Unit_Description_20016=" Detonates when enemy naval vessels pass by doing damage and causing system shutdowns."
+Unit_Description_20017=" Creates and amplifies the effects of Quantum Wakes, preventing enemies from teleporting units within the affected area. Can be upgraded for a larger area of effect."
+Unit_Description_20018=" Creates and amplifies the effects of Quantum Wakes, preventing enemies from teleporting units within the affected area. The affected area is larger than the T2 version."
+Unit_Description_20019=" Advanced Storage building, provides bonus for both Mass and Energy producing structures as well as storing Mass and Energy."
+Unit_Description_20020=" Rapid-Fire rocket launcher, showers the target area with low yield explosives, uses energy to fire."
+Unit_Description_50003=" Shield Generator ED5."
+Unit_Description_50001=" Hydrocarbon Power Plant2."
+Unit_Description_50002=" Hydrocarbon Power Plant3."
+Unit_Description_10001=" Nicknamed The Carnival Wagon of Death for its large array of weapons and deadly speed, the Juggernaut is a force to be reckoned with."
+Unit_Description_10002=" The Conquest Class Dreadnought carries three experimental cannons which fires shells filled with concentrated anti-matter, also carries 8 long ranged cannons and 8 anti-air guns. Capable of providing superb shore bombardment and adequate air defense."
+Unit_Description_10003=" The Naval Staging Yard is used as a front line repair/refuel station for both air and naval units. Comes equiped with Flak, Torpedoes and an Area Bubble Shield."
+Unit_Description_10004=" This Floating Fortress houses one of the deadliest weapons the UEF has to offer, along with its considerable AA and four dual barreled cannons it also has 6 shielded Repair/Refuel pads on the upper deck."
+Unit_Description_10004=" Unsatisfied with the performance of the original Citadel, it was redesigned with a greater focus on Air Superiority. It lost much of it's Air to Ground Weaponry in favor of boosted Air-to-Air Weapons and a greater focus of the Repair and Refueling of Aircraft."
+Unit_Description_10005=" Mobile artillery support bot, fires napalm shells at the target while moving and carries secondary short range gauss cannons."
+Unit_Description_10006=" The main role of the Avenger tank is to hunt other tanks, the Avenger's powerful cannon allows it to take on nearly any low tech unit, it can deploy to act as a Point Defense as well."
+Unit_Description_10007=" The Goliath is one of the newest UEF war machines, aremed with a pair of Heavy Flame Throwers a Burst Tactical Missile System, and Carries two Drones armed with a high powered laser on it back, the Goliath is not to be underestimated."
+Unit_Description_10007=" UEF designers improved upon the original Goliath design, armed with its Incinerator class Flamethrowers, the new Goliath also carries an experimental beam cannon dubbed the \"Mega Beam Cannon\", Tactical missiles utilizing an advanced tracking system, TMD, and heavy defense drones."
+Unit_Description_10008=" Advanced Radar Attack Frigate, armed with a dual barreled Gauss cannon, a SAM, and Anti-Torpedo Depth charges. Is also Equipped with Omni Radar, Radar, and Sonar."
+Unit_Description_10009=" The Inferno uses a pair of Flamethrowers to burn the UEFs enemies to a crisp, however its fuel tank can be easily ruptured by weapons fire resulting in a violent explosion."
+Unit_Description_10010=" Low end repair pad, quick to build for early refuel and repair."
+Unit_Description_10011=" Floats below the water's surface and explodes when enemy naval vessels pass by causing high damage."
+Unit_Description_10017=" Creates and amplifies the effects of Quantum Wakes, preventing enemies from teleporting units within the affected area. Can be upgraded for a larger area of effect."
+Unit_Description_10018=" Creates and amplifies the effects of Quantum Wakes, preventing enemies from teleporting units within the affected area. The affected area is larger than the T2 version."
+Unit_Description_10019=" Advanced Storage building, provides bonus for both Mass and Energy producing structures as well as storing Mass and Energy."
+Unit_Description_10020=" Rapid-Fire Howitzer Emplacement, showers the target area with low yield explosives, uses energy to fire."
+Unit_Description_30001=" The Illuminate can ferry large amounts of units across the battlefield. This special transport makes up for is lack of armor with a teleportation device."
+Unit_Description_30002=" This tiny unit must unpack to fire its long range low powered sniper bolt. Even though its power is nothing compared to the advanced sniper unit; masses of these units can be deadly to lone commanders."
+Unit_Description_30003=" Heavy point defense, unlike its tech 2 counterpart the Beam turret is able to quickly change targets and constantly focus the beam resulting in very little overkill."
+Unit_Description_30004=" A middle of the road unit, the Zealot can be easily produced and deployed to the front lines making it an excelent support/assault unit in any ground force."
+Unit_Description_30005=" Heavy Hover Tank, sporting a variant of the powerful Oblivion PD Cannon and a pair of side mounted Obisidion Cannons, and Depth Charges the Wraith is a deadly weapon."
+Unit_Description_30006=" The Naval Staging Yard is used as a front line repair/refuel station for both air and naval units. Comes equiped with a new AA defense, Torpedoes, and can build aircraft."
+Unit_Description_30007=" Constructs and Launches the deadly Artemis Satellite, if the satellite is shot down a new one can be constructed at the control center, however if the center is destroyed all active sats crash, only able to support a single satellite per station."
+Unit_Description_30008=" Artemis- the name brings fear into the hearts of enemy commanders that hear it. When the weapon begins to charge the sky above the target zone is illuminated with a golden light, enemy commanders that see this light resign themselves to death because they know they cannot escape."
+Unit_Description_30009=" Advanced Attack & Sensor Frigate, armed with 3 dual barreled Quantum Cannon, Cluster torpedoes, and Anti Torpedo defense. Is also equipped with Omni Radar, Radar, and Sonar."
+Unit_Description_30010=" Low end repair pad, quick to build for early refuel and repair."
+Unit_Description_30011=" Floats on the water's surface and will fire high powered torpedos and missiles to enemy naval vessels causing very high damage to single targets."
+Unit_Description_30012=" The Inquisitor was redesigned to better suit its role of bombarding bases and was equipped with a new weapon, a downscaled version of the Artemis' Cleansing Flame. In order to properly fire the weapon a Teleport Matrix was also installed, this teleports the projectile to a point high above the target area allowing it to fall and impact with a high kinetic force and the blast. This process requires considerable power and leaves little room for defensive systems or secondary weapons."
+Unit_Description_30013=" The Purifier fires a Tactical Missle that splits above the target area showering it with explosives."
+Unit_Description_30014=" Long range Anti-Missle defense. Long range but slow rate of fire."
+Unit_Description_30017=" Creates and amplifies the effects of Quantum Wakes, preventing enemies from teleporting units within the affected area. Can be upgraded for a larger area of effect."
+Unit_Description_30018=" Creates and amplifies the effects of Quantum Wakes, preventing enemies from teleporting units within the affected area. The affected area is larger than the T2 version."
+Unit_Description_30019=" Advanced Storage building, provides bonus for both Mass and Energy producing structures as well as storing Mass and Energy."
+Unit_Description_30020=" Medium yield energy mortar, fires quick bursts at enemies in range."
+Unit_Description_30021=" Super-heavy hover tank, designed to provide long range fire support on land or on water."
+Unit_Description_40001=" This Quantum Rift Archway can stabalize a rift to the Quantum realm. Once this is done a Seraphim Commander can summon an endless amount of reenforcements from the other realm, however the rift takes a considerable amount of energy to maintain stabilty if there is not enough available then no units can be brought through."
+Unit_Description_40002=" The Lambda Field Generator is a device that can generate a field to repel enemy fire. This structure also acts as a Teir 4 Point Defense armed with a devastating two Quantum Storm Cannons."
+Unit_Description_40003=" The Ilhaas sends out signals which force enemy units to think it is a dangerous target, this makes the unit draw enemy fire while its allies fire back."
+Unit_Description_40004=" After seeing the usefulness of Seige Assault bots, the seraphim attemped their own design, incorporating a Dual Tau Cannon, TMD and a Lambda Field generator the Ilthysathuum is a very deadly weapon."
+Unit_Description_40005=" The Naval Staging Yard is used as a front line repair/refuel station for both air and naval units. It has a shield to protect the aircraft while refueling and launches repair and defense drones to help defend itself, also has torpedoes and torpedo defenses."
+Unit_Description_40006=" The Vishathal-Atah is an advanced transport with weak armor, it makes up for this with its large carrying capacity, a limited Lambda Field System and its speed."
+Unit_Description_40007=" Armed with high yield missiles and a pair of shield disruptors the Vulthatha-Ioz can take on large groups of enemies and break through even the toughest shields with ease."
+Unit_Description_40008=" High end naval unit. Armed with 3 heavy Quarnon Cannons, 4 anti-vessel beams and 4 AA Artillery cannon; this beast made its appearance shortly after the Cybran and UEF coalition forces unleashed the Conquest and Seadragon against the seraphim. This vessel also holds 2 experimental canons, that when impact are capable of summoning an Energy Being similar to the one made by the Ythotha, though considerably weaker."
+Unit_Description_40009=" This unit was built for the sole purpose of bombarding fortified bases where the Cruiser or Destroyer proved to be ineffective. Its slow turret speed makes it less effective at hitting fast mobile targets, allowing faster ships to close in and engage."
+Unit_Description_40010=" Heavy Assault & Advanced Sensor Frigate, this unit is heavily armed for naval combat; armed with 3 Shie-eih Auto-Cannons, 2 Ultrachromatic Beam Generators, 2 Losaare AA Autocannons, and an Unstable Phason Generator. It also has Radar, Sonar, and Omni sensors and is capable of submerging itself underwater."
+Unit_Description_40011=" Low end repair pad, quick to build for early refuel and repair."
+Unit_Description_40012=" Floats on the water's surface and detonates when enemy naval vessels pass by causing a small quantum storm that damages units that get too close."
+Unit_Description_40012=" Fires an energy projectile that creates a small lightning entity that will attack nearby enemy units."
+Unit_Description_40017=" Creates and amplifies the effects of Quantum Wakes, preventing enemies from teleporting units within the affected area. Can be upgraded for a larger area of effect."
+Unit_Description_40018=" Creates and amplifies the effects of Quantum Wakes, preventing enemies from teleporting units within the affected area. The affected area is larger than the T2 version."
+Unit_Description_40019=" Advanced Storage building, provides bonus for both Mass and Energy producing structures as well as storing Mass and Energy."
+Unit_Description_40020=" Launches a tactical missile, that when impacts the target area, creates a large amount of mines."
+Unit_Description_40021=" Experimental hover tank, carries small beam drones into battle, also armed with an experimental Phason Beam which increases in damage the longer the beam is active."
+Unit_Description_40014=" Restoration Field Generator."
+Unit_Description_50000=" Replaces the Tech 3 Engineering Suite. Allows the ACU to contruct Experimental class units and further increases the ACU's build speed and maximum health."
+Unit_Description_700001=" Advanced mobile anti-air unit. Utilizing a crude but effective target painter the Bouncer can lead it's missile salvo even to the fastest advanced aircraft. It can also use it's missiles as anti-ground rockets without guidance."
+Unit_Description_700005=" Advanced mobile anti-air unit. Utilizing a crude but effective target painter the Bouncer can lead it's missile salvo even to the fastest advanced aircraft. It can also use it's missiles as anti-ground rockets without guidance."
+Unit_Description_700002=" Advanced mobile anti-air unit. The Cougar is armed with dual high precision AA gatling cannons, capable of hitting even the faster high-end planes."
+Unit_Description_700003=" Advanced mobile anti-air unit. The Redeemer carries safely inside it's covers a modified anti-air variant of the powerful Serpentine missile."
+Unit_Description_700004=" Advanced mobile multipurpose unit. Using an uncontained power generator core the Uyanah can unleash powerful and swift lightning strikes at aerial targets. It can also generate a secondary flux to a grounded target."
+Unit_Description_700006=" Crab Egg (Loyalist)."
+Unit_Description_700007=" Crab Egg (Scorpion)."
+Unit_Description_700008=" Crab Egg (Deceiver)."
+Unit_Description_700009=" Crab Egg (Firebeetle)."
+Unit_Description_700010=" Crab Egg (Wagner)."
+Unit_Description_700011=" Crab Egg (Hailfire)."
+
+# LUA END
+
 ability_satdef="反衛星武器"
 ability_attkdrones="攻擊無人機"
 baa0001_desc="防禦無人機"
@@ -7800,6 +7917,345 @@ BSS0401_help="實驗性無畏戰艦"
 
 # MOD::BlackOps Adv Command Units (9e8ea941-c306-4751-b367-e00000000302) Version 3.2 
 
+enhancements_0611="Tech 2 Improved Engineering (T1)"
+enhancements_0612="Remove Engineering Suites"
+enhancements_0613="Tech 3 Advanced Engineering (T2)"
+enhancements_0614="Remove Engineering Suites"
+enhancements_0615="Tech 4 Experimental Engineering (T3)"
+enhancements_0616="Remove Engineering Suites"
+enhancements_0617="Tech 2 Combat Engineering (T1)"
+enhancements_0618="Remove Engineering Suites"
+enhancements_0619="Tech 3 Assault Engineering (T2)"
+enhancements_0620="Remove Engineering Suites"
+enhancements_0621="Tech 4 Apocolyptic Engineering (T3)"
+enhancements_0622="Remove Engineering Suites"
+enhancements_0607="Jury Rigged Disruptor (T1)"
+enhancements_0608="Remove Jury Rigged Disruptor"
+enhancements_0609="Disruptor Amplifier (T1)"
+enhancements_0610="Remove Disruptor Amplifier"
+enhancements_0623="Torpedo Launcher (T2)"
+enhancements_0624="Remove Torpedo Launcher"
+enhancements_0625="Improved Reloader (T3)"
+enhancements_0626="Remove Improved Reloader"
+enhancements_0627="Advanced Warheads (T4)"
+enhancements_0628="Remove Cluster Launcher"
+enhancements_0629="Dual Miasma Artillery (T2)"
+enhancements_0630="Remove Dual Miasma Artillery"
+enhancements_0631="Advanced Warhead Compression (T3)"
+enhancements_0632="Remove Advanced Warhead Compression"
+enhancements_0633="Improved Auto Loader (T4)"
+enhancements_0634="Remove Improved Auto Loader"
+enhancements_0635="Phason Beam Cannon (T2)"
+enhancements_0636="Remove Phason Beam Cannon"
+enhancements_0637="Dual Channel Booster (T3)"
+enhancements_0638="Remove Dual Channel Booster"
+enhancements_0639="Energized Molecular Inducer (T4)"
+enhancements_0640="Remove Energized Molecular Inducer"
+enhancements_0641="Shield Battery (T2)"
+enhancements_0642="Remove Shield Battery"
+enhancements_0643="Improved Shield Battery (T3)"
+enhancements_0644="Remove Improved Shield Battery"
+enhancements_0645="Advanced Shield Battery (T4)"
+enhancements_0646="Remove Advanced Shield Battery"
+enhancements_0647="Electronic Enhancment (T2)"
+enhancements_0648="Remove Electronic Enhancment"
+enhancements_0649="Farsight Optics (T3)"
+enhancements_0650="Remove Farsight Optics"
+enhancements_0651="Farjump Teleporter (T4)"
+enhancements_0652="Remove Farjump Teleporter"
+enhancements_0653="Quantum Maelstrom Generator (T2)"
+enhancements_0654="Remove Quantum Maelstrom Generator"
+enhancements_0655="Quantum Distortion Amplifier (T3)"
+enhancements_0656="Remove Quantum Distortion Amplifier"
+enhancements_0657="Quantum Instability Enhancer (T4)"
+enhancements_0658="Remove Quantum Instability Enhancer"
+EEA0002_desc="Spy Satellite"
+EEA0002_help="Spy Satellite"
+enhancements_0503="Tech 2 Improved Engineering (T1)"
+enhancements_0504="Remove Engineering Suites"
+enhancements_0505="Tech 3 Advanced Engineering (T2)"
+enhancements_0506="Remove Engineering Suites"
+enhancements_0507="Tech 4 Experimental Engineering (T3)"
+enhancements_0508="Remove Engineering Suites"
+enhancements_0509="Tech 2 Combat Engineering (T1)"
+enhancements_0510="Remove Engineering Suites"
+enhancements_0511="Tech 3 Assault Engineering (T2)"
+enhancements_0512="Remove Engineering Suites"
+enhancements_0513="Tech 4 Apocolyptic Engineering (T3)"
+enhancements_0514="Remove Engineering Suites"
+enhancements_0501="Jury Rigged Zephyr (T1)"
+enhancements_0502="Remove Jury Rigged Zephyr"
+enhancements_0515="Torpedo Launcher (T2)"
+enhancements_0516="Remove Torpedo Launcher"
+enhancements_0517="Improved Reloader (T3)"
+enhancements_0518="Remove Improved Reloader"
+enhancements_0519="Advanced Warheads (T4)"
+enhancements_0520="Remove Cluster Launcher"
+enhancements_0521="Anti-Matter Cannon (T2)"
+enhancements_0522="Remove Anti-Matter Cannon"
+enhancements_0523="Improved Particle Accelerator (T3)"
+enhancements_0524="Remove Improved Particle Accelerator"
+enhancements_0525="Enhanced Mag Bottle (T4)"
+enhancements_0526="Remove Enhanced Mag Bottle"
+enhancements_0527="Gattling Energy Cannon (T2)"
+enhancements_0528="Remove Gattling Energy Cannon"
+enhancements_0529="Automatic Barrel Stabalizers (T3)"
+enhancements_0530="Remove Automatic Barrel Stabalizers"
+enhancements_0531="Enhanced Power Subsystems (T4)"
+enhancements_0532="Remove Enhanced Power Subsystems"
+enhancements_0533="Shield Battery (T2)"
+enhancements_0534="Remove Shield Battery"
+enhancements_0535="Improved Shield Battery (T3)"
+enhancements_0536="Remove Improved Shield Battery"
+enhancements_0537="Advanced Shield Battery (T4)"
+enhancements_0538="Remove Advanced Shield Battery"
+enhancements_0539="Expanded Shield Bubble"
+enhancements_0540="Remove Expanded Shield Bubble"
+enhancements_0541="Electronic Enhancment (T2)"
+enhancements_0542="Remove Electronic Enhancment"
+enhancements_0543="Spysat Control Systems (T3)"
+enhancements_0544="Remove Spysat Control Systems"
+enhancements_0545="Modified Recall Device (T4)"
+enhancements_0546="Remove Modified Recall Device"
+enhancements_0547="Cluster Missile System (T2)"
+enhancements_0548="Remove Cluster Missile System"
+enhancements_0549="Tactical Missile System (T3)"
+enhancements_0550="Remove Tactical Missile System"
+enhancements_0551="Tactical Nuclear System (T4)"
+enhancements_0552="Remove Tactical Nuclear System"
+enhancements_0553="C-D1 Shoulder Drone (T1)"
+enhancements_0554="Remove C-D1 Shoulder Drone"
+enhancements_0555="C-D2 Shoulder Drone (T1)"
+enhancements_0556="Remove C-D2 Shoulder Drone"
+enhancements_0559="Tech 2 Improved Engineering (T1)"
+enhancements_0560="Remove Engineering Suites"
+enhancements_0561="Tech 3 Advanced Engineering (T2)"
+enhancements_0562="Remove Engineering Suites"
+enhancements_0563="Tech 4 Experimental Engineering (T3)"
+enhancements_0564="Remove Engineering Suites"
+enhancements_0565="Tech 2 Combat Engineering (T1)"
+enhancements_0566="Remove Engineering Suites"
+enhancements_0567="Tech 3 Assault Engineering (T2)"
+enhancements_0568="Remove Engineering Suites"
+enhancements_0569="Tech 4 Apocolyptic Engineering (T3)"
+enhancements_0570="Remove Engineering Suites"
+enhancements_0557="Jury Rigged Ripper (T1)"
+enhancements_0558="Remove Jury Rigged Ripper"
+enhancements_0571="Torpedo Launcher (T2)"
+enhancements_0572="Remove Torpedo Launcher"
+enhancements_0573="Improved Reloader (T3)"
+enhancements_0574="Remove Improved Reloader"
+enhancements_0575="Advanced Warheads (T4)"
+enhancements_0576="Remove Advanced Warheads"
+enhancements_0577="EMP Array (T2)"
+enhancements_0578="Remove EMP Array"
+enhancements_0579="Adjusted Crystal Matrix (T3)"
+enhancements_0580="Remove Adjusted Crystal Matrix"
+enhancements_0581="Enhanced Laser Emitters (T4)"
+enhancements_0582="Remove Enhanced Laser Emitters"
+enhancements_0583="Heavy Microwave Laser (T2)"
+enhancements_0584="Remove Heavy Microwave Laser"
+enhancements_0585="Alternating Laser Assembly (T3)"
+enhancements_0586="Remove Alternating Laser Assembly"
+enhancements_0587="Superconductive Power Conduits (T4)"
+enhancements_0588="Remove Superconductive Power Conduits"
+enhancements_0589="Armor Plating (T2)"
+enhancements_0590="Remove Armor Plating"
+enhancements_0591="Structural Integrity Fields (T3)"
+enhancements_0592="Remove Structural Integrity Fields"
+enhancements_0593="Composite Materials (T4)"
+enhancements_0594="Remove Composite Materials"
+enhancements_0595="Electronic Enhancment (T2)"
+enhancements_0596="Remove Electronic Enhancment"
+enhancements_0597="Electronic Countermeasures (T3)"
+enhancements_0598="Remove Electronic Countermeasures"
+enhancements_0599="Cloaking Subsystems (T4)"
+enhancements_0600="Remove Cloaking Subsystems"
+enhancements_0601="Actuator Replacment (T2)"
+enhancements_0602="Remove Actuator Replacment"
+enhancements_0603="Anti-Air Subsystem (T3)"
+enhancements_0604="Remove Anti-Air Subsystem"
+enhancements_0605="Nano Regeneration Subsystem (T4)"
+enhancements_0606="Remove Nano Regeneration Subsystem"
+ESB0001_desc="Lambda Emitter"
+ESB0001_help="Lamdba Emitter"
+ESB0002_desc="Lambda Emitter"
+ESB0002_help="Lamdba Emitter"
+ESB0003_desc="Lambda Emitter"
+ESB0003_help="Lamdba Emitter"
+ESB0004_desc="Lambda Emitter"
+ESB0004_help="Lamdba Emitter"
+ESB0005_desc="Lambda Emitter"
+ESB0005_help="Lamdba Emitter"
+enhancements_0661="Tech 2 Improved Engineering (T1)"
+enhancements_0662="Remove Engineering Suites"
+enhancements_0663="Tech 3 Advanced Engineering (T2)"
+enhancements_0664="Remove Engineering Suites"
+enhancements_0665="Tech 4 Experimental Engineering (T3)"
+enhancements_0666="Remove Engineering Suites"
+enhancements_0667="Tech 2 Combat Engineering (T1)"
+enhancements_0668="Remove Engineering Suites"
+enhancements_0669="Tech 3 Assault Engineering (T2)"
+enhancements_0670="Remove Engineering Suites"
+enhancements_0671="Tech 4 Apocolyptic Engineering (T3)"
+enhancements_0672="Remove Engineering Suites"
+enhancements_0659="Jury Rigged Chronoton (T1)"
+enhancements_0660="Remove Jury Rigged Chronoton"
+enhancements_0673="Torpedo Launcher (T2)"
+enhancements_0674="Remove Torpedo Launcher"
+enhancements_0675="Improved Reloader (T3)"
+enhancements_0676="Remove Improved Reloader"
+enhancements_0677="Advanced Warheads (T4)"
+enhancements_0678="Remove Cluster Launcher"
+enhancements_0679="Quantum Storm Cannon (T2)"
+enhancements_0680="Remove Quantum Storm Cannon"
+enhancements_0681="Power Conversion Enhancer (T3)"
+enhancements_0682="Remove Power Conversion Enhancer"
+enhancements_0683="Advanced Distortion Algorithms (T4)"
+enhancements_0684="Remove Advanced Distortion Algorithms"
+enhancements_0685="Plasma Gatling Cannon (T2)"
+enhancements_0686="Remove Plasma Gatling Cannon"
+enhancements_0687="Phased Energy Fields (T3)"
+enhancements_0688="Remove Phased Energy Fields"
+enhancements_0689="Secondary Power Feeds (T4)"
+enhancements_0690="Remove Secondary Power Feeds"
+enhancements_0691="Lambda Field Emitters (T2)"
+enhancements_0692="Remove Lambda Field Emitters"
+enhancements_0693="Enhanced Lambda Emitters (T3)"
+enhancements_0694="Remove Enhanced Lambda Emitters"
+enhancements_0695="Controlled Quantum Ruptures (T4)"
+enhancements_0696="Remove Controlled Quantum Ruptures"
+enhancements_0697="Electronic Enhancment (T2)"
+enhancements_0698="Remove Electronic Enhancment"
+enhancements_0699="Teleporter Subsystems (T3)"
+enhancements_0700="Remove Teleporter Subsystems"
+enhancements_0701="Phasic Cloaking (T4)"
+enhancements_0702="Remove Phasic Cloaking"
+enhancements_0703="Improved Combat Systems (T2)"
+enhancements_0704="Remove Improved Combat Systems"
+enhancements_0705="Tactical Missile System (T3)"
+enhancements_0706="Remove Tactical Missile System"
+enhancements_0707="Overcharge Amplifier (T4)"
+enhancements_0708="Remove Overcharge Amplifier"
+tooltipui0989="Destination Out Of Range"
+tooltipui0990="Teleport Destination Scrambled"
+tooltipui0991="Teleport Generator Scrambled"
+tooltipui0992="Insufficient Energy For Teleportation"
+tooltipui0981="Active Jammer Subsystem"
+tooltipui0982="Toggles on the combination blip generator and personal stealth system on or off"
+tooltipui0983="Stealth Subsystem"
+tooltipui0984="Toggle the advanced stealth suite on or off."
+tooltipui0985="Radar Jamming Subsystem"
+tooltipui0986="Toggle the radar blip generator on or off."
+tooltipui0987="Scry Targetting"
+tooltipui0988="Target Area for Scrying"
+Unit_Description_900000=" Jury Rigged Zephyr\nBy running additional power feeds and rapidly upgrading capacitors upgrading the command chassis with a slightly enhanced main weapon can be useful when in a pinch. However this system is automatically installed later if it is not needed earlier.\n\n+100 Zephyr Damage\n+8 Zephyr Range\n+8 Overcharge Range"
+Unit_Description_900001=" Improved Engineering\nThis is a standard engineering enhancement system that focuses on improving resource allocation subsystems and armor strength.\n\nUnlock Tech 2 Construction\n+2000 Health\n+30 Armor Regen\n+20 Build Speed\n+3 Mass Production\n+250 Energy Production"
+Unit_Description_900002=" Advanced Engineering\nThis is a standard engineering enhancement system that focuses on improving resource allocation subsystems and armor strength.\n\nUnlock Tech 3 Construction\n+6000 Health\n+30 Armor Regen\n+60 Build Speed\n+3 Mass Production\n+750 Energy Production"
+Unit_Description_900003=" Experimental Engineering\nThis is a standard engineering enhancement system that focuses on improving resource allocation subsystems and armor strength.\n\nUnlock Experimental Construction (Blackops: Unleashed)\n+12000 Health\n+140 Armor Regen\n+30 Build Speed\n+6 Mass Production\n+2000 Energy Production"
+Unit_Description_900004=" Combat Engineering\nUnlike the standard engineering system the combat engineering sacrifices the space that would normally enhance the resource allocation in order to install a flame cannon and improved regen systems.\n\nUnlock Tech 2 Construction\n+1500 Health\n+50 Armor Regen\n+20 Build Speed\nInstalls Flame Cannon"
+Unit_Description_900005=" Assault Engineering\nFurther expanding on the flame cannon and regen systems makes the commander even more dangerous in close combat.\n\nUnlock Tech 3 Construction\n+5000 Health\n+50 Armor Regen\n+60 Build Speed\n+250 Flame Cannon DPS\n+8 Flame Cannon Range"
+Unit_Description_900006=" Apocalyptic Engineering\nWhile this system does not increase the destructive capabilities of the combat engineering weapon system it does provide a significant increase in general regen for the command chassis.\n\nUnlock Experimental Construction (Blackops: Unleashed)\n+10000 Health\n+200 Armor Regen\n+30 Build Speed"
+Unit_Description_900007=" Torpedo Launcher\nWhen forced to fight underwater a run of the mill torpedo system is a commanders best friend. Unfortunately installing such systems hampers the total combat effectiveness on land but there are times when that is not a bad thing.\n\n+1000 Health\nInstalls Torpedo Launcher"
+Unit_Description_900008=" Improved Reloader\nIncreasing the torpedoes rate of fire helps to slightly overcome anti torpedo counter measures as well as overall increases in destructive power output.\n\n+2500 Health\n+100 Zephyr Damage\n+55 Torpedo Damage\n+100% Torpedo Rate of Fire\nInstalls Zephyr Jury Rigging"
+Unit_Description_900009=" Advanced Warheads\nBy replacing the torpedoes warheads with stronger shaped charges the over all damage output of the system is increased exponentially allowing the commander to become a menace to all seagoing vessels.\n\n+6000 Health\n+200 Zephyr Damage\n+425 Torpedo Damage"
+Unit_Description_900010=" Anti-Matter Cannon\nThis weapon system is a self contained particle accelerator and mag bottle generator. When activated the accelerator generates a small quantity of anti-matter that is contained within a mag bottle and launched at the target. The resulting explosion cause by matter meeting anti-matter releases enormous amounts of destructive force upon the target and the area surrounding it.\n\n+1000 Health\nInstalls Anti-Matter Cannon"
+Unit_Description_900011=" Improved Particle Accelerator\nBy constructing a more efficient particle accelerator for the anti-matter cannon it is possible to generate more of this unstable substance between firing sequences. This allows the cannon to fire denser clouds of anti-matter at the target for a significant increase in destructive power.\n\n+2500 Health\n+1900 Anti-Matter Damage\n+1 Anti-Matter Blast Range\nInstalls Zephyr Jury Rigging"
+Unit_Description_900012=" Enhanced Mag Bottle\nWith the improvement of the accelerator it is possible to generate more anti-matter than the current containment systems control. By improving the mag bottle equipment to emit a stronger containment field it is possible to more than double the destructive power of this weapon system.\n\n+5500 Health\n+5500 Anti-Matter Damage\n+1 Anti-Matter Blast Range"
+Unit_Description_900013=" Gatling Energy Cannon\nCombining a standard micro pellet gatling cannon with a high energy subsystem creates a high powered gatling energy cannon with very little of the bloom effects that normally hinder longer ranged energy weapons. This weapon system is capable of bursts of sustained fire at longer ranges than normal energy weapons.\n\n+1000 Health\nInstalls Energy Gatling Cannon"
+Unit_Description_900014=" Automatic Barrel Stabalizers\nOne of the largest problems with rotary gatling cannons is the potential for jamming caused by instability in the barrels causing them not to align properly with the ammunition feeds. This can be overcome with the addition of stabilizers and a control program to automatically adjust.\n\n+2500 Health\n+175 Gatling Damage\n+5 Gatling Range\nInstalls Zephyr Jury Rigging"
+Unit_Description_900015=" Enhanced Power Subsystems\nBy increasing the power relays between the reactors and the barrels its possible to charge the pellets to such an extreme that the mere friction of the atmosphere causes them to glow white hot and inflict terrible kinetic impacts on the targets hit.\n\n+6000 Health\n+550 Gatling Damage\n+5 Gatling Range"
+Unit_Description_900016=" Shield Battery\nThis is a stander personal shield battery with a first generation direct feed active regeneration system that enhances simple defenses.\n\n+7000 Shield Health\n+75 Active Shield Regen"
+Unit_Description_900017=" Improved Shield Battery\nAn improvement over the original shield system that allows for both higher sustained regeneration and overall health.\n\n+13000 Shield Health\n+125 Active Shield Regen\nInstalls Energy Lance"
+Unit_Description_900018=" Advanced Shield Battery\nBy further upgrading both power and emitter systems shields with enormous regenerative properties are possible combined with an equally large strength. Because of the nature of the regeneration systems these shields are extremely efficient at diffusing beam weaponry.\n\n+20000 Shield Health\n+200 Active Shield Regen"
+Unit_Description_900019=" Expanded Shield Bubble\nWith specialized shield equipment it possible to expand a personal shield outward to cover an area. While this allows you to help protect nearby units it also means its easier to get under the shield.\n\nExpands Personal Shield into Bubble Shield"
+Unit_Description_900020=" Electronic Enhancment\nThe need for battlefield intel has always been one of the higher priorities of most commanders. After all if you are unaware of your enemy then how do you fight them. This system is a simple extension of standard visual and high powered sensor systems.\n\n+2500 Health\n+24 Vision Radius\n+24 Omni Radius\nInstalls Energy Lance"
+Unit_Description_900021=" Spysat Control Systems\nStaying ahead of the flow of battle during war is reguired for success. This system launches a small remote spysat with omni capabilities to allow a commander to remotly monitor a flowing situation and respond properly. It is advised that you avoid enemy SMD launch platforms as they have a habit of homing in on the sensor suites installed on this spysat.\n\n+10000 Health\nInstalls Spysat Control Systems\nInstalls Second Energy Lance"
+Unit_Description_900022=" Modified Recall Device\nInstalling adaptations to a commanders personal recall device allows for short burst teleportation. While the range is short the teleport can power up faster than a longer ranged version.\n\n+18500 Health\nInstalls Teleporter"
+Unit_Description_900023=" Cluster Missile System\nPreferring to have weapon systems for all occasions the installation of the cluster missiles gives the commander a high range early bombardment system for dealing with minor fortifications.\n\n+5000 Health\nInstalls Cluster Missiles"
+Unit_Description_900024=" Tactical Missile System\nWhile improving upon the cluster missiles warheads the commander also can install a stander tactical missile launcher on his chassis that allows for precise targeting against larger health structures or units.\n\n+8000 Health\n+50 Armor Regen\n+90 Cluster Missile Damage\nInstalls Manual Tactical Missiles"
+Unit_Description_900025=" Tactical Nuclear System\nBy replacing the old tactical missiles with nuclear tipped warheads its possible to bring small end weapons of mass destruction to the battlefield. These miniature area killers are powerful anti army weapons and are best used at long standoff ranges if possible.\n\n+15000 Health\n+150 Armor Regen\n+250 Cluster Missile Damage\nInstalls \"Billy\" Tactical Nuclear Missiles"
+Unit_Description_900026=" Engineering Drone acts as a secondary Engineer. Assists the ACU where applicable."
+Unit_Description_900027=" Adds a second Engineering Drone. Requires an initial Engineering Drone."
+Unit_Description_900028=" Jury Rigged Ripper\nBy running additional power feeds and rapidly upgrading capacitors upgrading the command chassis with a slightly enhanced main weapon can be useful when in a pinch. However this system is automatically installed later if it is not needed earlier.\n\n+100% Ripper Rate of Fire\n+8 Ripper Range\n+8 Overcharge Range"
+Unit_Description_900029=" Improved Engineering\nThis is a standard engineering enhancement system that focuses on improving resource allocation subsystems and armor strength.\n\nUnlock Tech 2 Construction\n+2000 Health\n+40 Armor Regen\n+20 Build Speed\n+3 Mass Production\n+250 Energy Production"
+Unit_Description_900030=" Advanced Engineering\nThis is a standard engineering enhancement system that focuses on improving resource allocation subsystems and armor strength.\n\nUnlock Tech 3 Construction\n+5000 Health\n+60 Armor Regen\n+60 Build Speed\n+3 Mass Production\n+750 Energy Production"
+Unit_Description_900031=" Experimental Engineering\nThis is a standard engineering enhancement system that focuses on improving resource allocation subsystems and armor strength.\n\nUnlock Experimental Construction (Blackops: Unleashed)\n+10000 Health\n+150 Armor Regen\n+30 Build Speed\n+6 Mass Production\n+2000 Energy Production"
+Unit_Description_900032=" Combat Engineering\nUnlike the standard engineering system the combat engineering sacrifices the space that would normally enhance the resource allocation in order to install a cluster rocket system and improved regen systems.\n\nUnlock Tech 2 Construction\n+1500 Health\n+70 Armor Regen\n+20 Build Speed\nInstalls Rocket Pack"
+Unit_Description_900033=" Assault Engineering\nFurther expanding on the rocket launcher and regen systems makes the commander even more dangerous in close combat.\n\nUnlock Tech 3 Construction\n+4000 Health\n+80 Armor Regen\n+60 Build Speed\n+160 Rocket Pack Damage\n+8 Rocket Pack Range"
+Unit_Description_900034=" Apocalyptic Engineering\nWhile this system does not increase the destructive capabilities of the combat engineering weapon system it does provide a significant increase in general regen for the command chassis.\n\nUnlock Experimental Construction (Blackops: Unleashed)\n+9000 Health\n+200 Armor Regen\n+30 Build Speed"
+Unit_Description_900035=" Torpedo Launcher\nWhen forced to fight underwater a run of the mill torpedo system is a commanders best friend. Unfortunately installing such systems hampers the total combat effectiveness on land but there are times when that is not a bad thing.\n\n+1000 Health\nInstalls Torpedo Launcher"
+Unit_Description_900036=" Improved Reloader\nIncreasing the torpedoes rate of fire helps to slightly overcome anti torpedo counter measures as well as overall increases in destructive power output.\n\n+3000 Health\n+50 Ripper Damage\n+75 Torpedo Damage\n+50% Torpedo Rate of Fire\nInstalls Ripper Jury Rigging"
+Unit_Description_900037=" Advanced Warheads\nBy replacing the torpedoes warheads with stronger shaped charges the over all damage output of the system is increased exponentially allowing the commander to become a menace to all seagoing vessels.\n\n+6000 Health\n+100 Ripper Damage\n+400 Torpedo Damage"
+Unit_Description_900038=" EMP Array\nThis system uses triangulated lasers to superheat molecules within the target location causing them to rapidly break down. The resulting explosion causes moderate damage to those near the blast but emits a strong electromagnetic pulse that temporarily overwhelms electronic controls systems in most automated war machines.\n\n+1000 Health\nInstalls EMP Array"
+Unit_Description_900039=" Adjusted Crystal Matrix\nBy using crystals with far fewer flaws the beams are allowed to focus on a much finer point. This allows the area to heat to increase faster and effect a larger portion of the local material thus causing a larger detonation.\n\n+3000 Health\n+900 EMP Damage\n+1 EMP Stun Radius\n+5 EMP Range\nInstalls Ripper Jury Rigging"
+Unit_Description_900040=" Enhanced Laser Emitters\nTo increase efficiency of the system the laser assembly needs to be upgraded and replaced allowing for a higher throughput in power distribution. This allows a significantly larger amount of energy to be pushed through to the point of impact.\n\n+6000 Health\n+3300 EMP Damage\n+1 EMP Blast Radius\n+1 EMP Stun Radius\n+5 EMP Range"
+Unit_Description_900041=" Heavy Microwave Laser\nThe Microwave Laser or \"Maser\" for short is a highly focused stream of microwaves directed at a target. This causes a massive breakdown in the targets electronic systems as well as superheating various materials causing distortions and detonations within the target.\n\n+1000 Health\nInstalls Heavy Microwave Laser"
+Unit_Description_900042=" Alternating Laser Assembly\nThis system pairs the original maser system with a twin that functions in alternating bursts of energy. While not noticeable to those viewing the system in action it helps ensure higher power settings can be run while reducing maintenance demands caused by a single coil overheating.\n\n+2000 Health\n+150 Microwave Damage\nInstalls Ripper Jury Rigging"
+Unit_Description_900043=" Superconductive Power Conduits\nBy running additional feeds directly to the main power systems it is possible to overcharge the laser assembly and bring out the weapons extremely destructive aspects. At these higher power levels the system simply melts the armor off the target and flash fries their electronics.\n\n+5000 Health\n+600 Microwave Damage"
+Unit_Description_900044=" Armor Plating\nAdditional armor plating tends to be one of the easiest ways to get additional defensive systems in battle. However when your also an expert in nano repair technologies it also tends to be the most preferred defensive system.\n\n+7000 Health\n+100 Armor Regen\nInstalls Two Anti-Air Lasers"
+Unit_Description_900045=" Structural Integrity Fields\nBy integrating several small force field generators through the command units chassis you can keep damage localized which makes repair systems much more efficient. It also increases the combat durability of the overall chassis.\n\n+11000 Health\n+150 Armor Regen\nInstalls Two Additional Anti-Air Lasers"
+Unit_Description_900046=" Composite Materials\nWith the development of newer low weight denser materials it is possible to increase the amount of armor the chassis can support. By including several nano colonies within this new material the repair systems can run at rates which are normally unheard of in armor systems.\n\n+18000 Health\n+150 Armor Regen"
+Unit_Description_900047=" Electronic Enhancment\nThe need for battlefield intel has always been one of the higher priorities of most commanders. After all if you are unaware of your enemy then how do you fight them. This system is a simple extension of standard visual and high powered sensor systems.\n\n+2000 Health\n+24 Vision Radius\n+24 Omni Radius"
+Unit_Description_900048=" Electronic Countermeasures\nKnowing where your enemy is can win you the battle however keeping your enemy unaware of your location helps prevent you from loosing. Electronic countermeasures use matching radar signals to cancel out your enemy radars ability to see you. While this system is not perfect it is effective against standard radar systems.\n\n+22000 Health\n+50 Armor Regen\nInstalls Personal Stealth"
+Unit_Description_900049=" Cloaking Subsystem\nUsing a combination of advanced computers and holographic systems it is possible to create an advanced illusion of invisibility. While possible to still be picked up by radar systems if it wasn't for preinstalled electronic countermeasures this system provides visual cloaking from all enemy units that do not have advanced sensor systems.\n\n+5000 Health\n+50 Armor Regen\nInstalls Personal Cloaking"
+Unit_Description_900050=" Actuator Replacment\nInstalling fine tuned and highly responsive servos and actuators it is possible for the command chassis to be accelerated without loosing balance or stability. This increases its overall mobility on the battlefield.\n\n+4000 Health\n+50 Armor Regen\nIncreases Movement Speed"
+Unit_Description_900051=" Anti-Air Subsystem\nAircraft pose a significant threat to any commander on the battlefield however with the installation of highly precise anti air laser systems it is possible to negate some of the threat. If needed the commander can also temporarily shift through a quantum rift to quickly teleport around the battlefield as well.\n\n+6000 Health\n+100 Armor Regen\nInstalls Two Anti-Air Lasers\nInstalls Teleporter"
+Unit_Description_900052=" Nano Regeneration Subsystem\nBy installing a large cache of nano machines and enough computer systems to help control them at extreme efficiency it is possible to rapidly repair damage systems and get back into the battle before your opponents have the chance to do the same.\n\n+11000 Health\n+100 Armor Regen"
+Unit_Description_900053=" Jury Rigged Disruptor\nBy running additional power feeds and rapidly upgrading capacitors upgrading the command chassis with a slightly enhanced main weapon can be useful when in a pinch. However this system is automatically installed later if it is not needed earlier.\n\n+100 Disruptor Damage"
+Unit_Description_900054=" Disruptor Amplifier\n\n+8 Disruptor Range\n+8 Overcharge Range"
+Unit_Description_900055=" Improved Engineering\nThis is a standard engineering enhancement system that focuses on improving resource allocation subsystems and armor strength.\n\nUnlock Tech 2 Construction\n+2000 Health\n+30 Armor Regen\n+20 Build Speed\n+5 Mass Production\n+375 Energy Production"
+Unit_Description_900056=" Advanced Engineering\nThis is a standard engineering enhancement system that focuses on improving resource allocation subsystems and armor strength.\n\nUnlock Tech 3 Construction\n+6000 Health\n+30 Armor Regen\n+60 Build Speed\n+4 Mass Production\n+1125 Energy Production"
+Unit_Description_900057=" Experimental Engineering\nThis is a standard engineering enhancement system that focuses on improving resource allocation subsystems and armor strength.\n\nUnlock Experimental Construction (Blackops: Unleashed)\n+12000 Health\n+140 Armor Regen\n+30 Build Speed\n+9 Mass Production\n+3000 Energy Production"
+Unit_Description_900058=" Combat Engineering\nUnlike the standard engineering system the combat engineering sacrifices the space that would normally enhance the resource allocation in order to install a chrono dampener area stun and improved regen systems.\n\nUnlock Tech 2 Construction\n+1500 Health\n+50 Armor Regen\n+20 Build Speed\nInstalls Chrono Dampener"
+Unit_Description_900059=" Assault Engineering\nFurther expanding on the chrono dampener and regen systems makes the commander even more dangerous in close combat.\n\nUnlock Tech 3 Construction\n+5000 Health\n+50 Armor Regen\n+60 Build Speed\n+8 Chrono Dampener Range"
+Unit_Description_900060=" Apocalyptic Engineering\nWhile this system does not increase the destructive capabilities of the combat engineering weapon system it does provide a significant increase in general regen for the command chassis.\n\nUnlock Experimental Construction (Blackops: Unleashed)\n+10000 Health\n+200 Armor Regen\n+30 Build Speed"
+Unit_Description_900061=" Torpedo Launcher\nWhen forced to fight underwater a run of the mill torpedo system is a commanders best friend. Unfortunately installing such systems hampers the total combat effectiveness on land but there are times when that is not a bad thing.\n\n+1000 Health\nInstalls Torpedo Launcher\nInstalls Anti-Torpedo System"
+Unit_Description_900062=" Improved Reloader\nIncreasing the torpedoes rate of fire helps to slightly overcome anti torpedo counter measures as well as overall increases in destructive power output.\n\n+2500 Health\n+100 Disruptor Damage\n+120 Torpedo Damage\n+25% Torpedo Rate of Fire\nInstalls Disruptor Jury Rigging"
+Unit_Description_900063=" Advanced Warheads\nBy replacing the torpedoes warheads with stronger shaped charges the over all damage output of the system is increased exponentially allowing the commander to become a menace to all seagoing vessels.\n\n+5000 Health\n+200 Disruptor Damage\n+1000 Torpedo Damage"
+Unit_Description_900064=" Dual Miasma Artillery\nThe miasma artillery system fires long range shells of corrosive materials at targets. These shells will airburst for maximum distribution of the corrosives and cause large amounts of damage to targets within the area.\n\n+1000 Health\nInstalls Dual Miasma Artillery"
+Unit_Description_900065=" Advanced Warhead Compression\nThrough advanced compression techniques it has become possible to condense the corrosive materials into a extremely dense state. This allows for a much higher damage yield per shot than previous systems.\n\n+2500 Health\n+1500 Miasma Damage\nInstalls Disruptor Jury Rigging"
+Unit_Description_900066=" Improved Auto Loader\nWhile artillery tends to be very slow firing due to the need to constantly load extremely heavy shells into the system it is possible to increase both weight handling as well as reload speed. This allows for larger warheads to be delivered to the firing systems at an increased rate of speed.\n\n+6000 Health\n+3252 Miasma Damage\n+40% Miasma Rate of Fire"
+Unit_Description_900067=" Phason Beam Cannon\nRather than the standard highly destructive beam cannons that are usually used in combat the aeon have created a light phason beam. This beam randomly rearranges the targets molecular structure causing severe breakdowns in structural integrity.\n\n+1000 Health\nInstalls Phason Beam Cannon"
+Unit_Description_900068=" Dual Channel Booster\nThis installed a backup emitter system within the primary that can be alternated preventing system shutdown due to continuous use. This system also increases the power output and range of the beam giving it more reach than most beam weaponry.\n\n+2500 Health\n+150 Phason Damage\n+5 Phason Range\nInstalls Disruptor Jury Rigging"
+Unit_Description_900069=" Energized Molecular Inducer\nBuy running a pulsed current down the beam it is possible to drastically alter the magnetic fields of the molecules being rearranged. This causes hull plating to literally tear itself apart as molecules within it are magnetically repulsed after coming loose from the rest of the structure.\n\n+5500 Health\n+450 Phason Damage\n+1 Phason Blast Radius"
+Unit_Description_900070=" Shield Battery\nThis is a stander personal shield battery with a first generation direct feed active regeneration system that enhances simple defenses.\n\n+8000 Shield Health\n+50 Active Shield Regen"
+Unit_Description_900071=" Improved Shield Battery\nAn improvement over the original shield system that allows for both higher sustained regeneration and overall health.\n\n+15000 Shield Health\n+100 Active Shield Regen"
+Unit_Description_900072=" Advanced Shield Battery\nBy further upgrading both power and emitter systems shields with enormous regenerative properties are possible combined with an equally large strength. Because of the nature of the regeneration systems these shields are extremely efficient at diffusing beam weaponry.\n\n+23000 Shield Health\n+150 Active Shield Regen\nInstalls Tactical Missile Defense"
+Unit_Description_900073=" Electronic Enhancment\nThe need for battlefield intel has always been one of the higher priorities of most commanders. After all if you are unaware of your enemy then how do you fight them. This system is a simple extension of standard visual and high powered sensor systems.\n\n+2500 Health\n+24 Vision Radius\n+24 Omni Radius\nInstalls Tactical Missile Defense"
+Unit_Description_900074=" Farsight Optics Subsystem\nA prototype based off the designs for the full sized optics facility this subsystem can create a quantum mirror that allows you to temporarily view a location withing a designated radius around the commander. This can be used to spot for artillary or to look before you leap when teleporting.\n\n+10000 Health\nInstalls Farsight Optics System"
+Unit_Description_900075=" Farjump Teleporter Subsystem\nWorking with the same modified recall device as the other factions and applying their higher quantum knowledge the Aeon have created a personal teleporter with a much higher range threashold than the other factions. This allows them to cover more ground in a single jump however it does take longer to charge the device.\n\n+18500 Health\nInstalls Teleporter"
+Unit_Description_900076=" Quantum Maelstrom Generator\nWhile delving through research databanks from the original serephim city the plans for a quantum defense field system where discovered. However despite their attempts at reverse engineering the aeon have only managed to create a system that results in a massive and uncontrolled distortion. While harmless to units designed to resist quantum disturbances it is extremely destructive to everything else.\n\n+5000 Health\nInstalls Quantum Maelstrom"
+Unit_Description_900077=" Quantum Distortion Amplifier\nAfter discovering this was not what they originally intended to create it was determined that the system could still be used to great effect against their enemies. By adding amplified energy output systems its possible to increase how potent the field is and better protect allied units from harm.\n\n+8000 Health\n+50 Armor Regen\n+100 Maelstrom DPS\nInstalls Tactical Missile Defense"
+Unit_Description_900078=" Quantum Instability Enhancer\nWith the addition of extra computing power it has been determined that limited control over the instabilities that make up the field could increase both field coverage and destructive potential. This system can be extremely devastating to nearby enemy forces.\n\n+15000 Health\n+50 Armor Regen\n+150 Maelstrom DPS\n+8 Maelstrom Range"
+Unit_Description_900079=" Jury Rigged Chronoton\nBy running additional power feeds and rapidly upgrading capacitors upgrading the command chassis with a slightly enhanced main weapon can be useful when in a pinch. However this system is automatically installed later if it is not needed earlier.\n\n+100 Chronoton Damage\n+8 Chronoton Range\n+8 Overcharge Range"
+Unit_Description_900080=" Improved Engineering\nThis is a standard engineering enhancement system that focuses on improving resource allocation subsystems and armor strength.\n\nUnlock Tech 2 Construction\n+2000 Health\n+30 Armor Regen\n+20 Build Speed\n+5 Mass Production\n+375 Energy Production"
+Unit_Description_900081=" Advanced Engineering\nThis is a standard engineering enhancement system that focuses on improving resource allocation subsystems and armor strength.\n\nUnlock Tech 3 Construction\n+6000 Health\n+30 Armor Regen\n+60 Build Speed\n+4 Mass Production\n+1125 Energy Production"
+Unit_Description_900082=" Experimental Engineering\nThis is a standard engineering enhancement system that focuses on improving resource allocation subsystems and armor strength.\n\nUnlock Experimental Construction (Blackops: Unleashed)\n+11500 Health\n+140 Armor Regen\n+30 Build Speed\n+9 Mass Production\n+3000 Energy Production"
+Unit_Description_900083=" Combat Engineering\nUnlike the standard engineering system the combat engineering sacrifices the space that would normally enhance the resource allocation in order to install area regeneration systems that heal friendly units nearby..\n\nUnlock Tech 2 Construction\n+1500 Health\n+90 Armor Regen\n+20 Build Speed\nInstalls Regen Aura"
+Unit_Description_900084=" Assault Engineering\nFurther expansion of the area regen systems gives the command chassis an incredible ability to repair itself as well as nearby friendly units.\n\nUnlock Tech 3 Construction\n+5000 Health\n+70 Armor Regen\n+60 Build Speed\nImproves Regen Aura"
+Unit_Description_900085=" Apocalyptic Engineering\nWhile this system does not further increase the area regen capabilities of the combat engineering systems it does provide a significant increase in general regen for the command chassis.\n\nUnlock Experimental Construction (Blackops: Unleashed)\n+9000 Health\n+100 Armor Regen\n+30 Build Speed"
+Unit_Description_900086=" Torpedo Launcher\nWhen forced to fight underwater a run of the mill torpedo system is a commanders best friend. Unfortunately installing such systems hampers the total combat effectiveness on land but there are times when that is not a bad thing.\n\n+1000 Health\nInstalls Torpedo Launcher"
+Unit_Description_900087=" Improved Reloader\nIncreasing the torpedoes rate of fire helps to slightly overcome anti torpedo counter measures as well as overall increases in destructive power output.\n\n+2500 Health\n+100 Chronoton Damage\n+25 Torpedo Damage\n+100% Torpedo Rate of Fire\nInstalls Chronoton Jury Rigging"
+Unit_Description_900088=" Advanced Warheads\nBy replacing the torpedoes warheads with stronger shaped charges the over all damage output of the system is increased exponentially allowing the commander to become a menace to all seagoing vessels.\n\n+5500 Health\n+200 Chronoton Damage\n+475 Torpedo Damage"
+Unit_Description_900089=" Quantum Storm Cannon\nBy creating a miniature ruptures in the fabric of space and letting uncontrolled quantum energies out the storm cannon can cause a significant amount of damage to any stationary target. However if the target is able to move fast enough they can quickly emerge from within reach of those destructive energies.\n\n+1000 Health\nInstalls Quantum Storm Cannon"
+Unit_Description_900090=" Power Conversion Enhancer\nBy dumping a significant amount of energy into the weapon system it is possible to open a slightly larger rift are farther distances. This gives the weapon the ability to hit targets normal high end weaponry cannot.\n\n+2500 Health\n+1400 Storm Damage\n+1 Storm Blast Radius\n+5 Storm Range\nInstalls Chronoton Jury Rigging"
+Unit_Description_900091=" Advanced Distortion Algorithms\nWith a little creative energy manipulation the storm cannon can be set up so that when it detonates it not only opens a rift but helps draw destructive energies from it. This causes a more rapid degradation in nearby enemy units over the coarse of the detonation.\n\n+5000 Health\n+5800 Storm Damage\n+5 Storm Range"
+Unit_Description_900092=" Plasma Gatling Cannon\nUsing a cluster of micro barrels to chamber and discharge plasma bolts the serephim have created a very powerful plasma gatling cannon. However while it is extremely dangerous it also suffers from bloom effects limiting its effective range.\n\n+1000 Health\nInstalls Plasma Gatling Cannon"
+Unit_Description_900093=" Phased Energy Fields\nBy phasing the shots slightly into a higher frequency the gatling system gains a slight increase in range as well as causing more damage to the target. This allows the weapon to move between targets much easier.\n\n+3000 Health\n+225 Gatling Damage\n+5 Gatling Range\nInstalls Chronoton Jury Rigging"
+Unit_Description_900094=" Secondary Power Feeds\nRunning additional power feeds to the small plasma chambers allows for a higher charge and faster cycling time. This causes more powerful shots in rapid succession causing extreme damage to the target.\n\n+6000 Health\n+650 Gatling Damage"
+Unit_Description_900095=" Lambda Field Emitters\nBorn from a mastery of quantum mechanics the lambda system distorts the very fabric of space around the command unit. This field depending on the strength of the distortions has the capability to deflect incoming projectiles off their flight path.\n\n+6000 Health\n+50 Armor Regen"
+Unit_Description_900096=" Enhanced Lambda Emitters\nBy Enhancing the energy to mass output of the lambda systems the field becomes much stronger at deflecting projectiles. It has also been noted that occasionally a micro rift will open just long enough to swallow incoming projectiles.\n\n+12000 Health\n+100 Armor Regen"
+Unit_Description_900097=" Controlled Quantum Ruptures\nAfter further analysis of the micro rifts being formed by the previous lambda version a control program has been designed the energy flow more efficiently to create more of them. These additional rifts can swallow incoming fire in extremely high densities however the system overall still cannot do anything to light speed beam weapons.\n\n+20000 Health"
+Unit_Description_900098=" Electronic Enhancment\nThe need for battlefield intel has always been one of the higher priorities of most commanders. After all if you are unaware of your enemy then how do you fight them. This system is a simple extension of standard visual and high powered sensor systems.\n\n+2500 Health\n+24 Vision Radius\n+24 Omni Radius\n+50 Armor Regen\nInstalls Lambda Field Emitters"
+Unit_Description_900099=" Personal Teleporter Subsystem\nInstalling a compact personal teleport subsystem allows the commander to move rapidly about the battlefield providing assistance as needed. This pack also installed light anti-air defencive systems to help protect the commander from airborne threats.\n\n+10000 Health\nInstalls Teleporter\nInstalls Two Anti-Air Cannons\nInstalls Enhanced Lambda Emitters"
+Unit_Description_900100=" Phasic Cloaking Subsystem\nThis is an advanced version of the phasic cloaking systems used by light scouts to monitor enemies. As long as the commander is motionless and not making use of high energy systems such as the personal teleporter or weapon overcharge the commander should be concealed from both enemy eyes and sensors.\n\n+18500 Health\nInstalls Phasic Cloaking Subsystems"
+Unit_Description_900101=" Improved Combat Systems\nThis general combat system gives a wide range of standard defensive systems but also increases the destructive potential of the command units overcharged cannon shots.\n\n+5000 Health\n+50 Armor Regen\n+4000 Overcharge Damage\nInstalls Lambda Field Emitters"
+Unit_Description_900102=" Tactical Missile System\nWhile further increasing capacitors in the overcharge subsystems the command chassis is also equipped with a standard tactical missile launcher for precision strikes against enemy structures at long range.\n\n+8000 Health\n+50 Armor Regen\n+6000 Overcharge Damage\nInstalls Manual Tactical Missiles"
+Unit_Description_900103=" Overcharge Amplifier\nReplacing the old abused capacitors with high efficient capacitors coupled with amplifiers gives a tremendous increase to the overcharged blasts destructive power. This system makes the commander a serious threat to any single unit it comes across.\n\n+15000 Health\n+50 Armor Regen\n+8000 Overcharge Damage"
+
+# LUA END
+
 # MOD::BlackOps Unleashed Balance Changes (9e8ea941-c306-4751-b367-a20000000502) Version 5.2 
 
 ability_cleanse="行星淨化模式"
@@ -7823,6 +8279,35 @@ orl0111_help="導彈甲蟲"
 
 # MOD::BlackOps Special Weapons (9e8ea941-c306-4751-b367-e10000000104) Version 1.3 (BlackOpsEXUnits)
 
+EAL0301_desc="Teleport Harassment Bot"
+EAL0301_name="Faithbreaker"
+EAL0301_help=="Teleport Harassment Bot"
+EEB0001_desc="Lambda Emitter"
+EEB0001_help="Lamdba Emitter"
+EEB0402_name="Stellar Generator"
+EEL0401_desc="Experimental Harmonic Wave Generator"
+EEL0401_name="Disruptor"
+EEL0401_help="Experimental Harmonic Wave Generator"
+EES0301_desc="Advanced Tactical Submarine"
+EES0301_name="Seawolf"
+EES0301_help="Advanced Tactical Submarine"
+tooltipui0951="Air Defence Cannons"
+tooltipui0952="Switches TMD Cannons to Anti-Air Flak Mode."
+tooltipui0953="Hailfire Barrage"
+tooltipui0954="Switches AA Missiles to Hailfire Barrage Mode."
+tooltipui0955="Torpedo Barrage"
+tooltipui0956="Switches Anti-Torpedos to Torpedo Barrage Mode."
+Unit_Description_800000=" Hidden from prying eyes a small faction of the Aeon have developed a minature personal teleporter capable of being mounted on a standerd combat bot. While weaker than the average unit of this size the ability to move about the abttlefield quickly has made this a harassment unit of choice."
+Unit_Description_800001=" With recent improvments on matter compression and containment it is now possible to harness the energies of the stars themselves. When powered up this facility creates and maintains a minature sun which can then be harvested for energy and mass resorces. However the facility is still a prototype and may not react well to incomming fire."
+Unit_Description_800002=" Developed by a hidden branch within the UEF the Disruptor uses an array of modulated frequency crystals to create a rift of disruptive waves. Unfortunatly this wave is not as focused as normal energy weapon which allows smaller units to not be as affected by it. For mobility reasons this unit has been designed to float on the surface of the water."
+Unit_Description_800003=" Deciding it was time to create a new submarine to escort the Atlantis carriers the UEF iniciated the Seawolf project. This submarine combines aspects of the believed lost Deepwatch submarine missile barrage system with deployable anti-air SAMs and a deck gun designed to punch through naval armor. It has also been outfitted with a surface launched Tactical Nuclear Missile system and a nice surprise for any hovercraft that happen to enter the area."
+Unit_Description_800004=" With the increasing use of heavy torpedo bombers and tactical weapons it was decided that an escort fricate would extend the life of the fleet. Primary systems include a Hyper Velocity Missile launcher and a pair of combination TMD/Flak AA cannons. For offensive systems it is configured with four banks of short ranged guided cruise missiles backed up by a torpedo defense system that provides 360 degree coverage."
+Unit_Description_800005=" Aries Attack Frigate"
+Unit_Description_800006=" Messiah Escort Frigate"
+Unit_Description_800007=" ShadowSplitter Cloaked Bot"
+
+# LUA END
+
 EAS0302_desc="護衛艦"
 EAS0302_name="彌賽亞級"
 EAS0302_help="護衛艦"
@@ -7840,6 +8325,25 @@ ERS0302_help="攻擊護衛艦"
 
 # MOD::Total Mayhem v1.21 (62e2j64a-53a2-y6sg-32h5-146as555a18u3)
 
+ability_ASN="僅限反海軍"
+ability_antiair="防空"
+uab1107_desc="水力發電機"
+uab1107_help="水力發電機"
+uab1108_desc="海軍質量鑽機"
+uab1108_help="海軍質量鑽機"
+ueb1107_desc="水力發電機"
+ueb1107_help="水力發電機"
+ueb1108_desc="海軍質量鑽機"
+ueb1108_help="海軍質量鑽機"
+urb1107_desc="水力發電機"
+urb1107_help="水力發電機"
+urb1108_desc="海軍質量鑽機"
+urb1108_help="海軍質量鑽機"
+xsb1107_desc="水力發電機"
+xsb1107_help="水力發電機"
+xsb1108_desc="海軍質量鑽機"
+xsb1108_help="海軍質量鑽機"
+
 # MOD::BrewLAN 0.899 (25D57D85-7D84-27HT-A501-BR3WL4N0000899)
 
 # Translater:HaoJun0823 (Get From BrewLAN 0.899)
@@ -7853,6 +8357,28 @@ ERS0302_help="攻擊護衛艦"
 # --------------------------------------------------------------------------------
 # -- Tooltips
 # --------------------------------------------------------------------------------
+
+sab0104_name="珍珠"
+sab5401_desc="實驗性量子傳送器"
+ability_teleporter="傳送器"
+sab5401_name="升天"
+sea4301_name="瓦西斯"
+brewlan_enhancement_005r="移除雷達閃爍視覺"
+sel0326_desc="移動空中作戰平台"
+srl0007_desc="蟹卵（導彈）"
+# ability_satellite_cap_'..units[id] ..'="衛星容量：+" # ability_satellite_cap_'.. units[id] ..'="Satellite Capacity: +" # 非法
+wiki_infobox_stats_note="注意：該單位在遊戲開始時重新定義了它的統計數據<br />。"
+_Array=""
+Unit_Description_BrewLAN_T4B013="實驗性傳送裝置。將自身以及其操作範圍內的每個移動單元和結構傳送到目標位置，消耗大量能量。使用後有冷卻時間。"
+spawnmenu001="生成菜單：團隊欄"
+spawnmenu002="生成菜單：過濾列"
+spawnmenu003="生成菜單：拆分源"
+spawnmenu004="生成菜單：類型過濾模式"
+spawnmenu004phs="物理運動類型"
+spawnmenu004cat="藍圖類別"
+spawnmenu005="生成菜單：包括無技術過濾器"
+spawnmenu006="生成菜單：包括 ACU/Paragon 過濾器"
+spawnmenu007="生成菜單：按菜單排序過濾"
 
 # --Tooltips for the Gantry
 tooltipbrewlan0000="切換空軍生產模式"
@@ -8440,313 +8966,359 @@ Unit_Description_BrewLAN_T4L005="實驗性節肢機器人，[蘇達茲馬拉]配
 
 # MOD::BrewLAN: Additional unit mods 0.899 (190261d0-4bb0-11e2-bcSC-BLNEWUNITS02) (套娃結構，裡面的就不記UUID了)
 
+ssb3303_name="塞萊茲"
+sab5109_desc="增援信標"
+ssb2380_desc="原型解除武裝點防禦"
+ssb2380_name="烏塔圖斯"
+wiki_infobox_stats_note="注意：該單位在遊戲開始時重新定義了它的統計數據<br />。"
+ability_rnd_updade="作為升級構建"
+Unit_Description_RND_031=""
+Unit_Description_BrewLAN_Turrets_0009="防禦砲塔。配備高強度微波激光。"
+
 # BrewTurrets
 # Translater:HaoJun0823
---ISO_639-1_code=EN/CN
---Caffe Corretto EN-US strings
-srb5380_name="Deadshot"
-srb5380_desc="Accuracy Boost Node"
-Unit_Description_BrewLAN_Turrets_0001="Adjacent static weaponry spend longer aiming, resulting in higher accuracy. Multiple nodes stack."
+# --ISO_639-1_code=EN/CN
+# --Caffe Corretto EN-US strings
+srb5380_name="神槍手"
+srb5380_desc="精度提升節點"
+Unit_Description_BrewLAN_Turrets_0001="提高相鄰的靜態武器瞄準時間從而獲得更高的精度。多個節點可堆疊。"
 
-seb5381_name="Superhot"
-seb5381_desc="Damage Boost Node"
-Unit_Description_BrewLAN_Turrets_0002="Adjacent static weaponry deal increased damage. This greatly increases energy consumption per shot."
+seb5381_name="超熱"
+seb5381_desc="傷害提升節點"
+Unit_Description_BrewLAN_Turrets_0002="相鄰的靜態武器造成的傷害增加。 這大大增加了每次射擊的能量消耗。"
 
-seb5382_name="Benson"
-seb5382_desc="Factory Health Node"
-Unit_Description_BrewLAN_Turrets_0010="Adjacency buff node. Units built by adjacent factory structures will have additional health."
+seb5382_name="本森"
+seb5382_desc="工廠強化節點"
+Unit_Description_BrewLAN_Turrets_0010="由相鄰工廠結構建造的單位將具有額外的生命值。"
 
-srb5383_name="The Lost"
-srb5383_desc="Factory Stealth Toggle Node"
-Unit_Description_BrewLAN_Turrets_0011="Adjacency buff node. Units built by adjacent factory structures will have any stealth abilities set active or inactive instead of their default state."
+srb5383_name="遺失"
+srb5383_desc="工廠匿蹤節點"
+Unit_Description_BrewLAN_Turrets_0011="由相鄰工廠結構建造的單位將有任何隱身能力，切換啟用或者停用代替生產出來的單位的默認狀態。"
 
-tooltipbrewturrets0002="Factory build stealth toggle"
-tooltipbrewturrets0003="Sets units build by adjacent factories to have stealth enabled."
-tooltipbrewturrets0004="Factory build cloak toggle"
-tooltipbrewturrets0005="Sets units build by adjacent factories to have cloak enabled."
+tooltipbrewturrets0002="工廠構建匿蹤切換"
+tooltipbrewturrets0003="使得相鄰工廠建造的單位可以匿蹤。"
+tooltipbrewturrets0004="工廠構建隱形切換"
+tooltipbrewturrets0005="使得相鄰工廠建造的單位可以隱形。"
 
-seb2320_name="Hiro"
-seb2320_desc="Heavy Point Defense"
+seb2320_name="島代"
+seb2320_desc="重型點防禦"
 Unit_Description_BrewLAN_Turrets_0003="Heavy defensive tower. Armed with a plasma beam."
 
-seb2211_name="Stouty"
-sbui2311_desc="Anti-Armor Point Defense"
-Unit_Description_BrewLAN_Turrets_0004="Defensive tower. Armed with a destroyer grade plasma cannon."
+seb2211_name="胖矮子"
+sbui2311_desc="反裝甲點防禦"
+Unit_Description_BrewLAN_Turrets_0004="防禦炮塔，從驅逐艦上搞到了一門等離子砲。"
 
-seb2111_name="Shorty"
-Unit_Description_BrewLAN_Turrets_0005="Light defensive tower. Armed with a frigate-grade plasma cannon."
+seb2111_name="矮子"
+Unit_Description_BrewLAN_Turrets_0005="輕型防禦炮塔，雖然和[胖矮子]一樣也有一門等離子砲，不過是護衛艦的版本。"
 
-srb2402_name="Neolith"
-seb2401_desc="Experimental Point Defense"
-Unit_Description_BrewLAN_Turrets_0006="Defensive turret. Armed with a massive proton cannon."
+srb2402_name="新石器"
+seb2401_desc="實驗性點防禦"
+Unit_Description_BrewLAN_Turrets_0006="實驗性防禦炮塔，搭載重型質子炮。"
 
-srb2391_name="Tesla Coil"
-srb2391_desc="Heavy Point Defense"
-Unit_Description_BrewLAN_Turrets_0007="Powerful, short range, defensive turret. It gradually stores energy and discharges everything with each shot. Most effective against large targets when given time to charge. Highly ineffective at sustained fire."
+srb2391_name="特斯拉線圈"
+srb2391_desc="重型點防禦"
+Unit_Description_BrewLAN_Turrets_0007="功能強大但射程短的防禦砲塔。它會逐漸儲存能量並在每次射擊時釋放所有能量。對快速衝鋒的單位十分有效，然而無法持續射擊是其致命短板。"
 
---This is used by the Tesla Coil
-tooltipbrewturrets0000="Toggle weapon power"
-tooltipbrewturrets0001="Enables or disables main weapon power."
+# --This is used by the Tesla Coil
+tooltipbrewturrets0000="切換武器能力"
+tooltipbrewturrets0001="啟用或停用主武器能力。"
 
-seb2402_name="Maelstrom"
-seb2402_desc="Experimental Anti-Air Defense"
-Unit_Description_BrewLAN_Turrets_0008="Defensive anti-air weapon. Provides devastating short-range damage. Consumes power with each shot."
+seb2402_name="大漩渦"
+seb2402_desc="實驗性防空武器"
+Unit_Description_BrewLAN_Turrets_0008="防禦性防空武器，提供毀滅性的短程傷害但每次射擊都會消耗能量。"
 
-srb2403_name="Tartarus"
-srb2403_desc="Experimental Point Defense"
---"Defensive turret. Armed with a high intensity microwave laser."
+srb2403_name="塔爾塔羅斯"
+srb2403_desc="實驗性點防禦。"
+# --"Defensive turret. Armed with a high intensity microwave laser."
 
 # BrewTeaParty.
 # Translater:HaoJun0823
---ISO_639-1_code=EN/CN
---Tea Party strings
-sas0401_name="Deluge Class"
-sas0401_desc="Experimental Battlecruiser"
-Unit_Description_BrewTeaParty_001="Experimental dreadnought-type battlecruiser. Features light armor for increased movement speed, with personal shields and anti-torpedo weapons for defenses. Offensively armed with Oblivion cannons, shield disruption cannons, anti-air missiles, and a secondary fragmentation artillery."
+# --ISO_639-1_code=EN/CN
+# --Tea Party strings
+sas0401_name="洪水級"
+sas0401_desc="實驗性戰略巡洋艦"
+Unit_Description_BrewTeaParty_001="實驗性無畏型戰列巡洋艦。不但配備了輕型裝甲以提高移動速度，還擁有強大的護盾和高校的反魚雷武器。進攻性裝備有湮滅加農炮、護盾破壞加農炮、防空導彈和二級破片火砲。"
 
 # BrewShields
 # Translater:HaoJun0823
---ISO_639-1_code=EN/CN
---Bubble Tea EN-US strings
-sab4401="Experimental Shield Projector"
-sab4401_name="Pillar of Prominence"
-Unit_Description__BubbleTea_A4_01="Experimental shield projection facility. Generates protective bubbles around each individual structure within its operational radius."
+# --ISO_639-1_code=EN/CN
+# --Bubble Tea EN-US strings
+sab4401="實驗性護盾投射器"
+sab4401_name="顯赫之柱"
+Unit_Description__BubbleTea_A4_01="實驗性護盾投射器，在其有效範圍內每個結構上生成一個保護性氣泡。"
 
-srb4401="Experimental Shield Generator"
-seb4401_name="BFS - Stalwart"
-Unit_Description__BubbleTea_A4_02="Generates a heavy shield around units and structures within its operational radius."
+srb4401="實驗性護盾生成器"
+seb4401_name="BFS 堅定"
+Unit_Description__BubbleTea_A4_02="在其範圍內生成一個重型護盾保護作戰單位與建築。"
 
-ssb4401_desc="Experimental Shield Lattice"
-ssb4401_name="Iaathan"
-ssb4401_drone_desc="Experimental Shield Drone"
-ssb4401_large_name="Iaathanah"
-ssb4401_small_name="Iaathanahee"
-Unit_Description__BubbleTea_A4_03="Experimental shield facility. Generates a lattice of shield bubbles that increase in strength towards the centre. Lattice drones orbit the facility to distribute damage."
+ssb4401_desc="實驗性護盾艙"
+ssb4401_name="伊瑟坦"
+ssb4401_drone_desc="實驗性護盾無人機"
+ssb4401_large_name="伊瑟坦哈"
+ssb4401_small_name="伊瑟坦黑"
+Unit_Description__BubbleTea_A4_03="實驗性護盾設施，生成護盾氣泡格子增加中心的強度，無人機會圍繞設施運行分攤傷害。"
 
 # BrewResearch
 # Translater:HaoJun0823
---ISO_639-1_code=EN
---Author: Balthazar
+# --ISO_639-1_code=EN/CN
+# --Author: Balthazar
 
---Research centres
-seb9301_desc="Research Center"
---UEF
-seb9101_name="Tyson Campus"
-seb9201_name="Sagan Campus"
-seb9301_name="Hawking Campus"
---Cybran
-srb9101_name="Einstein Facility"
-srb9201_name="Schrodinger Facility"
-srb9301_name="Heisenberg Facility"
---Aeon
-sab9101_name="Insight"
-sab9201_name="Guidance"
-sab9301_name="Enlightenment"
---Seraphim
+# --Research centres
+seb9301_desc="研究中心"
+# --UEF
+seb9101_name="泰森校區"
+seb9201_name="薩根校區"
+seb9301_name="霍金校區"
+# --Cybran
+srb9101_name="愛因斯坦設施"
+srb9201_name="薛定諤設施"
+srb9301_name="海森堡設施"
+# --Aeon
+sab9101_name="洞察"
+sab9201_name="指導"
+sab9301_name="啟蒙"
+# --Seraphim
+ssb9101_name="亞斯拉比特"
+ssb9201_name="亞斯拉佈"
+ssb9301_name="亞斯哈佈"
+
+Unit_Description_RND_005="礎研究設施。授予對新單位和更高科技等級的訪問權限。"
+Unit_Description_RND_006="中級研究設施。提高了研究速度和耐用性。"
+Unit_Description_RND_007="先進的研究設施。提高了研究速度和耐用性。"
+
+# --Science Centres
+seb9302_desc="科學中心"
+
+seb9202_name="待定"
+seb9302_name="待定"
+
+srb9202_name="待定"
+srb9302_name="待定"
+
+sab9202_name="待定"
+sab9302_name="待定"
+
+ssb9202_name="待定"
+ssb9302_name="待定"
+
+# --ISO_639-1_code=EN/CN
+
+# --研究中心
+seb9301_desc="研究中心"
+# --UEF
+seb9101_name="泰森校區"
+seb9201_name="薩根校區"
+seb9301_name="霍金校園"
+# --賽布蘭
+srb9101_name="愛因斯坦設施"
+srb9201_name="薛定諤設施"
+srb9301_name="海森堡設施"
+# --万古
+sab9101_name="洞察"
+sab9201_name="指導"
+sab9301_name="啟蒙"
+# --塞拉芬
 ssb9101_name="Iyathlabistle"
 ssb9201_name="Iyathlab"
 ssb9301_name="Iyathluub"
 
-Unit_Description_RND_005="Basic research facility. Grants access to new units and higher tech levels."
-Unit_Description_RND_006="Intermediate research facility. Has increased research speed and durability."
-Unit_Description_RND_007="Advanced research facility. Has increased research speed and durability."
+Unit_Description_RND_005="基礎研究設施。授予對新單位和更高科技等級的訪問權限。"
+Unit_Description_RND_006="中級研究設施。提高了研究速度和耐用性。"
+Unit_Description_RND_007="先進的研究設施。提高了研究速度和耐用性。"
 
---Science Centres
-seb9302_desc="Science Center"
+# --科學中心
+seb9302_desc="科學中心"
 
-seb9202_name="TBD"
-seb9302_name="TBD"
+seb9202_name="待定"
+seb9302_name="待定"
 
-srb9202_name="TBD"
-srb9302_name="TBD"
+srb9202_name="待定"
+srb9302_name="待定"
 
-sab9202_name="TBD"
-sab9302_name="TBD"
+sab9202_name="待定"
+sab9302_name="待定"
 
-ssb9202_name="TBD"
-ssb9302_name="TBD"
+ssb9202_name="待定"
+ssb9302_name="待定"
 
-sb9302_desc="Provides adjacency bonuses to research centers, decreasing research time."
-sb9303_desc="Provides adjacency bonuses to research centers, decreasing research costs."
+sb9302_desc="為研究中心提供鄰接獎勵，減少研究時間。"
+sb9303_desc="為研究中心提供鄰接獎勵，降低研究成本。"
 
---Research item information
-ability_rnd_unlock="Research Unlock"
-ability_rnd_command="Built by command unit"
-ability_rnd_engineer="Built by engineer"
-ability_rnd_field="Built by field engineer"
-ability_rnd_factory="Built by factory"
-ability_rnd_gantry="Built by experimental factory"
-ability_rnd_wall="Built on wall"
-ability_rnd_upgrade="Built as upgrade"
+# --Research item information
+ability_rnd_unlock="研究解鎖"
+ability_rnd_command="由指揮單位建造"
+ability_rnd_engineer="由工程師建造"
+ability_rnd_field="由戰地工程師建造"
+ability_rnd_factory="工廠製造"
+ability_rnd_gantry="實驗性工廠製造"
+ability_rnd_wall="建在牆上"
+ability_rnd_upgrade="作為升級構建"
 
---Research categories
-srnd9100_desc="Tech Level Research"
-srnd9200_desc="Tech Level Research"
-srnd9300_desc="Tech Level Research"
-srnd9400_desc="Experimental Tech Level Research"
+# --Research categories
+srnd9100_desc="技術水平研究"
+srnd9200_desc="技術水平研究"
+srnd9300_desc="技術水平研究"
+srnd9400_desc="實驗性技術水平研究"
 
-Unit_Description_RND_001="Unlocks additional tech 1 units and unit research."
-Unit_Description_RND_002="Unlocks tech 2 units and unit research."
-Unit_Description_RND_003="Unlocks tech 3 units and unit research."
-Unit_Description_RND_004="Unlocks experimental units and unit research."
+Unit_Description_RND_001="解鎖額外的Tech 1單位和單位研究。"
+Unit_Description_RND_002="解鎖Tech 2單位和單位研究。"
+Unit_Description_RND_003="解鎖Tech 3單位和單位研究。"
+ Unit_Description_RND_004="解鎖實驗性單位和單位研究。"
 
 
---Research unlock factories
-sb0105_desc="Hovercraft Factory"
-Unit_Description_RND_013="Produces amphibious units."
---Specifically just surface amphib, and hover. Includes ekranoplans.
-sb0106_desc="Submarine Factory"
-Unit_Description_RND_014="Produces submersible units."
---Submarines and maybe seabed amphibious
-sb0106_desc="Seaplane Factory"
-Unit_Description_RND_015="Produces seaplanes"
---Seaplane factory might not get made.
+# --Research unlock factories
+sb0105_desc="氣墊船廠"
+Unit_Description_RND_013="生產兩棲部隊。"
+# --Specifically just surface amphib, and hover. Includes ekranoplans.
+sb0106_desc="潛艇工廠"
+Unit_Description_RND_014="生產潛水裝置。"
+# --Submarines and maybe seabed amphibious
+sb0106_desc="水上飛機廠"
+Unit_Description_RND_015="生產水上飛機"
+# --Seaplane factory might not get made.
 
-----------------------------------------
--- Tech 1
-----------------------------------------
+# ----------------------------------------
+# -- Tech 1
+# ----------------------------------------
 
---Wind turbines
-sb1101_desc="Wind Generator"
-seb1101_name="Turbine"
-sab1101_name="Lamp"
-ssb1101_name="Uyalai"
+# --Wind turbines
+sb1101_desc="風力發電機"
+seb1101_name="渦輪"
+sab1101_name="燈"
+ssb1101_name="烏雅萊"
 srb1101_name="W.A.T"
---Wind Assisted Turbine
-Unit_Description_RND_011="Generates a fluctuating quantity of energy."
+# --Wind Assisted Turbine
+Unit_Description_RND_011="產生波動的能量。"
 
---Tidal generators
-sb1102_desc="Tidal Generator"
-seb1102_name="Tide Pod"
-sab1102_name="Flow"
-ssb1102_name="Uyaluos"
-srb1102_name="Red Lagoon"
-Unit_Description_RND_017="Generates an undulating quantity of energy. More effective with large bodies of water."
+# --Tidal generators
+sb1102_desc="潮汐發生器"
+seb1102_name="潮艙"
+sab1102_name="流"
+ssb1102_name="烏亞洛斯"
+srb1102_name="紅湖"
+Unit_Description_RND_017="產生波動的能量。對大片水域更有效。"
+# ----------------------------------------
+# --Tech 2
+# ----------------------------------------
 
-----------------------------------------
---Tech 2
-----------------------------------------
-
---Power Generators (250 output)
---Seraphim non-rotary power gens are all called Uya-iya
---Cybran and Aeon tech 2's have no name
-seb1201_name="EG–100 Fusion Reactor"
-Unit_Description_RND_018="Low to mid-level power generator. Construct next to other structures for adjacency bonus."
-
-
-----------------------------------------
---Tech 3
-----------------------------------------
+# --Power Generators (250 output)
+# --Seraphim non-rotary power gens are all called Uya-iya
+# --Cybran and Aeon tech 2's have no name
+seb1201_name="EG–100 聚變反應堆"
+Unit_Description_RND_018="中低級發電機。在其他建築物旁邊建造以獲得鄰接獎勵。"
 
 
---Ekranoplan transports
-ss0326_desc="Heavy GEV Transport"
-ses0326_name="КМ66 Seamonster"
-srs0326_name="Deltawing"
-sas0326_name="Lun Mallard"
-sss0326_name="Vishwiseyen"
+# ----------------------------------------
+# --Tech 3
+# ----------------------------------------
+
+
+# --Ekranoplan transports
+ss0326_desc="重型 GEV 運輸"
+ses0326_name="КМ66 海怪"
+srs0326_name="三角翼"
+sas0326_name="倫野鴨"
+sss0326_name="威施威瑟耶"
 
 # BrewReinforce
 
 # BrewMonsters
 # Translater:HaoJun0823
---ISO_639-1_code=EN/CN
---Magnum Dong en strings
+# --ISO_639-1_code=EN/CN
+# --Magnum Dong en strings
 
-srl0402_desc="Experimental Siege Tank"
-srl0402_name="Little Man"
+srl0402_desc="實驗性攻城坦克"
+srl0402_name="小夥"
 --Replaced with the Retributor
 
-srl0403_desc="Experimental Mobile Artillery"
-srl0403_name="Retributor"
-Unit_Description_RND_016="Large mobile heavy artillery. Must be stationary and on land to fire the artillery. Consumes large amounts of energy per shot"
+srl0403_desc="實驗性移動火砲"
+srl0403_name="報應"
+Unit_Description_RND_016="大型機動重型火砲。必須靜止並在陸地上發射火砲。每次射擊消耗大量能量。"
 
-tooltipbrewlanRND0000="Toggle artillery"
-tooltipbrewlanRND0001="Enables or disables main artillery. Disabling prevents the artillery from potentially cancelling move orders."
+tooltipbrewlanRND0000="切換火砲"
+tooltipbrewlanRND0001="啟用或禁用主砲。禁用可防止砲兵取消移動命令。"
 
 # BrewIntel
 # Translater:HaoJun0823
---ISO_639-1_code=EN/CN
---Tea Party strings
---Dedicated Omni Sensors
-sb3301_desc="Omni Sensor Array"
-seb3301_name="Welchman"
-srb3301_name="Qain"
-sab3301_name="Heimdallr"
-ssb3302_name="Selaez"
-Unit_Description_BrewIntel_001="Sensor array. Capable of identifying targets through stealth and cloak and clears jammer blips."
+# --ISO_639-1_code=EN/CN
+# --Tea Party strings
+# --Dedicated Omni Sensors
+sb3301_desc="全方位傳感器陣列"
+seb3301_name="韋爾奇曼"
+srb3301_name="夸因"
+sab3301_name="海姆達爾"
+ssb3302_name="塞萊茲"
+Unit_Description_BrewIntel_001="傳感器陣列。能夠通過隱身和隱形識別目標並清除乾擾信號。"
 
-sel4301_desc="Experimental Mobile Sensor"
-sel3401_name="Teatut"
-Unit_Description_BrewIntel_002="Experimental amphibious mobile sensor platform. Deploys with a directional sensor capable of identifying targets through stealth and cloak."
-ability_directional_sensor="Directional Sensor"
+sel4301_desc="實驗性移動傳感器"
+sel3401_name="替圖特"
+Unit_Description_BrewIntel_002="實驗性兩棲移動傳感器平台。部署有方向傳感器，能夠通過隱身和隱身識別目標。"
+ability_directional_sensor="方向傳感器"
 
 # BrewAir
 # Translater:HaoJun0823
---ISO_639-1_code=EN/CN
---Penetrator strings
-----------------------------------------
--- Tech 2
-----------------------------------------
-sa0212_desc="Combat Fighter"
-sea0212_name="Raptor"
-sra0212_name="Dioscuri"
-ssa0212_name="Iayath"
-Unit_Description_BrewPen_001="Mid-level air fighter. Excellent AA capabilities. Effective against enemy gunships and bombers."
+# --ISO_639-1_code=EN/CN
+# --Penetrator strings
+# ----------------------------------------
+# -- Tech 2
+# ----------------------------------------
+sa0212_desc="戰鬥機"
+sea0212_name="猛禽"
+sra0212_name="狄奧斯庫裡"
+ssa0212_name="阿雅斯"
+Unit_Description_BrewPen_001="中級空中戰鬥機。出色的防空能力。有效對抗敵方炮艇和轟炸機。"
 
-sa0213_desc="Fighter/Bomber"
-saa0213_name="Lucidity"
-Unit_Description_BrewPen_002="Combination fighter/bomber designed to engage both land and aerial units."
+sa0213_desc="戰鬥機/轟炸機"
+saa0213_name="清醒"
+Unit_Description_BrewPen_002="戰鬥機/轟炸機組合，設計用於與地面和空中單位交戰。"
 
---Dedicated Tactical Bombers
-saa0211_desc="Tactical Bomber"
-sea0211_name="Tornado"
-ssa0211_name="Sinn"
-sra0211_name="Condor"
-Unit_Description_BrewPen_003="Intermediate bomber aircraft."
+# --Dedicated Tactical Bombers
+saa0211_desc="戰術轟炸機"
+sea0211_name="龍捲風"
+ssa0211_name="新恩"
+sra0211_name="禿鷹"
+Unit_Description_BrewPen_003="中型轟炸機。"
 
-----------------------------------------
--- Tech 3
-----------------------------------------
+# ----------------------------------------
+# -- Tech 3
+# ----------------------------------------
 
-sea0312_desc="Strike Fighter"
-sea0312_name="Fulcrum"
-Unit_Description_BrewPen_012="High-end multirole fighter. Equipped with missiles. Performs best against light armored targets such as aircraft."
+sea0312_desc="攻擊戰鬥機"
+sea0312_name="支點"
+Unit_Description_BrewPen_012="高端多用途戰鬥機。配備導彈。對飛機等輕型裝甲目標表現最佳。"
 
---T3.5 Advanced bombers
---sa0314_desc="Penetrator"
-sa0314_desc="Penetrator Bomber"
-sea0314_name="Lancer"
-saa0314_name="Shrieker"
-sra0314_name="Sanguine Tyrant"
-ssa0314_name="Sinnaino"
-Unit_Description_BrewPen_004="Top-end long-range stealth strategic bomber. Equipped with bombs, air-to-surface standoff missiles, torpedoes, and rear-mounted anti-missile flares."
-
---anti-SAM and anti-AAM flares
+# --T3.5 Advanced bombers
+# --sa0314_desc="Penetrator"
+sa0314_desc="穿透轟炸機"
+sea0314_name="槍兵"
+saa0314_name="尖叫者"
+sra0314_name="血色暴君"
+ssa0314_name="辛奈諾"
+Unit_Description_BrewPen_004="高端遠程隱形戰略轟炸機。配備炸彈、空對地防區外導彈、魚雷和後置反導彈照明彈。"
+# --anti-SAM and anti-AAM flares
 ability_missiledef="Missile Defense"
 
---T3.5 advanced fighters
-sa0313_desc="Penetration Fighter"
-sea0313_name="Tomcat"
-saa0313_name="Helios"
-sra0313_name="Twilight Patron"
-ssa0313_name="Ialosaare"
-Unit_Description_BrewPen_005="Top-end long range stealth fighter. Equipped with twin burst helical railguns, air-to-air missiles, and anti-missile flares."
-Unit_Description_BrewPen_006="Top-end long range stealth fighter. Equipped with twin focused phason laser weapons, and anti-missile flares."
-Unit_Description_BrewPen_007="Top-end long-range stealth fighter. Equipped with heavy particle cannons, and anti-missile flares. Capable of hunting spy planes."
-Unit_Description_BrewPen_008="Top-end long-range stealth fighter. Equipped with a Losaare autocannon, a phason weapon, and anti-missile flares."
+# --T3.5 advanced fighters
+sa0313_desc="滲透戰鬥機"
+sea0313_name="雄貓"
+saa0313_name="太陽神"
+sra0313_name="暮光守護者"
+ssa0313_name="伊洛薩雷"
+Unit_Description_BrewPen_005="高端遠程隱形戰鬥機。配備雙爆裂螺旋軌道炮、空對空導彈和反導彈照明彈。"
+Unit_Description_BrewPen_006="高端遠程隱形戰鬥機。配備雙聚焦相位激光武器和反導彈照明彈。"
+Unit_Description_BrewPen_007="高端遠程隱形戰鬥機。配備重型粒子炮和反導彈照明彈。能夠獵殺間諜飛機。"
+Unit_Description_BrewPen_008="高端遠程隱形戰鬥機。配備洛薩雷自動加農炮、相位武器和反導彈照明彈。"
 
-sra0315_desc="Interdiction Gunship"
+sra0315_desc="攔截砲艇"
 sra0315_name="Xiphos"
-Unit_Description_BrewPen_009="Heavy interdiction and close-air-support attack craft. Armed with multiple air-to-ground laser weapons, and anti-missile flares."
+Unit_Description_BrewPen_009="重型攔截和近距離空中支援攻擊機。裝備有多種空對地激光武器和反導彈照明彈。"
 
-sra0401_desc="Experimental Aircraft Carrier"
-sra0401_name="Simurgh"
-Unit_Description_BrewPen_010="Massive airborne aircraft carrier. Can create, transport, and deploy large numbers of fighter/bomber craft."
-
---dra0202_desc="Fighter/Bomber"
-sra0402_name="Talon"
-Unit_Description_BrewPen_011="Combination fighter/bomber aircraft designed to engage both air and surface units."
+sra0401_desc="實驗航母"
+sra0401_name="薩姆瑞"
+Unit_Description_BrewPen_010="大型空中航空母艦。可以製造、運輸和部署大量戰鬥機/轟炸機。"
+# --dra0202_desc="Fighter/Bomber"
+sra0402_name="利爪"
+Unit_Description_BrewPen_011="戰鬥機/轟炸機組合，旨在與空中和地面部隊交戰。"
 
 
 
