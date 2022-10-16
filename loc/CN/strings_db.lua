@@ -7479,14 +7479,14 @@ SteamNotSignedIn="請先登入Steam以便使用配對功能"
 STEAM_FIND_PLAYERS="搜索玩家一起參與多人遊戲"
 
 # Mod Translation
-# Modded Campaign 可以讓戰役用於模組
+# MOD::Modded Campaign 可以讓戰役用於模組 (TF_CampaignModEnabler_FA)
 
 _Campaign="模組戰役"
 tooltipui0135="模組戰役"
 tooltipui0136="用你選擇的模組開始或者繼續一個戰役。"
 
 # BlackOps 
-# BlackOps Unleashed (9e8ea941-c306-4751-b367-a11000000502) Version 5.2 (Is Version 6 alive?)
+# MOD::BlackOps Unleashed (9e8ea941-c306-4751-b367-a11000000502) Version 5.2 (Is Version 6 alive?)
 
 ability_satdef="反衛星武器"
 ability_attkdrones="攻擊無人機"
@@ -7794,9 +7794,51 @@ ability_bs="構建套件"
 BSS0401_name="胡瓦塔哈蘇"
 BSS0401_help="實驗性無畏戰艦"
 
-# Total Mayhem v1.21 (62e2j64a-53a2-y6sg-32h5-146as555a18u3)
+# MOD::BlackOps Global Icon Support Mod (9e8ea941-c306-4751-b367-f00000000005) Version 5
 
-# BrewLAN 0.899 (25D57D85-7D84-27HT-A501-BR3WL4N0000899)
+# MOD::BlackOps Adv Command Units (9e8ea941-c306-4751-b367-e00000000302) Version 3.2 
+
+# MOD::BlackOps Unleashed Balance Changes (9e8ea941-c306-4751-b367-a20000000502) Version 5.2 
+
+ability_cleanse="行星淨化模式"
+enhancements_HE21="Tech 4 工程套件"
+enhancements_HE21="刪除 Tech 4 工程套件"
+
+# MOD::BlackOps Alternate Reality (9e8ea941-c306-4751-b368-a11100000102) Version 1.2 
+
+oea0401_desc="高空支援砲艇"
+oea0401_name="AC-500 恐怖"
+oea0401_help="高空支援砲艇"
+oel0401_desc="實驗性移動核彈砲"
+OEL0401_name="毀滅公爵"
+OEL0401_help="實驗性移動核彈砲"
+oel0402_desc="實驗性超級坦克"
+OEL0402_name="博洛"
+OEL0402_help="實驗性超級坦克"
+orl0111_desc="導彈甲蟲"
+orl0111_name="甲蟲"
+orl0111_help="導彈甲蟲"
+
+# MOD::BlackOps Special Weapons (9e8ea941-c306-4751-b367-e10000000104) Version 1.3 (BlackOpsEXUnits)
+
+EAS0302_desc="護衛艦"
+EAS0302_name="彌賽亞級"
+EAS0302_help="護衛艦"
+EEB0402_desc="恆星發電機"
+EEB0402_help="恆星發電機"
+EES0302_desc="護衛艦"
+EES0302_name="諾克斯級"
+EES0302_help="護衛艦"
+ERL0301_desc="隱形機器人"
+ERL0301_name="陰影分離器"
+ERL0301_help="隱形機器人"
+ERS0302_desc="攻擊護衛艦"
+XRS0304_name="白羊級"
+ERS0302_help="攻擊護衛艦"
+
+# MOD::Total Mayhem v1.21 (62e2j64a-53a2-y6sg-32h5-146as555a18u3)
+
+# MOD::BrewLAN 0.899 (25D57D85-7D84-27HT-A501-BR3WL4N0000899)
 
 # Translater:HaoJun0823 (Get From BrewLAN 0.899)
 # --ISO_639-1_code=CN/ZH
