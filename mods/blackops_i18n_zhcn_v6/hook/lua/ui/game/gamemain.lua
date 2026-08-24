@@ -98,9 +98,9 @@ local _BO_LOC_TABLE = {
     ['beb0003_desc'] = '反传送发射器',
     ['beb1106_desc'] = '质量与能量储存',
     ['beb1202_desc'] = '碳氢发电厂',
-    ['beb1202_name'] = 'HCPP - X2000',
+    ['beb1202_name'] = 'HCPP-X2000',
     ['beb1302_desc'] = '碳氢发电厂',
-    ['beb1302_name'] = 'HCPP - X3000',
+    ['beb1302_name'] = 'HCPP-X3000',
     ['beb2303_desc'] = '速射榴弹炮',
     ['beb2303_name'] = '地狱风暴炮台',
     ['beb4209_desc'] = '反传送力场塔',
@@ -246,6 +246,41 @@ local _BO_LOC_TABLE = {
     ['xsl0001_desc'] = '装甲指挥单位',
     ['xsl0305_desc'] = '精英狙击机器人',
     ['xsl0305_name'] = '哈拉·乌沙-阿',
+	['baa0001_name'] = '守护者',
+	['bab0006_name'] = '断界者',
+	['bab1106_name'] = '储圣者',
+	['bab1202_name'] = '碳氢转化器 II',
+	['bab1302_name'] = '碳氢转化器 III',
+	['bea0006_name'] = '熊峰',
+	['beb0001_name'] = '绿洲',
+	['beb0003_name'] = '失调',
+	['beb1106_name'] = '联合体',
+	['brb0004_name'] = '林蜂',
+	['brb0006_name'] = '无音区',
+	['brb1106_name'] = '蜜罐',
+	['brb1202_name'] = '碳氢裂解器-B',
+	['brb1302_name'] = '碳氢裂解器-C',
+	['brb4209_name'] = '薄雾',
+	['brb4309_name'] = '遮蔽',
+	['brb5202_name'] = '白棉',
+	['bsb0001_name'] = '扎卡拉',
+	['bsb0002_name'] = '工厂',
+	['bss2402_name'] = '阿斯加德',
+
+    -- 瑟拉芬无人机
+    ['bsa0001_name'] = '哈拉·防空者',
+    ['bsa0002_name'] = '哈拉·修复者',
+    ['bsa0004_name'] = '哈拉·守卫者',
+
+    -- 瑟拉芬建筑
+    ['bsb0003_name'] = '达贡',
+    ['bsb0004_name'] = '乌西亚',
+    ['bsb0005_name'] = '扎卡拉尔',
+    ['bsb1106_name'] = '特维许',
+    ['bsb2303_name'] = '乌陶',
+	
+	['EEB0402_name'] = '羲和',
+	
     ['enhancements_0018'] = 'T4工程套件',
     ['enhancements_0019'] = '拆除工程套件',
     ['enhancements_0103'] = 'T4工程套件',
@@ -533,6 +568,10 @@ local _BO_LOC_TABLE = {
     ['_RCH'] = '右',
     ['ueb0201_upgradedesc'] = '升级至T2陆地工厂',
     ['ueb0301_upgradedesc'] = '升级至T3陆地工厂',
+	
+	
+	
+	
 }
 local _BO_ZH_MAP = {
     ['AEON Anti Nuclear Missile'] = '万古反核导弹',

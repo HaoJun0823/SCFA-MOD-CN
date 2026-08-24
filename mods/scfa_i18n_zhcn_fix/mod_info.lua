@@ -1,0 +1,15 @@
+name = "SCFA 官方简体中文修复补丁"
+uid = "A1B2C3D4-0000-0000-0000-SCFAZHCNFIX"
+version = 1
+description = "修复部分原版单位无名字问题：这些单位 bp 缺少 General.UnitName 字段，游戏内只显示描述不显示名字。通过 ui_only 方式在进入对局时向 __blueprints 注入 UnitName，并用 LOC 包装兜底翻译，无需修改任何原版文件。"
+author = "HaoJun0823"
+url = "https://www.haojun0823.xyz/"
+selectable = true
+enabled = true
+exclusive = false
+ui_only = true
+requires = { }
+requiresNames = { }
+conflicts = { }
+after = { }
+before = { }
