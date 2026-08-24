@@ -2,7 +2,7 @@
 -- 挂载点: /lua/ui/game/gamemain.lua (base 之后同一 env 追加执行)
 --
 -- ★★★ 机制 (参考 blackops_i18n_zhcn_v6 成功案例, 2026-08-25 定稿) ★★★
--- 目标: 261 个原版单位 bp 缺 General.UnitName 字段 -> UI 只显示描述不显示名字。
+-- 目标: 262 个原版单位 bp 缺 General.UnitName 字段（另含 19 个 bp 有名字但显英文的单位，靠 LOC 包装器译出） -> UI 只显示描述不显示名字。
 -- 方案(两件套):
 --   1) _G.LOC wrapper: <LOC xxx_name> 标签串优先查本文件自建字典(不依赖 loc_CN.scd.zip),
 --      未命中再委托原版 LOC。LOC 是真 _G 全局(Localization.lua 经 doscript 全局加载),
@@ -388,6 +388,27 @@ local _SCFA_LOC_TABLE = {
     ['uab5204_name'] = "混凝土",  -- 万古混凝土已改为“圣洁混凝土”，但此处保留原键？实际上面已改，为避免重复，保留原值
 
     -- 注意：'uab5204_name' 上面已设为“圣洁混凝土”，所以此处不再重复。
+
+    -- 补充：核心缺口与仍显英文的单位（按官方风格/音译）
+    ['xac1101_name'] = "万古量子发电机",
+    ['xsc9002_name'] = "哈斯干扰水晶",
+    ['xsc9010_name'] = "哈斯干扰水晶",
+    ['xsc9011_name'] = "哈斯干扰水晶",
+    ['opc5007_name'] = "UEF 研究设施",
+    ['opc5008_name'] = "UEF 监狱设施",
+    ['ueb0304_name'] = "QGW R-32 量子闸道",
+    ['ueb2109_name'] = "DN1 鱼雷发射器",
+    ['ueb2304_name'] = "剥皮者",
+    ['ues0305_name'] = "SP3-3000声呐",
+    ['urb2108_name'] = "TML-4战术导弹",
+    ['urb4202_name'] = "ED1护盾发生器",
+    ['urb4204_name'] = "ED2护盾发生器",
+    ['urb4205_name'] = "ED3护盾发生器",
+    ['urb4206_name'] = "ED4护盾发生器",
+    ['urb4207_name'] = "ED5护盾发生器",
+    ['uxl0021_name'] = "实验性电弧",
+    ['xsc0001'] = "瑟拉芬测试单位",  -- 注意：bp 引用 <LOC xsc0001>（无 _name 后缀）
+
 }
 
 local _SCFA_UNIT_IDS = {
@@ -652,6 +673,8 @@ local _SCFA_UNIT_IDS = {
     'xsc9011',
     'xsl0001',
     'xsl0301',
+    'xac1101',
+
 }
 
 -- ★ 1) 包装全局 LOC: 所有模块裸调 LOC()/LOCF() 都经 _G, 统一翻译 <LOC xxx_name>
