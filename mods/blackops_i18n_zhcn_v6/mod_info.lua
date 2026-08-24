@@ -1,0 +1,15 @@
+name = "BlackOps V6 简体中文补丁"
+uid = "A1B2C3D4-0000-0000-0000-BLACKOPSZHN6"
+version = 6
+description = "BlackOps 系列模组(ACUs/EXUnits/Unleashed/Balance/Support/NavalBalance)简体中文翻译，通过 ui_only 方式在不修改原模组文件的前提下汉化所有裸英文字段。"
+author = "HaoJun0823"
+url = "https://www.haojun0823.xyz/"
+selectable = true
+enabled = true
+exclusive = false
+ui_only = true
+requires = { }
+requiresNames = { }
+conflicts = { }
+after = { "9e8ea941-c306-4751-b367-e00000000302", "9e8ea941-c306-4751-b367-a20000000502", "9e8ea941-c306-4751-b367-f00000000005", "9e8ea941-c306-4751-b367-a11000000600", "9e8ea941-c306-4751-b367-e10000000104", "9e8ea941-c306-4751-b367-e20000000102" }
+before = { }
