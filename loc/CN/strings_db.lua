@@ -7477,3 +7477,5 @@ _Create_Matchmaking_Game="组织游戏"
 STEAM_FRIENDS_ONLY="仅限好友"
 SteamNotSignedIn="请先登录Steam以便使用配对功能"
 STEAM_FIND_PLAYERS="搜索玩家一起参与多人游戏"
+
+# 补齐按官方缺失的名称
