@@ -1,0 +1,15 @@
+name = "Total Mayhem v1.21 简体中文补丁"
+uid = "A1B2C3D4-0000-0000-0000-TMZH121V1"
+version = 1.21
+description = "Total Mayhem v1.21 简体中文翻译（ui_only）。包装全局 _G.LOC + 两张字典（初始空，待译表填好后由 tm_build_dict.py 注入），配合 totalmayhem_v121_fix 蓝图补丁汉化单位名/描述/帮助文本/武器名。"
+author = "HaoJun0823"
+url = "https://www.haojun0823.xyz/"
+selectable = true
+enabled = true
+exclusive = false
+ui_only = true
+requires = { }
+requiresNames = { }
+conflicts = { }
+after = { "62e2j64a-53a2-y6sg-32h5-146as555a18u3", "A1B2C3D4-0000-0000-0000-TMZH121V1", "A1B2C3D4-0000-0000-0000-TMBPF121V1" }
+before = { }
