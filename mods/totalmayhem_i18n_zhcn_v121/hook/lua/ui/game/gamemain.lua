@@ -651,6 +651,23 @@ local _TM_LOC_TABLE = {
     -- ===== ALL =====
     ['ability_ASN'] = '仅反海军',  -- [ALL] ABILITY
     ['ability_antiair'] = '防空',  -- [ALL] ABILITY
+    -- TM/BlackOps 自定义升级名 (base loc 未覆盖或值为繁体, 此处强制简体, 优先级高于 _oldLOC)
+    ['ability_aa'] = '防空',  -- [ALL] 防空
+    ['ability_airstaging'] = '空中作战',  -- [ALL] 航空整备
+    ['ability_amphibious'] = '两栖',  -- [ALL] 两栖
+    ['ability_aquatic'] = '水栖',  -- [ALL] 水栖
+    ['ability_deathaoe'] = '死亡爆破',  -- [ALL] 死亡范围伤害
+    ['ability_deploys'] = '部署',  -- [ALL] 可部署
+    ['ability_engineeringsuite'] = '工程套装',  -- [ALL] 工程套件
+    ['ability_hover'] = '悬浮',  -- [ALL] 悬浮
+    ['ability_massive'] = '碾压',  -- [ALL] 巨型
+    ['ability_notcap'] = '不可占领',  -- [ALL] 不可缴获
+    ['ability_omni'] = '全向传感器',  -- [ALL] 全方位感测器(繁体)->简体
+    ['ability_radar'] = '雷达',  -- [ALL] 雷达
+    ['ability_shielddome'] = '护盾穹顶',  -- [ALL] 护盾圆盖(繁体)->简体
+    ['ability_sonar'] = '声呐',  -- [ALL] 声呐
+    ['ability_torpedo'] = '鱼雷',  -- [ALL] 鱼雷
+    ['ability_torpedodef'] = '鱼雷防御',  -- [ALL] 鱼雷防御
 }
 -- 自动生成: _TM_ZH_MAP (bucket2 武器裸英文 -> 中文)
 -- 自动生成: _TM_ZH_MAP (bucket2 武器裸英文 -> 中文)
@@ -701,6 +718,34 @@ local _TM_ZH_MAP = {
     ['Twin Barreled Oh Spectra Cannon'] = '双管奥光谱加农炮',
     ['Ultrachromatic Beam Generator'] = '超色光束产生器',
     ['Zealot AA Missile'] = '狂热者防空导弹',
+    -- TM 升级名裸串 (bp 里未包 <LOC>, wrapper 裸串分支命中)
+    ['Omni Sensor'] = '全向传感器',  -- BRPT3SHBM/BRMT3AVA/BRNAT3BOMBER/BRNT3DOOMSDAY/BROT3EXM1/BRNT3PERSES/BRNT2SNIPER/BROAT3BOMBER 等 8 单位裸串
+    ['Perimeter Monitoring System'] = '周边监控系统',  -- BRNT3PERSES 裸串升级名
+    -- TM Display.Abilities 裸英文能力标签 (bp 里未包 <LOC>, wrapper 裸串分支命中)
+    ['Air to Ground Fire'] = '空对地火力',
+    ['Air to Ground fire'] = '空对地火力',  -- 大小写变体
+    ['Amphibious'] = '两栖',
+    ['Anti Air'] = '防空',
+    ['Anti-Air'] = '防空',
+    ['Anti-Navy only'] = '仅反海军',
+    ['Area Cloaking'] = '区域匿踪',
+    ['Area Stealth'] = '区域匿踪',
+    ['Defensive Shock Burst'] = '防御冲击爆发',
+    ['Deploys'] = '可部署',
+    ['EMP Burst'] = 'EMP 爆发',
+    ['Extreme HP Regen'] = '极速生命回复',
+    ['Fast Moving'] = '高速机动',
+    ['Hover'] = '悬浮',
+    ['Jamming'] = '干扰',
+    ['Massive'] = '碾压',
+    ['Omni-Sensor'] = '全向传感器',  -- 连字符变体
+    ['Personal Shield'] = '个人护盾',
+    ['Personal Stealth'] = '个人匿踪',
+    ['Radar'] = '雷达',
+    ['Sonar'] = '声呐',
+    ['Stealth'] = '匿踪',
+    ['Tactical Missile Defense'] = '战术导弹防御',
+    ['Torpedoes'] = '鱼雷',
 }
 
 -- 替换全局 LOC: 所有模块裸调 LOC()/LOCF() 都经 _G, 这里统一翻译。

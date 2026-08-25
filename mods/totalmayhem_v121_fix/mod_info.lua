@@ -1,7 +1,7 @@
 name = "Total Mayhem v1.21 Fix Patch"
 uid = "A1B2C3D4-0000-0000-0000-TMBPF121V1"
 version = 1
-description = "Total Mayhem v1.21 蓝图键位补丁：为裸英文字段（General.UnitName / Description / Interface.HelpText）加 <LOC tm_<uid>_{name,desc,help}> 标签，配合 totalmayhem_i18n_zhcn_v121 翻译。已 <LOC base-game> 的字段跳过得官方中文 locale 处理。"
+description = "Total Mayhem v1.21 Fix Patch By HaoJun0823 For Steam Version."
 author = "HaoJun0823"
 url = "https://www.haojun0823.xyz/"
 selectable = true
