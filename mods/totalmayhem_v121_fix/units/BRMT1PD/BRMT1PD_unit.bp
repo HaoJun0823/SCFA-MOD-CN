@@ -1,0 +1,12 @@
+-- [Cybran] BRMT1PD
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt1pd',
+    General = {
+        UnitName = '<LOC tm_brmt1pd_name>Coyote',
+    },
+    Description = '<LOC tm_brmt1pd_desc>Heavy Point Defense',
+    Interface = {
+        HelpText = '<LOC tm_brmt1pd_help>Heavy Point Defense',
+    },
+}

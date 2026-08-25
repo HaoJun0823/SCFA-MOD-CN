@@ -1,0 +1,12 @@
+-- [Cybran] BRMT1HT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt1ht',
+    General = {
+        UnitName = '<LOC tm_brmt1ht_name>Scarab',
+    },
+    Description = '<LOC tm_brmt1ht_desc>Heavy Tank',
+    Interface = {
+        HelpText = '<LOC tm_brmt1ht_help>Heavy Tank',
+    },
+}

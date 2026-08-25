@@ -1,0 +1,12 @@
+-- [Cybran] BRMT1ADVBOT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt1advbot',
+    General = {
+        UnitName = '<LOC tm_brmt1advbot_name>Redhawk',
+    },
+    Description = '<LOC tm_brmt1advbot_desc>Advanced Battle Bot',
+    Interface = {
+        HelpText = '<LOC tm_brmt1advbot_help>Advanced Battle Bot',
+    },
+}

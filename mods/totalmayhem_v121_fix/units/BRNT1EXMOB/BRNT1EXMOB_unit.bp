@@ -1,0 +1,12 @@
+-- [UEF] BRNT1EXMOB
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt1exmob',
+    General = {
+        UnitName = '<LOC tm_brnt1exmob_name>UnderTaker',
+    },
+    Description = '<LOC tm_brnt1exmob_desc>Advanced Assault Tank',
+    Interface = {
+        HelpText = '<LOC tm_brnt1exmob_help>Advanced Assault Tank',
+    },
+}

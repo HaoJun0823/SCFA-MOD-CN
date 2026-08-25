@@ -1,0 +1,8 @@
+-- [Seraphim] XSB1107
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'xsb1107',
+    General = {
+        UnitName = '<LOC tm_xsb1107_name>Eruya-leatoh',
+    },
+}

@@ -1,0 +1,12 @@
+-- [Aeon] BROST1DESTR
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brost1destr',
+    General = {
+        UnitName = '<LOC tm_brost1destr_name>Chronos Class',
+    },
+    Description = '<LOC tm_brost1destr_desc>Destroyer',
+    Interface = {
+        HelpText = '<LOC tm_brost1destr_help>Destroyer',
+    },
+}

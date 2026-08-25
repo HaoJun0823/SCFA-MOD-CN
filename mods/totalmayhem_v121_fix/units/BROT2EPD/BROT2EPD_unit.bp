@@ -1,0 +1,12 @@
+-- [Aeon] BROT2EPD
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brot2epd',
+    General = {
+        UnitName = '<LOC tm_brot2epd_name>Functionality mk.2',
+    },
+    Description = '<LOC tm_brot2epd_desc>Experimental Point Defense',
+    Interface = {
+        HelpText = '<LOC tm_brot2epd_help>Experimental Point Defense',
+    },
+}

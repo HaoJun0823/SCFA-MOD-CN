@@ -1,0 +1,12 @@
+-- [UEF] BRNST1ARTILLERY
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnst1artillery',
+    General = {
+        UnitName = '<LOC tm_brnst1artillery_name>Polestar Class',
+    },
+    Description = '<LOC tm_brnst1artillery_desc>Artilleryship',
+    Interface = {
+        HelpText = '<LOC tm_brnst1artillery_help>Artilleryship',
+    },
+}

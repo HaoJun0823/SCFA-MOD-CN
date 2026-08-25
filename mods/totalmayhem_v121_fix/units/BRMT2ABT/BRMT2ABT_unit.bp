@@ -1,0 +1,12 @@
+-- [Cybran] BRMT2ABT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt2abt',
+    General = {
+        UnitName = '<LOC tm_brmt2abt_name>Caminara',
+    },
+    Description = '<LOC tm_brmt2abt_desc>Advanced Battle Tank',
+    Interface = {
+        HelpText = '<LOC tm_brmt2abt_help>Advanced Battle Tank',
+    },
+}

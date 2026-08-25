@@ -1,0 +1,12 @@
+-- [UEF] BRNT3AA
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt3aa',
+    General = {
+        UnitName = '<LOC tm_brnt3aa_name>Air Grinder',
+    },
+    Description = '<LOC tm_brnt3aa_desc>Mobile Anti-Air',
+    Interface = {
+        HelpText = '<LOC tm_brnt3aa_help>Mobile Anti-Air',
+    },
+}

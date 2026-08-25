@@ -1,0 +1,12 @@
+-- [Seraphim] BRPT3PD
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brpt3pd',
+    General = {
+        UnitName = '<LOC tm_brpt3pd_name>Athaamla',
+    },
+    Description = '<LOC tm_brpt3pd_desc>Heavy Point Defense',
+    Interface = {
+        HelpText = '<LOC tm_brpt3pd_help>Heavy Point Defense',
+    },
+}

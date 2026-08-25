@@ -1,0 +1,12 @@
+-- [UEF] BRNAT2FIGHTER
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnat2fighter',
+    General = {
+        UnitName = '<LOC tm_brnat2fighter_name>Vortec',
+    },
+    Description = '<LOC tm_brnat2fighter_desc>Fighter',
+    Interface = {
+        HelpText = '<LOC tm_brnat2fighter_help>Fighter',
+    },
+}

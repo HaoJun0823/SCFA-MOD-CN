@@ -1,0 +1,12 @@
+-- [Aeon] BROT1BT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brot1bt',
+    General = {
+        UnitName = '<LOC tm_brot1bt_name>Fate',
+    },
+    Description = '<LOC tm_brot1bt_desc>Advanced Battle Tank',
+    Interface = {
+        HelpText = '<LOC tm_brot1bt_help>Advanced Battle Tank',
+    },
+}

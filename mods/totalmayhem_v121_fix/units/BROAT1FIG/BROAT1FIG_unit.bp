@@ -1,0 +1,12 @@
+-- [Aeon] BROAT1FIG
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'broat1fig',
+    General = {
+        UnitName = '<LOC tm_broat1fig_name>Vaikana',
+    },
+    Description = '<LOC tm_broat1fig_desc>Fighter',
+    Interface = {
+        HelpText = '<LOC tm_broat1fig_help>Fighter',
+    },
+}

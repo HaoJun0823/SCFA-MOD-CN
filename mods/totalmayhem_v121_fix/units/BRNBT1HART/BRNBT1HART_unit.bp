@@ -1,0 +1,12 @@
+-- [UEF] BRNBT1HART
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnbt1hart',
+    General = {
+        UnitName = '<LOC tm_brnbt1hart_name>Mortimer',
+    },
+    Description = '<LOC tm_brnbt1hart_desc>Heavy Artillery Installation',
+    Interface = {
+        HelpText = '<LOC tm_brnbt1hart_help>Heavy Artillery Installation',
+    },
+}

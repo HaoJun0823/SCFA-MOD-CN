@@ -1,0 +1,12 @@
+-- [Aeon] BROT1ADVNAVYGUN
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brot1advnavygun',
+    General = {
+        UnitName = '<LOC tm_brot1advnavygun_name>Warper',
+    },
+    Description = '<LOC tm_brot1advnavygun_desc>Anti-Navy Defense',
+    Interface = {
+        HelpText = '<LOC tm_brot1advnavygun_help>Anti-Navy Defense',
+    },
+}

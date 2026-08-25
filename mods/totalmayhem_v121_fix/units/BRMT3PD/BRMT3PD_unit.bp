@@ -1,0 +1,12 @@
+-- [Cybran] BRMT3PD
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt3pd',
+    General = {
+        UnitName = '<LOC tm_brmt3pd_name>Tripple Threat mk.2',
+    },
+    Description = '<LOC tm_brmt3pd_desc>Heavy Point Defense',
+    Interface = {
+        HelpText = '<LOC tm_brmt3pd_help>Heavy Point Defense',
+    },
+}

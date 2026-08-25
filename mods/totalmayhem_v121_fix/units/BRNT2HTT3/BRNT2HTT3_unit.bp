@@ -1,0 +1,12 @@
+-- [UEF] BRNT2HTT3
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt2htt3',
+    General = {
+        UnitName = '<LOC tm_brnt2htt3_name>Twister mk.2',
+    },
+    Description = '<LOC tm_brnt2htt3_desc>Heavy Armored Tank',
+    Interface = {
+        HelpText = '<LOC tm_brnt2htt3_help>Heavy Armored Tank',
+    },
+}

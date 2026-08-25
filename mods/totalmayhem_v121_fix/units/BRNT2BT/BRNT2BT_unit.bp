@@ -1,0 +1,12 @@
+-- [UEF] BRNT2BT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt2bt',
+    General = {
+        UnitName = '<LOC tm_brnt2bt_name>Boxer',
+    },
+    Description = '<LOC tm_brnt2bt_desc>Battle Tank',
+    Interface = {
+        HelpText = '<LOC tm_brnt2bt_help>Battle Tank',
+    },
+}

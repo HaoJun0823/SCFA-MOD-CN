@@ -1,0 +1,12 @@
+-- [Aeon] BROT3ABB
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brot3abb',
+    General = {
+        UnitName = '<LOC tm_brot3abb_name>Serval',
+    },
+    Description = '<LOC tm_brot3abb_desc>Armored Battle Bot',
+    Interface = {
+        HelpText = '<LOC tm_brot3abb_help>Armored Battle Bot',
+    },
+}

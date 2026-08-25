@@ -1,0 +1,12 @@
+-- [Cybran] BRMT1EXPDT2
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt1expdt2',
+    General = {
+        UnitName = '<LOC tm_brmt1expdt2_name>Pen mk2',
+    },
+    Description = '<LOC tm_brmt1expdt2_desc>Experimental Point Defense',
+    Interface = {
+        HelpText = '<LOC tm_brmt1expdt2_help>Experimental Point Defense',
+    },
+}

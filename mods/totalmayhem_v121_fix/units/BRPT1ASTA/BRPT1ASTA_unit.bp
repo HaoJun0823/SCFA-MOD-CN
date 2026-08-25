@@ -1,0 +1,12 @@
+-- [Seraphim] BRPT1ASTA
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brpt1asta',
+    General = {
+        UnitName = '<LOC tm_brpt1asta_name>Hethistle-ve',
+    },
+    Description = '<LOC tm_brpt1asta_desc>Assault Tank',
+    Interface = {
+        HelpText = '<LOC tm_brpt1asta_help>Assault Tank',
+    },
+}

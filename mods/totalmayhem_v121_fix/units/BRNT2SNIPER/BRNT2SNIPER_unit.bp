@@ -1,0 +1,12 @@
+-- [UEF] BRNT2SNIPER
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt2sniper',
+    General = {
+        UnitName = '<LOC tm_brnt2sniper_name>Marksman',
+    },
+    Description = '<LOC tm_brnt2sniper_desc>Advanced Sniper Tank',
+    Interface = {
+        HelpText = '<LOC tm_brnt2sniper_help>Advanced Sniper Tank',
+    },
+}

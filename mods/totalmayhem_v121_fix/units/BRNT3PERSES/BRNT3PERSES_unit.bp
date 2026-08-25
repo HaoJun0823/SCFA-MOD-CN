@@ -1,0 +1,12 @@
+-- [UEF] BRNT3PERSES
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt3perses',
+    General = {
+        UnitName = '<LOC tm_brnt3perses_name>Perses',
+    },
+    Description = '<LOC tm_brnt3perses_desc>Experimental Point Defense',
+    Interface = {
+        HelpText = '<LOC tm_brnt3perses_help>Experimental Point Defense',
+    },
+}

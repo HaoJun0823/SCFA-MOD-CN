@@ -1,0 +1,12 @@
+-- [UEF] BRNT3BT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt3bt',
+    General = {
+        UnitName = '<LOC tm_brnt3bt_name>Bull mk.2',
+    },
+    Description = '<LOC tm_brnt3bt_desc>Battle Tank',
+    Interface = {
+        HelpText = '<LOC tm_brnt3bt_help>Battle Tank',
+    },
+}

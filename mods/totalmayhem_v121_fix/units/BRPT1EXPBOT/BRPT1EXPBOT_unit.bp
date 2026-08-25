@@ -1,0 +1,12 @@
+-- [Seraphim] BRPT1EXPBOT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brpt1expbot',
+    General = {
+        UnitName = '<LOC tm_brpt1expbot_name>Thaam-Thuum',
+    },
+    Description = '<LOC tm_brpt1expbot_desc>Advanced Battle Bot',
+    Interface = {
+        HelpText = '<LOC tm_brpt1expbot_help>Advanced Battle Bot',
+    },
+}

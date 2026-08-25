@@ -1,0 +1,12 @@
+-- [Seraphim] BRPT2EXPD
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brpt2expd',
+    General = {
+        UnitName = '<LOC tm_brpt2expd_name>Heth-Athala',
+    },
+    Description = '<LOC tm_brpt2expd_desc>Experimental Point Defense',
+    Interface = {
+        HelpText = '<LOC tm_brpt2expd_help>Experimental Point Defense',
+    },
+}

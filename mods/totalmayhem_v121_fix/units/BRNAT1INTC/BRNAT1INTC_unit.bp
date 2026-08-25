@@ -1,0 +1,12 @@
+-- [UEF] BRNAT1INTC
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnat1intc',
+    General = {
+        UnitName = '<LOC tm_brnat1intc_name>Pugnator',
+    },
+    Description = '<LOC tm_brnat1intc_desc>Fighter',
+    Interface = {
+        HelpText = '<LOC tm_brnat1intc_help>Fighter',
+    },
+}

@@ -1,0 +1,12 @@
+-- [UEF] BRNBAAFAC
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnbaafac',
+    General = {
+        UnitName = '<LOC tm_brnbaafac_name>Sky-Force',
+    },
+    Description = '<LOC tm_brnbaafac_desc>HydroCarbon Anti-Air Perimeter Control System',
+    Interface = {
+        HelpText = '<LOC tm_brnbaafac_help>HydroCarbon Anti-Air Perimeter Control System',
+    },
+}

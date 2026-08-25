@@ -1,0 +1,12 @@
+-- [UEF] BRNT3ABB
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt3abb',
+    General = {
+        UnitName = '<LOC tm_brnt3abb_name>IronFist',
+    },
+    Description = '<LOC tm_brnt3abb_desc>Armored Battle Bot',
+    Interface = {
+        HelpText = '<LOC tm_brnt3abb_help>Armored Battle Bot',
+    },
+}

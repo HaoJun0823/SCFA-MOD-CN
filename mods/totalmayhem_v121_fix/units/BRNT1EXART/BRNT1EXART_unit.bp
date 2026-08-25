@@ -1,0 +1,12 @@
+-- [UEF] BRNT1EXART
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt1exart',
+    General = {
+        UnitName = '<LOC tm_brnt1exart_name>Lumberjack',
+    },
+    Description = '<LOC tm_brnt1exart_desc>Experimental Artillery Installation',
+    Interface = {
+        HelpText = '<LOC tm_brnt1exart_help>Experimental Artillery Installation',
+    },
+}

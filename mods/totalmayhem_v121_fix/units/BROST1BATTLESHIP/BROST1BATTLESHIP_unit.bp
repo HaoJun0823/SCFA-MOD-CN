@@ -1,0 +1,12 @@
+-- [Aeon] BROST1BATTLESHIP
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brost1battleship',
+    General = {
+        UnitName = '<LOC tm_brost1battleship_name>Undine Class',
+    },
+    Description = '<LOC tm_brost1battleship_desc>Battleship',
+    Interface = {
+        HelpText = '<LOC tm_brost1battleship_help>Battleship',
+    },
+}

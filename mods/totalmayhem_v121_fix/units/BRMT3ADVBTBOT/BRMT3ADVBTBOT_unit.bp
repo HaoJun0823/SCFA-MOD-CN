@@ -1,0 +1,12 @@
+-- [Cybran] BRMT3ADVBTBOT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt3advbtbot',
+    General = {
+        UnitName = '<LOC tm_brmt3advbtbot_name>Consolidator',
+    },
+    Description = '<LOC tm_brmt3advbtbot_desc>Advanced Battle Bot',
+    Interface = {
+        HelpText = '<LOC tm_brmt3advbtbot_help>Advanced Battle Bot',
+    },
+}

@@ -1,0 +1,12 @@
+-- [Cybran] BRMT2MEDM
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt2medm',
+    General = {
+        UnitName = '<LOC tm_brmt2medm_name>Pyrite mk.2',
+    },
+    Description = '<LOC tm_brmt2medm_desc>Advanced Riot Bot',
+    Interface = {
+        HelpText = '<LOC tm_brmt2medm_help>Advanced Riot Bot',
+    },
+}

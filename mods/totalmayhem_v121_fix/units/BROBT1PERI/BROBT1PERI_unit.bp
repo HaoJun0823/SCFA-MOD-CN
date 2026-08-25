@@ -1,0 +1,12 @@
+-- [Aeon] BROBT1PERI
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brobt1peri',
+    General = {
+        UnitName = '<LOC tm_brobt1peri_name>Finther',
+    },
+    Description = '<LOC tm_brobt1peri_desc>HydroCarbon Perimeter Monitoring System',
+    Interface = {
+        HelpText = '<LOC tm_brobt1peri_help>HydroCarbon Perimeter Monitoring System',
+    },
+}

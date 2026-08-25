@@ -1,0 +1,12 @@
+-- [Cybran] BRMAT1ADVFIG
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmat1advfig',
+    General = {
+        UnitName = '<LOC tm_brmat1advfig_name>Venom',
+    },
+    Description = '<LOC tm_brmat1advfig_desc>Combat Fighter',
+    Interface = {
+        HelpText = '<LOC tm_brmat1advfig_help>Combat Fighter',
+    },
+}

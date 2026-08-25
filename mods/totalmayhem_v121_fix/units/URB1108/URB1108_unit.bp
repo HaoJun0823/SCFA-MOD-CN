@@ -1,0 +1,8 @@
+-- [Cybran] URB1108
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'urb1108',
+    General = {
+        UnitName = '<LOC tm_urb1108_name>',
+    },
+}

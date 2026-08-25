@@ -1,0 +1,8 @@
+-- [Cybran] BRMBT1AIRST
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmbt1airst',
+    General = {
+        UnitName = '<LOC tm_brmbt1airst_name>',
+    },
+}

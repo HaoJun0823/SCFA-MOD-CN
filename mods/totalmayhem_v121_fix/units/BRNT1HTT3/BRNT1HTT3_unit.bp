@@ -1,0 +1,12 @@
+-- [UEF] BRNT1HTT3
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt1htt3',
+    General = {
+        UnitName = '<LOC tm_brnt1htt3_name>Predator mk.3',
+    },
+    Description = '<LOC tm_brnt1htt3_desc>Heavy Tank',
+    Interface = {
+        HelpText = '<LOC tm_brnt1htt3_help>Heavy Tank',
+    },
+}

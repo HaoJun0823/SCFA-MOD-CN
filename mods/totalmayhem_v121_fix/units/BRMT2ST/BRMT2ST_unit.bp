@@ -1,0 +1,12 @@
+-- [Cybran] BRMT2ST
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt2st',
+    General = {
+        UnitName = '<LOC tm_brmt2st_name>Raider',
+    },
+    Description = '<LOC tm_brmt2st_desc>Stealth Tank',
+    Interface = {
+        HelpText = '<LOC tm_brmt2st_help>Stealth Tank',
+    },
+}

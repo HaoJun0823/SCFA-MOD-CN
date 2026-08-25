@@ -1,0 +1,12 @@
+-- [Cybran] BRMT2EPD
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt2epd',
+    General = {
+        UnitName = '<LOC tm_brmt2epd_name>Anode mk.2',
+    },
+    Description = '<LOC tm_brmt2epd_desc>Experimental Point Defense',
+    Interface = {
+        HelpText = '<LOC tm_brmt2epd_help>Experimental Point Defense',
+    },
+}

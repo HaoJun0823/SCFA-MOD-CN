@@ -1,0 +1,12 @@
+-- [UEF] BRNGRND1
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brngrnd1',
+    General = {
+        UnitName = '<LOC tm_brngrnd1_name>Tarmac',
+    },
+    Description = '<LOC tm_brngrnd1_desc>Ground Tarmac Big',
+    Interface = {
+        HelpText = '<LOC tm_brngrnd1_help>Ground Tarmac Big',
+    },
+}

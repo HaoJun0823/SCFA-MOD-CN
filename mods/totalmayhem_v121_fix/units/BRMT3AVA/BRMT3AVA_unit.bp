@@ -1,0 +1,12 @@
+-- [Cybran] BRMT3AVA
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt3ava',
+    General = {
+        UnitName = '<LOC tm_brmt3ava_name>Avalanche mk.2',
+    },
+    Description = '<LOC tm_brmt3ava_desc>Prototype Ultraheavy Beetlebot',
+    Interface = {
+        HelpText = '<LOC tm_brmt3ava_help>Prototype Ultraheavy Beetlebot',
+    },
+}

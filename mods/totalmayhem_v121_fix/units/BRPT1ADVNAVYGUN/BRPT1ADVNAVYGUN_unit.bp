@@ -1,0 +1,12 @@
+-- [Seraphim] BRPT1ADVNAVYGUN
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brpt1advnavygun',
+    General = {
+        UnitName = '<LOC tm_brpt1advnavygun_name>Thuos-Thaamla',
+    },
+    Description = '<LOC tm_brpt1advnavygun_desc>Anti-Navy Defense',
+    Interface = {
+        HelpText = '<LOC tm_brpt1advnavygun_help>Anti-Navy Defense',
+    },
+}

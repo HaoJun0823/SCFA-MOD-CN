@@ -1,0 +1,12 @@
+-- [Cybran] BRMGRND1
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmgrnd1',
+    General = {
+        UnitName = '<LOC tm_brmgrnd1_name>Tarmac',
+    },
+    Description = '<LOC tm_brmgrnd1_desc>Ground Tarmac Big',
+    Interface = {
+        HelpText = '<LOC tm_brmgrnd1_help>Ground Tarmac Big',
+    },
+}

@@ -1,0 +1,12 @@
+-- [UEF] BRNT3ARGUS
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt3argus',
+    General = {
+        UnitName = '<LOC tm_brnt3argus_name>Argus',
+    },
+    Description = '<LOC tm_brnt3argus_desc>Experimental Battlemech',
+    Interface = {
+        HelpText = '<LOC tm_brnt3argus_help>Experimental Battlemech',
+    },
+}

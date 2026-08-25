@@ -1,0 +1,12 @@
+-- [Seraphim] BRPGRND1
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brpgrnd1',
+    General = {
+        UnitName = '<LOC tm_brpgrnd1_name>Tarmac',
+    },
+    Description = '<LOC tm_brpgrnd1_desc>Ground Tarmac Big',
+    Interface = {
+        HelpText = '<LOC tm_brpgrnd1_help>Ground Tarmac Big',
+    },
+}

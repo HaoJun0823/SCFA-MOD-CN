@@ -1,0 +1,12 @@
+-- [UEF] BRNT2PD2
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt2pd2',
+    General = {
+        UnitName = '<LOC tm_brnt2pd2_name>Ace mk.2',
+    },
+    Description = '<LOC tm_brnt2pd2_desc>Heavy Point Defense',
+    Interface = {
+        HelpText = '<LOC tm_brnt2pd2_help>Heavy Point Defense',
+    },
+}

@@ -1,0 +1,12 @@
+-- [UEF] BRNT2EXMDF
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt2exmdf',
+    General = {
+        UnitName = '<LOC tm_brnt2exmdf_name>Horizon',
+    },
+    Description = '<LOC tm_brnt2exmdf_desc>Advanced Mobile Defense System',
+    Interface = {
+        HelpText = '<LOC tm_brnt2exmdf_help>Advanced Mobile Defense System',
+    },
+}

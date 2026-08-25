@@ -1,0 +1,12 @@
+-- [Aeon] BROGRND1
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brogrnd1',
+    General = {
+        UnitName = '<LOC tm_brogrnd1_name>Tarmac',
+    },
+    Description = '<LOC tm_brogrnd1_desc>Ground Tarmac Big',
+    Interface = {
+        HelpText = '<LOC tm_brogrnd1_help>Ground Tarmac Big',
+    },
+}

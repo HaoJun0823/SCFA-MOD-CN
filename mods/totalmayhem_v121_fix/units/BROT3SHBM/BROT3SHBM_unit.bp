@@ -1,0 +1,12 @@
+-- [Aeon] BROT3SHBM
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brot3shbm',
+    General = {
+        UnitName = '<LOC tm_brot3shbm_name>Enforcer',
+    },
+    Description = '<LOC tm_brot3shbm_desc>Experimental Heavy Assault Mech',
+    Interface = {
+        HelpText = '<LOC tm_brot3shbm_help>Experimental Heavy Assault Mech',
+    },
+}

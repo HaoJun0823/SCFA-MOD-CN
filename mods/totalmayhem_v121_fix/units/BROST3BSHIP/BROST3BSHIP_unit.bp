@@ -1,0 +1,12 @@
+-- [Aeon] BROST3BSHIP
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brost3bship',
+    General = {
+        UnitName = '<LOC tm_brost3bship_name>Lupen Class',
+    },
+    Description = '<LOC tm_brost3bship_desc>Advanced Battle Ship',
+    Interface = {
+        HelpText = '<LOC tm_brost3bship_help>Advanced Battle Ship',
+    },
+}

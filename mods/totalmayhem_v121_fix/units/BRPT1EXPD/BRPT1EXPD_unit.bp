@@ -1,0 +1,12 @@
+-- [Seraphim] BRPT1EXPD
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brpt1expd',
+    General = {
+        UnitName = '<LOC tm_brpt1expd_name>Ve-Us',
+    },
+    Description = '<LOC tm_brpt1expd_desc>Experimental Point Defense',
+    Interface = {
+        HelpText = '<LOC tm_brpt1expd_help>Experimental Point Defense',
+    },
+}

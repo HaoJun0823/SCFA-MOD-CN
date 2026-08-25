@@ -1,0 +1,12 @@
+-- [Cybran] BRMT3AA
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt3aa',
+    General = {
+        UnitName = '<LOC tm_brmt3aa_name>Sentinel',
+    },
+    Description = '<LOC tm_brmt3aa_desc>Mobile Anti-Air',
+    Interface = {
+        HelpText = '<LOC tm_brmt3aa_help>Mobile Anti-Air',
+    },
+}

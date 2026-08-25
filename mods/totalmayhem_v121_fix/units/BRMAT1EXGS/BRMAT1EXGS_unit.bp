@@ -1,0 +1,12 @@
+-- [Cybran] BRMAT1EXGS
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmat1exgs',
+    General = {
+        UnitName = '<LOC tm_brmat1exgs_name>Eclipse',
+    },
+    Description = '<LOC tm_brmat1exgs_desc>Advanced Gunship',
+    Interface = {
+        HelpText = '<LOC tm_brmat1exgs_help>Advanced Gunship',
+    },
+}

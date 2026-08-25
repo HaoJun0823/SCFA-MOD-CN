@@ -1,0 +1,12 @@
+-- [Aeon] BROAT2EXGS
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'broat2exgs',
+    General = {
+        UnitName = '<LOC tm_broat2exgs_name>Galaxy',
+    },
+    Description = '<LOC tm_broat2exgs_desc>Advanced AA Gunship',
+    Interface = {
+        HelpText = '<LOC tm_broat2exgs_help>Advanced AA Gunship',
+    },
+}

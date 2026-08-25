@@ -1,0 +1,12 @@
+-- [UEF] BRNAT3BOMBER
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnat3bomber',
+    General = {
+        UnitName = '<LOC tm_brnat3bomber_name>Havoc',
+    },
+    Description = '<LOC tm_brnat3bomber_desc>Advanced Bomber',
+    Interface = {
+        HelpText = '<LOC tm_brnat3bomber_help>Advanced Bomber',
+    },
+}

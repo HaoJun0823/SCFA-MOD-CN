@@ -1,0 +1,12 @@
+-- [Cybran] BRMAT2ADVBOMBER
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmat2advbomber',
+    General = {
+        UnitName = '<LOC tm_brmat2advbomber_name>Eagle-Eye',
+    },
+    Description = '<LOC tm_brmat2advbomber_desc>Advanced Stealth Bomber',
+    Interface = {
+        HelpText = '<LOC tm_brmat2advbomber_help>Advanced Stealth Bomber',
+    },
+}

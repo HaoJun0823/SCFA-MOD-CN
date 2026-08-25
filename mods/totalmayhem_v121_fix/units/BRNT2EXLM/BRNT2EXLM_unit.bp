@@ -1,0 +1,12 @@
+-- [UEF] BRNT2EXLM
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt2exlm',
+    General = {
+        UnitName = '<LOC tm_brnt2exlm_name>Firestorm',
+    },
+    Description = '<LOC tm_brnt2exlm_desc>Advanced Light Assault Mech',
+    Interface = {
+        HelpText = '<LOC tm_brnt2exlm_help>Advanced Light Assault Mech',
+    },
+}

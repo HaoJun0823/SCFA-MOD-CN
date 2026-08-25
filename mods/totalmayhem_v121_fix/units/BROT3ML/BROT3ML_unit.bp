@@ -1,0 +1,12 @@
+-- [Aeon] BROT3ML
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brot3ml',
+    General = {
+        UnitName = '<LOC tm_brot3ml_name>Eruption',
+    },
+    Description = '<LOC tm_brot3ml_desc>Plasma Battery',
+    Interface = {
+        HelpText = '<LOC tm_brot3ml_help>Plasma Battery',
+    },
+}

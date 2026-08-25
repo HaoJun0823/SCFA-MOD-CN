@@ -1,0 +1,8 @@
+-- [Seraphim] XSB1108
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'xsb1108',
+    General = {
+        UnitName = '<LOC tm_xsb1108_name>',
+    },
+}

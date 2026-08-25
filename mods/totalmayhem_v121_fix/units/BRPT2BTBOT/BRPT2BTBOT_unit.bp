@@ -1,0 +1,12 @@
+-- [Seraphim] BRPT2BTBOT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brpt2btbot',
+    General = {
+        UnitName = '<LOC tm_brpt2btbot_name>Iltha',
+    },
+    Description = '<LOC tm_brpt2btbot_desc>Heavy Battle Bot',
+    Interface = {
+        HelpText = '<LOC tm_brpt2btbot_help>Heavy Battle Bot',
+    },
+}

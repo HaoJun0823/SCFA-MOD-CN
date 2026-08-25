@@ -1,0 +1,12 @@
+-- [Cybran] BRMT3VUL
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt3vul',
+    General = {
+        UnitName = '<LOC tm_brmt3vul_name>Vulture',
+    },
+    Description = '<LOC tm_brmt3vul_desc>Experimental Medium Mech',
+    Interface = {
+        HelpText = '<LOC tm_brmt3vul_help>Experimental Medium Mech',
+    },
+}

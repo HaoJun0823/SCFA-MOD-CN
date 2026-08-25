@@ -1,0 +1,12 @@
+-- [UEF] BRNT1ADVBOT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt1advbot',
+    General = {
+        UnitName = '<LOC tm_brnt1advbot_name>Warden',
+    },
+    Description = '<LOC tm_brnt1advbot_desc>Advanced Battle Bot',
+    Interface = {
+        HelpText = '<LOC tm_brnt1advbot_help>Advanced Battle Bot',
+    },
+}

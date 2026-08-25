@@ -1,0 +1,8 @@
+-- [Aeon] UAB1108
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'uab1108',
+    General = {
+        UnitName = '<LOC tm_uab1108_name>',
+    },
+}

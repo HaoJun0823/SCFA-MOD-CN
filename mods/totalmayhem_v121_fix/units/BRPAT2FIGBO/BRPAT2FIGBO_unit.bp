@@ -1,0 +1,12 @@
+-- [Cybran] BRPAT2FIGBO
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brpat2figbo',
+    General = {
+        UnitName = '<LOC tm_brpat2figbo_name>Uhthesinn',
+    },
+    Description = '<LOC tm_brpat2figbo_desc>Fighter',
+    Interface = {
+        HelpText = '<LOC tm_brpat2figbo_help>Fighter',
+    },
+}

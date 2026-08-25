@@ -1,0 +1,12 @@
+-- [Cybran] BRMT3BM2MK2
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt3bm2mk2',
+    General = {
+        UnitName = '<LOC tm_brmt3bm2mk2_name>Destructor mk.2',
+    },
+    Description = '<LOC tm_brmt3bm2mk2_desc>Heavy Battle Mech',
+    Interface = {
+        HelpText = '<LOC tm_brmt3bm2mk2_help>Heavy Battle Mech',
+    },
+}

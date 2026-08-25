@@ -1,0 +1,12 @@
+-- [Aeon] BROT1MT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brot1mt',
+    General = {
+        UnitName = '<LOC tm_brot1mt_name>Lintea',
+    },
+    Description = '<LOC tm_brot1mt_desc>Medium Tank',
+    Interface = {
+        HelpText = '<LOC tm_brot1mt_help>Medium Tank',
+    },
+}

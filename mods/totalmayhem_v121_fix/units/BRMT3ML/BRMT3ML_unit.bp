@@ -1,0 +1,12 @@
+-- [Cybran] BRMT3ML
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt3ml',
+    General = {
+        UnitName = '<LOC tm_brmt3ml_name>Scarlet',
+    },
+    Description = '<LOC tm_brmt3ml_desc>Rocket Battery',
+    Interface = {
+        HelpText = '<LOC tm_brmt3ml_help>Rocket Battery',
+    },
+}

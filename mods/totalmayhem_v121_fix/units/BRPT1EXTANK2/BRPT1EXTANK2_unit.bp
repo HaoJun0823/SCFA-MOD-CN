@@ -1,0 +1,12 @@
+-- [Seraphim] BRPT1EXTANK2
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brpt1extank2',
+    General = {
+        UnitName = '<LOC tm_brpt1extank2_name>Yath-Us',
+    },
+    Description = '<LOC tm_brpt1extank2_desc>Advanced Assault Tank',
+    Interface = {
+        HelpText = '<LOC tm_brpt1extank2_help>Advanced Assault Tank',
+    },
+}

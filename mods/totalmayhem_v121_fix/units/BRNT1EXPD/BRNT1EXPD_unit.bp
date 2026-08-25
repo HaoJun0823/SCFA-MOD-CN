@@ -1,0 +1,12 @@
+-- [UEF] BRNT1EXPD
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt1expd',
+    General = {
+        UnitName = '<LOC tm_brnt1expd_name>Mayor mk.2',
+    },
+    Description = '<LOC tm_brnt1expd_desc>Experimental Gatling Defense System',
+    Interface = {
+        HelpText = '<LOC tm_brnt1expd_help>Experimental Gatling Defense System',
+    },
+}

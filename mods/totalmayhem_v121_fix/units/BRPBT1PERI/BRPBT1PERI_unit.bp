@@ -1,0 +1,12 @@
+-- [Seraphim] BRPBT1PERI
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brpbt1peri',
+    General = {
+        UnitName = '<LOC tm_brpbt1peri_name>Uyal Ha-Esel',
+    },
+    Description = '<LOC tm_brpbt1peri_desc>HydroCarbon Perimeter Monitoring System',
+    Interface = {
+        HelpText = '<LOC tm_brpbt1peri_help>HydroCarbon Perimeter Monitoring System',
+    },
+}

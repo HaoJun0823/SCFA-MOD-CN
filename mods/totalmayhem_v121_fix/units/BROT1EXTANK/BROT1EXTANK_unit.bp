@@ -1,0 +1,12 @@
+-- [Aeon] BROT1EXTANK
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brot1extank',
+    General = {
+        UnitName = '<LOC tm_brot1extank_name>Tridymite',
+    },
+    Description = '<LOC tm_brot1extank_desc>Advanced Battle Tank',
+    Interface = {
+        HelpText = '<LOC tm_brot1extank_help>Advanced Battle Tank',
+    },
+}

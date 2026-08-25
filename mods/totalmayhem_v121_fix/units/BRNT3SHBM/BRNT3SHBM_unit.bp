@@ -1,0 +1,12 @@
+-- [UEF] BRNT3SHBM
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt3shbm',
+    General = {
+        UnitName = '<LOC tm_brnt3shbm_name>Mayhem mk.2',
+    },
+    Description = '<LOC tm_brnt3shbm_desc>Experimental Heavy Battlemech',
+    Interface = {
+        HelpText = '<LOC tm_brnt3shbm_help>Experimental Heavy Battlemech',
+    },
+}

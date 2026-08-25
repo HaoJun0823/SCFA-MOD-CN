@@ -1,0 +1,12 @@
+-- [Aeon] BROT3BTBOT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brot3btbot',
+    General = {
+        UnitName = '<LOC tm_brot3btbot_name>Paladin',
+    },
+    Description = '<LOC tm_brot3btbot_desc>Illuminate Knight',
+    Interface = {
+        HelpText = '<LOC tm_brot3btbot_help>Illuminate Knight',
+    },
+}

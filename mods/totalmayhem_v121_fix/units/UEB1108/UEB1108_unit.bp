@@ -1,0 +1,8 @@
+-- [UEF] UEB1108
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'ueb1108',
+    General = {
+        UnitName = '<LOC tm_ueb1108_name>',
+    },
+}

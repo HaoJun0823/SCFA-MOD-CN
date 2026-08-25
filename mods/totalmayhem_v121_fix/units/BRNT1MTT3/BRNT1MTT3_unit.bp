@@ -1,0 +1,12 @@
+-- [UEF] BRNT1MTT3
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt1mtt3',
+    General = {
+        UnitName = '<LOC tm_brnt1mtt3_name>Marmor mk.3',
+    },
+    Description = '<LOC tm_brnt1mtt3_desc>Medium Tank',
+    Interface = {
+        HelpText = '<LOC tm_brnt1mtt3_help>Medium Tank',
+    },
+}

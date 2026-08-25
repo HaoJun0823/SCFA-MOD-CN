@@ -1,0 +1,12 @@
+-- [Aeon] BROT1EXMOBART
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brot1exmobart',
+    General = {
+        UnitName = '<LOC tm_brot1exmobart_name>Starfall',
+    },
+    Description = '<LOC tm_brot1exmobart_desc>Advanced Mobile Artillery',
+    Interface = {
+        HelpText = '<LOC tm_brot1exmobart_help>Advanced Mobile Artillery',
+    },
+}

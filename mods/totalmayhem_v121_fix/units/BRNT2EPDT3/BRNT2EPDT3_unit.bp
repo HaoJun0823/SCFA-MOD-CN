@@ -1,0 +1,12 @@
+-- [UEF] BRNT2EPDT3
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt2epdt3',
+    General = {
+        UnitName = '<LOC tm_brnt2epdt3_name>Tower Boss mk.2',
+    },
+    Description = '<LOC tm_brnt2epdt3_desc>Experimental Plasmacannon',
+    Interface = {
+        HelpText = '<LOC tm_brnt2epdt3_help>Experimental Plasmacannon',
+    },
+}

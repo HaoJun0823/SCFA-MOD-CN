@@ -1,0 +1,12 @@
+-- [Seraphim] BRPT2EXBOT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brpt2exbot',
+    General = {
+        UnitName = '<LOC tm_brpt2exbot_name>Yenah-lao',
+    },
+    Description = '<LOC tm_brpt2exbot_desc>Advanced Battle Bot',
+    Interface = {
+        HelpText = '<LOC tm_brpt2exbot_help>Advanced Battle Bot',
+    },
+}

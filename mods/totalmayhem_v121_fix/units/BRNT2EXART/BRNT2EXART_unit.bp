@@ -1,0 +1,12 @@
+-- [UEF] BRNT2EXART
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt2exart',
+    General = {
+        UnitName = '<LOC tm_brnt2exart_name>Big Jack',
+    },
+    Description = '<LOC tm_brnt2exart_desc>Experimental Artillery Installation',
+    Interface = {
+        HelpText = '<LOC tm_brnt2exart_help>Experimental Artillery Installation',
+    },
+}

@@ -1,0 +1,12 @@
+-- [UEF] BRNT3BAT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt3bat',
+    General = {
+        UnitName = '<LOC tm_brnt3bat_name>Rampart',
+    },
+    Description = '<LOC tm_brnt3bat_desc>Experimental Mobile Artillery',
+    Interface = {
+        HelpText = '<LOC tm_brnt3bat_help>Experimental Mobile Artillery',
+    },
+}

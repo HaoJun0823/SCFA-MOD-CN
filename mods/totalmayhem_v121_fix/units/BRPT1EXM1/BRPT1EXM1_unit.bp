@@ -1,0 +1,12 @@
+-- [Seraphim] BRPT1EXM1
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brpt1exm1',
+    General = {
+        UnitName = '<LOC tm_brpt1exm1_name>Othazyne',
+    },
+    Description = '<LOC tm_brpt1exm1_desc>Heavy Battle Bot',
+    Interface = {
+        HelpText = '<LOC tm_brpt1exm1_help>Heavy Battle Bot',
+    },
+}

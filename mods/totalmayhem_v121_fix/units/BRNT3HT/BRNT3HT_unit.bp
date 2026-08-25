@@ -1,0 +1,12 @@
+-- [UEF] BRNT3HT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt3ht',
+    General = {
+        UnitName = '<LOC tm_brnt3ht_name>Crawler mk.2',
+    },
+    Description = '<LOC tm_brnt3ht_desc>Heavy Tank',
+    Interface = {
+        HelpText = '<LOC tm_brnt3ht_help>Heavy Tank',
+    },
+}

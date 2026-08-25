@@ -1,0 +1,12 @@
+-- [Cybran] BRMT3LZT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt3lzt',
+    General = {
+        UnitName = '<LOC tm_brmt3lzt_name>Delusion mk.3',
+    },
+    Description = '<LOC tm_brmt3lzt_desc>Laser Tank',
+    Interface = {
+        HelpText = '<LOC tm_brmt3lzt_help>Laser Tank',
+    },
+}

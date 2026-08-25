@@ -1,0 +1,12 @@
+-- [Cybran] BRMT2PD
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt2pd',
+    General = {
+        UnitName = '<LOC tm_brmt2pd_name>Sabertooth',
+    },
+    Description = '<LOC tm_brmt2pd_desc>Heavy Point Defense',
+    Interface = {
+        HelpText = '<LOC tm_brmt2pd_help>Heavy Point Defense',
+    },
+}

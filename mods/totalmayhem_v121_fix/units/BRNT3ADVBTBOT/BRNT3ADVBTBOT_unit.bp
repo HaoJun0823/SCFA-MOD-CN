@@ -1,0 +1,12 @@
+-- [UEF] BRNT3ADVBTBOT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt3advbtbot',
+    General = {
+        UnitName = '<LOC tm_brnt3advbtbot_name>Hurricane',
+    },
+    Description = '<LOC tm_brnt3advbtbot_desc>Advanced Battlemech',
+    Interface = {
+        HelpText = '<LOC tm_brnt3advbtbot_help>Advanced Battlemech',
+    },
+}

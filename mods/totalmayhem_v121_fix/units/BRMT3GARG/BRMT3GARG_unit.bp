@@ -1,0 +1,12 @@
+-- [Cybran] BRMT3GARG
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt3garg',
+    General = {
+        UnitName = '<LOC tm_brmt3garg_name>Gargantua',
+    },
+    Description = '<LOC tm_brmt3garg_desc>Advanced Assault Bot',
+    Interface = {
+        HelpText = '<LOC tm_brmt3garg_help>Advanced Assault Bot',
+    },
+}

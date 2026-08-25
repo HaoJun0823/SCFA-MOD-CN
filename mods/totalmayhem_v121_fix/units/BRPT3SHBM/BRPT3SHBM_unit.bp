@@ -1,0 +1,12 @@
+-- [Seraphim] BRPT3SHBM
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brpt3shbm',
+    General = {
+        UnitName = '<LOC tm_brpt3shbm_name>Thaez-Atha',
+    },
+    Description = '<LOC tm_brpt3shbm_desc>Experimental Mega Bot',
+    Interface = {
+        HelpText = '<LOC tm_brpt3shbm_help>Experimental Mega Bot',
+    },
+}

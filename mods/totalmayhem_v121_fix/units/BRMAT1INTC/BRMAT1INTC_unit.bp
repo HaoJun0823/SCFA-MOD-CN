@@ -1,0 +1,12 @@
+-- [Cybran] BRMAT1INTC
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmat1intc',
+    General = {
+        UnitName = '<LOC tm_brmat1intc_name>Velox',
+    },
+    Description = '<LOC tm_brmat1intc_desc>Interceptor',
+    Interface = {
+        HelpText = '<LOC tm_brmat1intc_help>Interceptor',
+    },
+}

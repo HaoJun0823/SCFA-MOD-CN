@@ -1,0 +1,12 @@
+-- [Cybran] BRMGRND2
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmgrnd2',
+    General = {
+        UnitName = '<LOC tm_brmgrnd2_name>Tarmac',
+    },
+    Description = '<LOC tm_brmgrnd2_desc>Ground Tarmac Small',
+    Interface = {
+        HelpText = '<LOC tm_brmgrnd2_help>Ground Tarmac Small',
+    },
+}

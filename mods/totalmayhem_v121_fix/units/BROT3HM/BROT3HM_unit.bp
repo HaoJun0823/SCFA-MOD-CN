@@ -1,0 +1,12 @@
+-- [Aeon] BROT3HM
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brot3hm',
+    General = {
+        UnitName = '<LOC tm_brot3hm_name>Hydra',
+    },
+    Description = '<LOC tm_brot3hm_desc>Siege Mech',
+    Interface = {
+        HelpText = '<LOC tm_brot3hm_help>Siege Mech',
+    },
+}

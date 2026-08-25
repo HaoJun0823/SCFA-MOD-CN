@@ -1,0 +1,12 @@
+-- [Seraphim] BRPT1HT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brpt1ht',
+    General = {
+        UnitName = '<LOC tm_brpt1ht_name>Yenshavoh',
+    },
+    Description = '<LOC tm_brpt1ht_desc>Heavy Tank',
+    Interface = {
+        HelpText = '<LOC tm_brpt1ht_help>Heavy Tank',
+    },
+}

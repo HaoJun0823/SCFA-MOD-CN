@@ -1,0 +1,12 @@
+-- [Aeon] BROAT3BOMBER
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'broat3bomber',
+    General = {
+        UnitName = '<LOC tm_broat3bomber_name>Valiant',
+    },
+    Description = '<LOC tm_broat3bomber_desc>Advanced Bomber',
+    Interface = {
+        HelpText = '<LOC tm_broat3bomber_help>Advanced Bomber',
+    },
+}

@@ -1,0 +1,12 @@
+-- [UEF] BRNT3BLASP
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt3blasp',
+    General = {
+        UnitName = '<LOC tm_brnt3blasp_name>Blood Asp',
+    },
+    Description = '<LOC tm_brnt3blasp_desc>Experimental Heavy Mech',
+    Interface = {
+        HelpText = '<LOC tm_brnt3blasp_help>Experimental Heavy Mech',
+    },
+}

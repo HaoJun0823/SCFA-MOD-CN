@@ -1,0 +1,12 @@
+-- [Aeon] BRPAT1EXGUNSHIP
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brpat1exgunship',
+    General = {
+        UnitName = '<LOC tm_brpat1exgunship_name>Ia-Usla',
+    },
+    Description = '<LOC tm_brpat1exgunship_desc>Advanced Gunship',
+    Interface = {
+        HelpText = '<LOC tm_brpat1exgunship_help>Advanced Gunship',
+    },
+}

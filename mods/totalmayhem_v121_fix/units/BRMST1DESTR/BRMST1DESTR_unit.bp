@@ -1,0 +1,12 @@
+-- [Cybran] BRMST1DESTR
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmst1destr',
+    General = {
+        UnitName = '<LOC tm_brmst1destr_name>Charcaradon Class',
+    },
+    Description = '<LOC tm_brmst1destr_desc>Destroyer',
+    Interface = {
+        HelpText = '<LOC tm_brmst1destr_help>Battlecruiser',
+    },
+}

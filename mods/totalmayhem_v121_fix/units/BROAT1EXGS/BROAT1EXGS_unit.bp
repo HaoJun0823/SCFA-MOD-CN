@@ -1,0 +1,12 @@
+-- [Aeon] BROAT1EXGS
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'broat1exgs',
+    General = {
+        UnitName = '<LOC tm_broat1exgs_name>Halcyon',
+    },
+    Description = '<LOC tm_broat1exgs_desc>Advanced Gunship',
+    Interface = {
+        HelpText = '<LOC tm_broat1exgs_help>Advanced Gunship',
+    },
+}

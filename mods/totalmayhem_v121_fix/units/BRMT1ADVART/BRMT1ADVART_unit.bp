@@ -1,0 +1,12 @@
+-- [Cybran] BRMT1ADVART
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt1advart',
+    General = {
+        UnitName = '<LOC tm_brmt1advart_name>Dominion',
+    },
+    Description = '<LOC tm_brmt1advart_desc>Advanced Rapid-Fire Artillery',
+    Interface = {
+        HelpText = '<LOC tm_brmt1advart_help>Advanced Rapid-Fire Artillery',
+    },
+}

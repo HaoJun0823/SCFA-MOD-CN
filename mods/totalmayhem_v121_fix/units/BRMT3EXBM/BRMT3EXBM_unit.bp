@@ -1,0 +1,12 @@
+-- [Cybran] BRMT3EXBM
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt3exbm',
+    General = {
+        UnitName = '<LOC tm_brmt3exbm_name>Exemplar',
+    },
+    Description = '<LOC tm_brmt3exbm_desc>Experimental Battle Spiderbot',
+    Interface = {
+        HelpText = '<LOC tm_brmt3exbm_help>Experimental Battle Spiderbot',
+    },
+}

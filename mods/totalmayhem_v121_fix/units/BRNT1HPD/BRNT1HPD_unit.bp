@@ -1,0 +1,12 @@
+-- [UEF] BRNT1HPD
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt1hpd',
+    General = {
+        UnitName = '<LOC tm_brnt1hpd_name>Thug mk.2',
+    },
+    Description = '<LOC tm_brnt1hpd_desc>Heavy Point Defense',
+    Interface = {
+        HelpText = '<LOC tm_brnt1hpd_help>Heavy Point Defense',
+    },
+}

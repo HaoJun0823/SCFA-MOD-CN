@@ -1,0 +1,12 @@
+-- [Aeon] BROT3AA
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brot3aa',
+    General = {
+        UnitName = '<LOC tm_brot3aa_name>Tachylite',
+    },
+    Description = '<LOC tm_brot3aa_desc>Mobile Anti-Air',
+    Interface = {
+        HelpText = '<LOC tm_brot3aa_help>Mobile Anti-Air',
+    },
+}

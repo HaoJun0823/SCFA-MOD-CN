@@ -1,0 +1,12 @@
+-- [Cybran] BRMT3CLOAKER
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt3cloaker',
+    General = {
+        UnitName = '<LOC tm_brmt3cloaker_name>Indigo',
+    },
+    Description = '<LOC tm_brmt3cloaker_desc>Experimental Mobile Cloakfield Generator',
+    Interface = {
+        HelpText = '<LOC tm_brmt3cloaker_help>Experimental Mobile Cloakfield Generator',
+    },
+}

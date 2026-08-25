@@ -1,0 +1,12 @@
+-- [UEF] BRNT3SHBM2
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt3shbm2',
+    General = {
+        UnitName = '<LOC tm_brnt3shbm2_name>Mayhem mk.4',
+    },
+    Description = '<LOC tm_brnt3shbm2_desc>Prototype Ultraheavy Battlemech',
+    Interface = {
+        HelpText = '<LOC tm_brnt3shbm2_help>Prototype Ultraheavy Battlemech',
+    },
+}

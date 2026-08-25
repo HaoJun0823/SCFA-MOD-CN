@@ -1,0 +1,12 @@
+-- [UEF] BRNT1EXM1
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt1exm1',
+    General = {
+        UnitName = '<LOC tm_brnt1exm1_name>Kruger mk.2',
+    },
+    Description = '<LOC tm_brnt1exm1_desc>Advanced Assault Tank',
+    Interface = {
+        HelpText = '<LOC tm_brnt1exm1_help>Advanced Assault Tank',
+    },
+}

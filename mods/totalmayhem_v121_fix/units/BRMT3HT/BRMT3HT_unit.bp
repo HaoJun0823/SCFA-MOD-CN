@@ -1,0 +1,12 @@
+-- [Cybran] BRMT3HT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt3ht',
+    General = {
+        UnitName = '<LOC tm_brmt3ht_name>Carnage mk.3',
+    },
+    Description = '<LOC tm_brmt3ht_desc>Medium Tank',
+    Interface = {
+        HelpText = '<LOC tm_brmt3ht_help>Medium Tank',
+    },
+}

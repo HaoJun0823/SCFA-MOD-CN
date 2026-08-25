@@ -1,0 +1,12 @@
+-- [Aeon] BROT3PDRO
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brot3pdro',
+    General = {
+        UnitName = '<LOC tm_brot3pdro_name>Zheela mk2',
+    },
+    Description = '<LOC tm_brot3pdro_desc>Heavy Plasma Artillery Installation',
+    Interface = {
+        HelpText = '<LOC tm_brot3pdro_help>Heavy Plasma Artillery Installation',
+    },
+}

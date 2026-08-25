@@ -1,0 +1,12 @@
+-- [UEF] BRNAT3AIRSUP
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnat3airsup',
+    General = {
+        UnitName = '<LOC tm_brnat3airsup_name>Falcon',
+    },
+    Description = '<LOC tm_brnat3airsup_desc>Stealth Fighter',
+    Interface = {
+        HelpText = '<LOC tm_brnat3airsup_help>Stealth Fighter',
+    },
+}

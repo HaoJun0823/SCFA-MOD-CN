@@ -1,0 +1,12 @@
+-- [Seraphim] BRPT3BT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brpt3bt',
+    General = {
+        UnitName = '<LOC tm_brpt3bt_name>Hethaamah',
+    },
+    Description = '<LOC tm_brpt3bt_desc>Battle Tank',
+    Interface = {
+        HelpText = '<LOC tm_brpt3bt_help>Battle Tank',
+    },
+}

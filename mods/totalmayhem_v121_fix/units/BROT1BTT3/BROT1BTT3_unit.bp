@@ -1,0 +1,12 @@
+-- [Aeon] BROT1BTT3
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brot1btt3',
+    General = {
+        UnitName = '<LOC tm_brot1btt3_name>Hervour mk.3',
+    },
+    Description = '<LOC tm_brot1btt3_desc>Battle Tank',
+    Interface = {
+        HelpText = '<LOC tm_brot1btt3_help>Battle Tank',
+    },
+}

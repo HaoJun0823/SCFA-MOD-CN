@@ -1,0 +1,12 @@
+-- [UEF] BRNT2POTSHOT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt2potshot',
+    General = {
+        UnitName = '<LOC tm_brnt2potshot_name>Pot Shot',
+    },
+    Description = '<LOC tm_brnt2potshot_desc>Medium Artillery',
+    Interface = {
+        HelpText = '<LOC tm_brnt2potshot_help>Medium Artillery',
+    },
+}

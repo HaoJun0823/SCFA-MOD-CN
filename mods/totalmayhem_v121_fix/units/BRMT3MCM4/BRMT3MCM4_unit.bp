@@ -1,0 +1,12 @@
+-- [Cybran] BRMT3MCM4
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt3mcm4',
+    General = {
+        UnitName = '<LOC tm_brmt3mcm4_name>MadCat mk.4',
+    },
+    Description = '<LOC tm_brmt3mcm4_desc>Experimental Heavy Mech',
+    Interface = {
+        HelpText = '<LOC tm_brmt3mcm4_help>Experimental Heavy Mech',
+    },
+}

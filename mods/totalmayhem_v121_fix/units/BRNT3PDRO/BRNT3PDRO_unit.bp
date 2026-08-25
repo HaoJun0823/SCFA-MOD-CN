@@ -1,0 +1,12 @@
+-- [UEF] BRNT3PDRO
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt3pdro',
+    General = {
+        UnitName = '<LOC tm_brnt3pdro_name>Rocket Pad',
+    },
+    Description = '<LOC tm_brnt3pdro_desc>Rocket Defense System',
+    Interface = {
+        HelpText = '<LOC tm_brnt3pdro_help>Rocket Defense System',
+    },
+}

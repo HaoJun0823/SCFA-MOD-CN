@@ -1,0 +1,12 @@
+-- [Aeon] BROAT1INTC
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'broat1intc',
+    General = {
+        UnitName = '<LOC tm_broat1intc_name>Musca',
+    },
+    Description = '<LOC tm_broat1intc_desc>Interceptor',
+    Interface = {
+        HelpText = '<LOC tm_broat1intc_help>Interceptor',
+    },
+}

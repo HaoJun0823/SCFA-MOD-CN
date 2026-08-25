@@ -1,0 +1,12 @@
+-- [Aeon] BROT3SHPD
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brot3shpd',
+    General = {
+        UnitName = '<LOC tm_brot3shpd_name>Brute mk.2',
+    },
+    Description = '<LOC tm_brot3shpd_desc>Super Heavy Point Defense',
+    Interface = {
+        HelpText = '<LOC tm_brot3shpd_help>Super Heavy Point Defense',
+    },
+}

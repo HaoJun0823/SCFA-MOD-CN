@@ -1,0 +1,12 @@
+-- [Cybran] BRMT2HT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt2ht',
+    General = {
+        UnitName = '<LOC tm_brmt2ht_name>Leeroy mk.2',
+    },
+    Description = '<LOC tm_brmt2ht_desc>Heavy Armored Tank',
+    Interface = {
+        HelpText = '<LOC tm_brmt2ht_help>Heavy Armored Tank',
+    },
+}

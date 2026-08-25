@@ -1,0 +1,12 @@
+-- [Aeon] BROAT3ASUP
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'broat3asup',
+    General = {
+        UnitName = '<LOC tm_broat3asup_name>Stinger',
+    },
+    Description = '<LOC tm_broat3asup_desc>Stealth Fighter',
+    Interface = {
+        HelpText = '<LOC tm_broat3asup_help>Stealth Fighter',
+    },
+}

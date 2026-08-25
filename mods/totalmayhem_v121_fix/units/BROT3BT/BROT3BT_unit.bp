@@ -1,0 +1,12 @@
+-- [Aeon] BROT3BT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brot3bt',
+    General = {
+        UnitName = '<LOC tm_brot3bt_name>Rhyolite',
+    },
+    Description = '<LOC tm_brot3bt_desc>Battle Tank',
+    Interface = {
+        HelpText = '<LOC tm_brot3bt_help>Battle Tank',
+    },
+}

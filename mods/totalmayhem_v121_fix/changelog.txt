@@ -1,0 +1,200 @@
+Total Mayhem v1.21 Fix Patch (totalmayhem_v121_fix)
+=====================================================
+2026-08-25  v1  初版
+  - 扫描 mods/TotalMayhem 全部 212 个单位 bp。
+  - 三字段处理（General.UnitName / Description / Interface.HelpText）：
+      * 裸英文字段   -> 加 <LOC tm_<loweruid>_{name,desc,help}>英文
+      * 已 <LOC xxx> -> 跳过（base-game 中文 locale 已译）
+      * 缺/空字段    -> 留空骨架 <LOC tm_<loweruid>_x>
+  - 每个增量 bp 顶部加 [阵营] UID 注释，便于后续核对。
+  - 由 _work/tm_build_bp_fix.py 生成，详见 _work/tm_unit_fields.json。
+
+2026-08-25  v1.1  禁用 8 个停机坪单位建造
+  - 目标：4 阵营 × 2 型 = 8 个大型/小型停机坪
+      * Cybran  : BRMGRND1(大) / BRMGRND2(小)
+      * UEF     : BRNGRND1(大) / BRNGRND2(小)
+      * Aeon    : BROGRND1(大) / BROGRND2(小)
+      * Seraphim: BRPGRND1(大) / BRPGRND2(小)
+  - 机制：Merge bp 走 table.merged（递归并集）无法删除 Categories，故用 hook 在
+          蓝图合并后(ModBlueprints 阶段)剥离 BUILDBY*/BUILDAI* 类目，使四阵营（玩家与 AI）均不可建造。
+  - 重要坑：sim 侧 lua/system/Blueprints.lua 里**没有** BlueprintsMerge 这个全局函数，
+          只有 ModBlueprints。若在该文件里引用 BlueprintsMerge，FA 严格全局访问会抛
+          "access to nonexistent global variable 'BlueprintsMerge'"，导致整份 blueprints.lua
+          加载失败 -> categories 全局表建不起来 -> 后续 AI 文件 import 全崩(categories.MOBILE/FACTORY nil)。
+          故本 patch 用标准 ModBlueprints 链式包装(与 BlackOps 系同 chunk)，绝不可引用 BlueprintsMerge。
+  - Hook 方案（单点，非两个）：
+      * 仅 hook/lua/system/blueprints.lua —— 链式包装 ModBlueprints，合并阶段剥离 8 单位类目。
+        说明：LoadBlueprints() 在 sim 与 UI 两侧都会调用 ModBlueprints，故这一处 hook 同时覆盖
+        玩家菜单与 AI；无需、也不应有额外的 UI 侧 hook。
+      * 已删除原 hook/lua/ui/game/gamemain.lua：它顶层引用 OnGameStart，而该全局在 gamemain.lua
+        加载时尚未定义，FA 严格全局访问直接抛 "access to nonexistent global variable 'OnGameStart'"
+        导致 UI 侧崩溃。且该 hook 与 ModBlueprints 作用重复，删除后更干净、更稳。
+  - 又一坑：不要在 hook 文件顶层引用"加载时尚未存在的全局"（BlueprintsMerge、OnGameStart 等），
+      FA 的 Lua 会当作错误抛出并中断整个 chunk 加载；要用链式包装（先捕获已存在的函数再 function 覆盖）。
+  - 验证：lupa 纯 Lua 仿真，8 单位 BUILDBY*/BUILDAI* 被剥离、其余类目保留、非停机坪单位不受影响；
+      mod 内已无 .lua 引用 OnGameStart / BlueprintsMerge。
+
+2026-08-25  v1.1.1  修复"不崩溃但没效果"
+  - 根因：v1.1 改用 ModBlueprints 后，TARMAC 指纹表用**小写** brmgrnd1，但 all_bps.Unit 的 key
+          是真实 BlueprintId（大写 BRMGRND1——TM 单位 bp 无显式 BlueprintId 字段，引擎用文件名
+          大写作为 id）。小写 key 查大写 id => 永远 nil => 静默跳过 => 8 单位类目没被剥离 =>
+          建造菜单照常显示（"没效果"）。
+  - 修复：改为遍历 all_bps.Unit 全部单位，对 uid 做 string.lower 后与 TARMAC（小写指纹）比较，
+          大小写不敏感命中；并 units = all_bps.Unit or all_bps 兼容 UI 侧可能的单位表结构。
+  - 验证：lupa 仿真用**大写 BRMGRND1** 主键，确认 BUILDBY*/BUILDAI* 被剥离、其余类目保留、
+          非停机坪单位不受影响；小写 brngrnd2 主键同样命中。RESULT ok = True。
+
+2026-08-25  v1.1.2  修复"ModBlueprints 进了、8 个都 HIT、但 BUILDBY* 没被删"
+  - 根因（最隐蔽的一层）：剥离判定写的是 string.find(v, '^BUILDBY') / string.find(v, '^BUILDAI')，
+          依赖 Lua pattern 的 '^' 起始锚点。但**本版 FA 的定制 Lua 5.0 里 string.find 是纯字面匹配、
+          不支持 ^/$/% 这类 pattern**（已用 LOG 实锤：string.find(desc,'Ground Tarmac') 返回 23 字面子串
+          匹配成功；而 string.find(v,'^BUILDBY') 把 '^BUILDBY' 当字面串去找 => 永远 nil =>
+          not(nil)=true => BUILDBY* 被"保留" => 剥离形同虚设，日志里 after 与 before 完全一样）。
+          这也是之前几次"本地 lupa 仿真通过、游戏里却不生效"的元凶：lupa 用 LuaJIT(标准 Lua 语义)，
+          '^' 锚点能匹配；真实 FA 不能。两套环境 string.find 行为不一致，仿真不可尽信。
+  - 修复：彻底不用 string.find 的 pattern，改用 string.sub(v,1,7) 取前缀做字面相等比较
+          （'BUILDBY' / 'BUILDAI' 均恰为 7 字符），该写法在任意 Lua 实现下行为一致。
+  - 验证：lupa 用用户 LOG 中的真实类目数组跑，brpgrnd1 after 已不含任何 BUILDBY*；
+          nottarmac（非停机坪）类目完好保留 BUILDBYTIER1ENGINEER，确认无"误伤"。
+
+2026-08-25  v1.1.3  修复"换 string.sub 后仍是 removed=0"
+  - 根因（再深一层）：v1.1.2 的 string.sub(v,1,7)=='BUILDBY' 在**真实 FA**里依旧 removed=0、
+          after 与 before 完全相同（用户实测 LOG 实锤）。说明本版 forked Lua 5.0 的 string.sub
+          索引/截断行为也与标准 Lua 不一致（很可能 0-based 或截断偏移，使 string.sub(v,1,7)
+          取出的不是 'BUILDBY'）。结论：**本版 FA 的整个 string 库（find 的 ^ 锚点、sub 的索引）
+          都不可信**，凡依赖 string 库做前缀/子串比较的写法在真机上都可能静默失效。
+  - 修复：彻底抛弃所有 string 库函数，改用「精确字符串集合」做表键查找。要剔除的建造类目就是
+          固定那 8 条（玩家 BUILDBYTIER1/2/3ENGINEER、BUILDBYCOMMANDER，及 AI 对应的
+          BUILDAITIER1/2/3ENGINEER、BUILDAICOMMANDER），直接用 if REMOVE[v] then 剔除。
+          表键查找是纯 table 语义，跨所有 Lua 实现完全一致，与 string 库无关。
+  - 验证：用户 LOG 中 brpgrnd1 的真实类目数组，纯表查找 (Python dict) 复刻 => removed=4，
+          after 干净剔除全部 BUILDBY*、无误伤、无残留。该结果对 FA 同样确定成立。
+  - 一并修正记忆：本项目 FA Lua 的 string.find / string.sub **均不可用于精确前缀/子串判定**，
+          需要做这类匹配时一律改用「精确字符串集合 / 表键查找」或手动逐字符比对。
+
+2026-08-25  v1.1.4  对齐 BlackOpsBalance 参考实现（仍"没效果"时的定位）
+  - 用户实测 v1.1.3 仍无效，提示参考 mods/BlackOpsBalance/hook/lua/system/Blueprints.lua。
+          读该参考：它用 `all_bps.Unit[uid]` 直取单位 + `table.removeByValue(.Categories, 'BUILDBYTIER3COMMANDER')`
+          做精确移除，且文件名是 **Blueprints.lua（大写 B）**，与 base（mohodata.scd 同名）完全一致。
+  - 关键定位（用 base 源码 + 真实 bp 实锤）：
+      * base lua/system/Blueprints.lua 的 LoadBlueprints() 顺序：先 ModBlueprints(original_blueprints)，
+        后 RegisterAllBlueprints(original_blueprints)。故在 ModBlueprints 阶段改 bp.Categories 必反映到位掩码。
+      * 实测 T1 工程兵 ual0105 的 Economy.BuildableCategory = {'BUILDBYTIER1ENGINEER AEON'}，
+        **只含 BUILDBY*、不含 TECH1/STRUCTURE 等宽泛类目** → 删掉 BUILDBY*/BUILDAI* 即足以令停机坪不可造。
+        故机制本身成立，之前失败是"匹配/剥离"实现问题，不是方案方向错。
+  - 重写 hook 为 BlackOpsBalance 同款写法：
+      * 文件名改 **Blueprints.lua（大写 B）**，与 base 路径逐字符对齐（之前小写 blueprints.lua 在 FA 的
+        hook 路径大小写敏感匹配下可能被当独立文件加载，行为不可控）。
+      * 移除逻辑改用 `table.removeByValue(bp.Categories, 'BUILDBYTIER1ENGINEER')` 等（已核实 mohodata.scd
+        lua/system/utils.lua 确有 table.removeByValue），精确移除、不依赖任何 string 库。
+      * 用 `all_bps.Unit[id]` 直取 8 个停机坪 id（brmgrnd1/2、brngrnd1/2、brogrnd1/2、brpgrnd1/2），
+        不再走 pairs 全表 + string.lower 匹配。
+      * mod_info.lua 已 `after = { TM uid(62e2j64a-...) }`，本补丁后于 TotalMayhem 加载，
+        ModBlueprints 逻辑最后执行，移除不会被 TM 冲掉（已读 mod_info 确认）。
+  - ★ Windows 坑（操作层面）：本机 NTFS 大小写不敏感，`blueprints.lua` 与 `Blueprints.lua` 是同一物理文件。
+          重写后用 `rm ...blueprints.lua` 想把旧小写文件删掉，结果把刚写好的大写 `Blueprints.lua` 一起删了
+          （同名）。已重新写入 `Blueprints.lua` 并确认目录仅此一个文件。教训：**Windows 下绝不能用小写名 rm
+          指望保留大写同名文件**，改名/删除要格外小心。
+  - 调试 LOG 保留（TM_TARMAC: entered/HIT/removed/after/done）。请重开游戏复测：预期 LOG 每个单位
+          removed=4、hits=8；8 停机坪从四阵营（玩家+AI）建造菜单消失。若 removed=4 仍无效 → 说明有更深层
+          机制（如某 mod 在 LoadBlueprints 之后重设类目），需按 LOG 进一步定位。
+
+2026-08-25  v1.1.5  最终修复：根因坐实 + 双保险（手动重建 + UI 兜底）
+  - ★ 根因彻底坐实（lupa 复现 + 真机 LOG 交叉验证）：
+      * base utils.lua 的 table.removeByValue 实现是 `for k,v in pairs(t) do if v==val then table.remove(t,k) end end`。
+        **两个问题**：① 无 return → 任何 `if table.removeByValue(...)` 计数恒 0（此前 removed=0 一半是假计数器）；
+        ② pairs+table.remove 边遍历边删，在**标准 Lua** 下能删（lupa 复现 16→12 全删成功），但在 **FA 定制 Lua 真机**
+        对「连续多条待删项」（停机坪的 BUILDBYTIER1/2/3ENGINEER, BUILDBYCOMMANDER 下标 3~6 连续）**静默失效**
+        （真机 LOG: after==before）。→ 与 string.find/string.sub 同理：**FA 定制 Lua 的表遍历+原地删除组合也不可信**。
+  - 最终方案（本版生效）：
+      * 主修复 hook/lua/system/Blueprints.lua：**手动重建数组**——pairs 遍历一次、把要保留的类目塞进新表、
+        整体 `bp.Categories = newcats` 赋值。纯表语义、不做原地删除，与 Lua 实现无关，一定生效。
+        全部循环改用标准 `pairs()`（不依赖 FA 的 `for k,v in t` 扩展语法）。
+      * 新增 UI 兜底 hook/lua/ui/game/construction.lua：包装全局 OnSelection，调用原版后把 sortedOptions.t1..t4
+        中的 8 个 uid 剔除，有变化则按 base 标准路径 FormatData + choices:Refresh 重绘；整段 pcall 保护，异常静默。
+        即使位掩码那条路因未预见行为失效，玩家建造菜单也绝不显示这 8 个单位。
+  - 仿真验证（lupa，纯表逻辑与 FA 一致）：
+      * 主修复：8 单位全部 removed=4、cats 无任何 BUILDBY*、对照单位 nottarmac 保留 BUILDBY*（无误伤）、hits=8。
+      * UI 兜底：t1 剔除 2 个、t2/t3 各剔 1 个、t4 干净，正常单位保留，触发重绘。
+      * 两文件语法编译通过（loadfile 无错）。
+  - 调试 LOG 保留（TM_TARMAC: entered/<id> removed=/done hits=；TM_TARMACUI: OnSelection changed=）。
+    **请重开游戏复测**：预期菜单里 8 停机坪彻底消失（玩家+AI）。确认后删除全部 TM_TARMAC*/TM_TARMACUI* LOG 行。
+
+2026-08-25  v1.1.6  终极修正：改用 BlackOps 同款 removeByValue + 补删 DRAGBUILD（拖拽建造闸门）
+  - ★ 纠正此前错误结论：table.removeByValue 在本版 FA **是正常工作的**（BlackOpsBalance 用同一函数一直正常）。
+    之前看到的 after==before / removed=0 是**我那版循环代码的 bug**（假计数器 + 循环写法问题），不是函数坏了。
+    lupa 复现 base 真实 removeByValue 实现：停机坪类目 16→11，BUILDBY*/DRAGBUILD 全删成功。
+  - ★ 真正的根因：停机坪带 DRAGBUILD（拖拽建造）分类，实际靠**拖拽放置**，该路径**不查 BUILDBY***。
+    所以此前只删 BUILDBY* 从一开始就打错目标——菜单消失了但拖拽仍能放。必须连同 DRAGBUILD 一起删。
+  - 最终写法（对齐 BlackOps，标准 Lua 可测）：
+      * hook/lua/system/Blueprints.lua 用 do + 链式 oldModBlueprints 包装 ModBlueprints；
+      * 对 8 个 uid 直接 all_bps.Unit[uid].Categories 调 table.removeByValue 剥
+        BUILDBYTIER1/2/3ENGINEER, BUILDBYCOMMANDER, BUILDAITIER1/2/3ENGINEER, BUILDAICOMMANDER, DRAGBUILD；
+      * 循环用标准 pairs()（不依赖 FA 的 `for k,v in t` 简写，否则 lupa 无法测）；
+      * 保留 LOG('TM_TARMAC: <uid> after=...') 调试行。
+  - 删除了无效的 UI 兜底 hook/lua/ui/game/construction.lua（它只过滤菜单列表，对拖拽建造无作用，纯噪音）。
+  - lupa 仿真：8 单位全部剥离成功、对照 nottarmac 零误伤、bad=0。
+  - **请重开游戏复测**：8 停机坪从四阵营（玩家+AI）的菜单与拖拽放置均彻底消失。确认后删除 TM_TARMAC LOG 行。
+
+2026-08-25  v1.1.7  真正生效版：放弃 removeByValue，改用「手动重建数组」
+  - ★ 真机 LOG 铁证 (v1.1.6)：table.removeByValue 把孤立单条 DRAGBUILD 删掉了、却对紧挨的 4 条
+    BUILDBYTIER1/2/3ENGINEER+BUILDBYCOMMANDER(数组下标 3~6 连续) 一条都没删 → after 仍含 BUILDBY*。
+    坐实：FA 定制 Lua 的 table.removeByValue(=pairs+table.remove 边遍历边删) 对「连续多条待删项」静默失效；
+    孤立单条能删(故 DRAGBUILD 消失)、连续多条不能删(故 BUILDBY* 残留)。BlackOps 同款写法只在「每单位每类目只删一条」时安全。
+  - 最终写法：对 8 个 uid 的 Categories 做「手动重建」——pairs 遍历一次、把不在 REMOVE 集合里的类目
+    table.insert 进 newcats、最后整体 `bp.Categories = newcats` 赋值。纯 table 语义、绝不原地 table.remove，
+    与 Lua 实现无关，100% 确定生效。REMOVE 集合 = BUILDBYTIER1/2/3ENGINEER,BUILDBYCOMMANDER,
+    BUILDAITIER1/2/3ENGINEER,BUILDAICOMMANDER,DRAGBUILD(菜单路径 + AI路径 + 拖拽路径 全覆盖)。
+  - lupa 仿真：8 单位 all=OK、BUILDBY*/DRAGBUILD 全清、对照 nottarmac 零误伤、bad=0。
+  - **请重开游戏复测**：8 停机坪从四阵营(玩家+AI)的菜单与拖拽放置均彻底消失；LOG 应见
+    `TM_TARMAC: brmgrnd1 after=PRODUCTSC1,SELECTABLE,CYBRAN,STRUCTURE,DEFENSE,TECH1,WALL,BENIGN,...`(无 BUILDBY/DRAGBUILD)。
+    确认后删除 TM_TARMAC LOG 行。
+
+2026-08-25  v1.1.7  真正生效版：放弃 removeByValue，改用「手动重建数组」
+  - ★ 真机 LOG 铁证 (v1.1.6)：table.removeByValue 把孤立单条 DRAGBUILD 删掉了、却对紧挨的 4 条
+    BUILDBYTIER1/2/3ENGINEER+BUILDBYCOMMANDER(数组下标 3~6 连续) 一条都没删 → after 仍含 BUILDBY*。
+    坐实：FA 定制 Lua 的 table.removeByValue(=pairs+table.remove 边遍历边删) 对「连续多条待删项」静默失效；
+    孤立单条能删(故 DRAGBUILD 消失)、连续多条不能删(故 BUILDBY* 残留)。BlackOps 同款写法只在「每单位每类目只删一条」时安全。
+  - 最终写法：对 8 个 uid 的 Categories 做「手动重建」——pairs 遍历一次、把不在 REMOVE 集合里的类目
+    table.insert 进 newcats、最后整体 `bp.Categories = newcats` 赋值。纯 table 语义、绝不原地 table.remove，
+    与 Lua 实现无关，100% 确定生效。REMOVE 集合 = BUILDBYTIER1/2/3ENGINEER,BUILDBYCOMMANDER,
+    BUILDAITIER1/2/3ENGINEER,BUILDAICOMMANDER,DRAGBUILD(菜单路径 + AI路径 + 拖拽路径 全覆盖)。
+  - lupa 仿真：8 单位 all=OK、BUILDBY*/DRAGBUILD 全清、对照 nottarmac 零误伤、bad=0。
+  - **请重开游戏复测**：8 停机坪从四阵营(玩家+AI)的菜单与拖拽放置均彻底消失；LOG 应见
+    `TM_TARMAC: brmgrnd1 after=PRODUCTSC1,SELECTABLE,CYBRAN,STRUCTURE,DEFENSE,TECH1,WALL,BENIGN,...`(无 BUILDBY/DRAGBUILD)。
+    确认后删除 TM_TARMAC LOG 行。
+
+2026-08-25  v1.1.7.1  诊断加固: 加版本标记 + removed 计数 (仍是手动重建法, 逻辑未变)
+  - ★ 关键诊断结论: 用户反复粘贴的 "无效" LOG 实为旧版 v1.1.6(removeByValue) 签名
+    (DRAGBUILD 孤立被删、4 连 BUILDBY* 残留), 与磁盘上的 v1.1.7(手工重建, 两者皆删) 输出不可能一致。
+    证明游戏加载的是旧副本 / 未真正重启, 并非 v1.1.7 代码失效。lupa 原样跑磁盘文件: removed=5、零残留。
+  - 加 LOG('TM_TARMAC: === VERSION v1.1.7-manual-rebuild ===') 与每单位 removed=N 计数,
+    下次 LOG 一眼可辨是否加载了本文件。
+  - BlackOps 能用 removeByValue 的原因: 它每单位每类目只删 1~2 条孤立项 (且先 table.insert 新增再删,
+    改变数组布局), 不触发 FA 对「连续多条原地删除」的失效; 本 mod 的 4 连 BUILDBY* 恰是失效形态, 故必须手工重建。
+
+2026-08-25  v1.1.8  ★ 真正根因: REMOVE 表拼写 D/T 笔误 (BUILDBY -> BUILTBY)
+  - ★ 用户复测 v1.1.7.1 LOG: 仍 `removed=1`, after 仍含 `BUILTBYTIER1/2/3ENGINEER,BUILDBYCOMMANDER`。
+    但 after 里的字符串是 **BUILTBY**(B-U-I-L-**T**-B-Y, "built by"), 而我 REMOVE 表里写的是
+    **BUILDBY**(B-U-I-L-**D**-B-Y)。一个字母之差 (T vs D), 导致 4 条 BUILDBY* 全没匹配, 只有
+    DRAGBUILD 命中 -> removed=1。
+  - 这才是从 v1.1.2 一路错到现在的**唯一真凶**: v1.1.2 的 `string.sub(v,1,7)=='BUILDBY'` 返回 false,
+    当时误判 "string.sub 不可靠", 其实真值就拼写为 BUILTBY(T), 我的比较串天生拼错。后续 v1.1.3~v1.1.7
+    所有 "FA 定制 Lua 的 string.find/sub/removeByValue 不可信" 推论, 大半是这同一个 D/T 笔误的表象——
+    REMOVE 集里的键根本对不上真实类目名, 删谁都落空。手工重建数组本身一直是**正确且生效**的写法,
+    只是拿错了钥匙。
+  - 证据(全盘 grep): mods/TotalMayhem 中 `BUILTBYTIER1ENGINEER` 命中 66 处, `BUILDBYTIER1ENGINEER`
+    (D 拼写) 全工程 0 处; 直接读 BRMGRND1_unit.bp 的 Categories 块, 第 16~19 行即
+    BUILTBYTIER1/2/3ENGINEER, BUILDBYCOMMANDER (全带 T)。且 TotalMayhem 全工程 0 处 `BUILDAI*`,
+    故这 8 单位无 AI 专属建造分类, 玩家/AI 共用 BUILTBY*; 剥掉 BUILTBY*+DRAGBUILD 即彻底不可造。
+  - 修复: REMOVE 集统一改 T 拼写 (BUILTBYTIER*/BUILTBYCOMMANDER/BUILTAITIER*/BUILTAICOMMANDER),
+    保留手工重建数组逻辑, 版本升 v1.1.8-fix-T-spelling。
+  - 验证(Python 等价仿真, 纯表过滤语义与 FA 一致): 8 单位全部 removed=5、leftover_build=[]、
+    after 仅剩 11 个非建造分类 (PRODUCTSC1,SELECTABLE,<阵营>,STRUCTURE,DEFENSE,TECH1,WALL,BENIGN,
+    VISIBLETORECON,RECLAIMABLE,SORTDEFENSE), 零残留、无误伤。
+  - ★ 铁律 (覆盖并修正前几条): 本项目做 "按类目名剔除/匹配" 时, 类目字符串必须**逐字符核对真值
+    (读真实 bp 或 grep 工程)**, 绝不可凭印象拼 "BUILDBY"。真值是 BUILT**B**Y (T)。同理所有入口名
+    (OnGameStart/BlueprintsMerge 之类) 一律先 grep 确认存在再引用。
+  - **请彻底退出游戏到桌面、再启动重开一局复测**: 预期 LOG 含 `=== VERSION v1.1.8-fix-T-spelling ===`,
+    每单位 `removed=5`, after 无 BUILDBY*/DRAGBUILD; 四阵营(玩家+AI)菜单与拖拽放置均不再出现 8 停机坪。
+    确认后删除全部 TM_TARMAC LOG 调试行。

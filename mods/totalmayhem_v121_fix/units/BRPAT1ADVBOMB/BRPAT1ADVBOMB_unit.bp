@@ -1,0 +1,12 @@
+-- [Cybran] BRPAT1ADVBOMB
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brpat1advbomb',
+    General = {
+        UnitName = '<LOC tm_brpat1advbomb_name>Vesinnee',
+    },
+    Description = '<LOC tm_brpat1advbomb_desc>Advanced Bomber',
+    Interface = {
+        HelpText = '<LOC tm_brpat1advbomb_help>Advanced Bomber',
+    },
+}

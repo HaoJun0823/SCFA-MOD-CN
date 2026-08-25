@@ -1,0 +1,12 @@
+-- [Cybran] BRMAT2FIG1
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmat2fig1',
+    General = {
+        UnitName = '<LOC tm_brmat2fig1_name>Firefly',
+    },
+    Description = '<LOC tm_brmat2fig1_desc>Stealth Fighter',
+    Interface = {
+        HelpText = '<LOC tm_brmat2fig1_help>Stealth Fighter',
+    },
+}

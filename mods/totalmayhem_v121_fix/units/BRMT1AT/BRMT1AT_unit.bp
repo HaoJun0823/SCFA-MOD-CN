@@ -1,0 +1,12 @@
+-- [Cybran] BRMT1AT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt1at',
+    General = {
+        UnitName = '<LOC tm_brmt1at_name>Roach',
+    },
+    Description = '<LOC tm_brmt1at_desc>Assault Tank',
+    Interface = {
+        HelpText = '<LOC tm_brmt1at_help>Assault Tank',
+    },
+}

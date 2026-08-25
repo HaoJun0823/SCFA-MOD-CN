@@ -1,0 +1,12 @@
+-- [Cybran] BRMT1BTT3
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt1btt3',
+    General = {
+        UnitName = '<LOC tm_brmt1btt3_name>Reaper mk.3',
+    },
+    Description = '<LOC tm_brmt1btt3_desc>Battle Tank',
+    Interface = {
+        HelpText = '<LOC tm_brmt1btt3_help>Battle Tank',
+    },
+}

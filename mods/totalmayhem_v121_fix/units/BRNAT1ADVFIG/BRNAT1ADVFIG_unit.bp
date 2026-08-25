@@ -1,0 +1,12 @@
+-- [UEF] BRNAT1ADVFIG
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnat1advfig',
+    General = {
+        UnitName = '<LOC tm_brnat1advfig_name>Afterburner',
+    },
+    Description = '<LOC tm_brnat1advfig_desc>Advanced Fighter\\Bomber',
+    Interface = {
+        HelpText = '<LOC tm_brnat1advfig_help>Advanced Fighter\\Bomber',
+    },
+}

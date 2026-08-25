@@ -1,0 +1,12 @@
+-- [Seraphim] BRPT2HVBOT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brpt2hvbot',
+    General = {
+        UnitName = '<LOC tm_brpt2hvbot_name>Athusil',
+    },
+    Description = '<LOC tm_brpt2hvbot_desc>Advanced Heavy Assault Bot',
+    Interface = {
+        HelpText = '<LOC tm_brpt2hvbot_help>Advanced Heavy Assault Bot',
+    },
+}

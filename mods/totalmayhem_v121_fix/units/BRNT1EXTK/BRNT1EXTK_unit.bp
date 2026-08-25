@@ -1,0 +1,12 @@
+-- [UEF] BRNT1EXTK
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt1extk',
+    General = {
+        UnitName = '<LOC tm_brnt1extk_name>Thunderstrike',
+    },
+    Description = '<LOC tm_brnt1extk_desc>Advanced Battle Tank',
+    Interface = {
+        HelpText = '<LOC tm_brnt1extk_help>Advanced Battle Tank',
+    },
+}

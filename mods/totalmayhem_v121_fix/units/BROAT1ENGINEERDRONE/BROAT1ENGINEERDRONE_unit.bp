@@ -1,0 +1,8 @@
+-- [Aeon] BROAT1ENGINEERDRONE
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'broat1engineerdrone',
+    General = {
+        UnitName = '<LOC tm_broat1engineerdrone_name>Flying Beauty',
+    },
+}

@@ -1,0 +1,12 @@
+-- [Aeon] BROT2ASB
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brot2asb',
+    General = {
+        UnitName = '<LOC tm_brot2asb_name>Terminator',
+    },
+    Description = '<LOC tm_brot2asb_desc>Advanced Laser Bot',
+    Interface = {
+        HelpText = '<LOC tm_brot2asb_help>Advanced Laser Bot',
+    },
+}

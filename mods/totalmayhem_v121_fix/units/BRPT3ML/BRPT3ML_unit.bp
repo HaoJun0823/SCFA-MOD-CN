@@ -1,0 +1,12 @@
+-- [Seraphim] BRPT3ML
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brpt3ml',
+    General = {
+        UnitName = '<LOC tm_brpt3ml_name>Heth-Zthuha',
+    },
+    Description = '<LOC tm_brpt3ml_desc>Thau Battery',
+    Interface = {
+        HelpText = '<LOC tm_brpt3ml_help>Thau Battery',
+    },
+}

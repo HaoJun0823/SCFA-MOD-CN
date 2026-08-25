@@ -1,0 +1,12 @@
+-- [Cybran] BRMT1MT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt1mt',
+    General = {
+        UnitName = '<LOC tm_brmt1mt_name>Razor',
+    },
+    Description = '<LOC tm_brmt1mt_desc>Medium Tank',
+    Interface = {
+        HelpText = '<LOC tm_brmt1mt_help>Medium Tank',
+    },
+}

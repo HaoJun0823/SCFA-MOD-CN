@@ -1,0 +1,12 @@
+-- [UEF] BRNT3OW
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt3ow',
+    General = {
+        UnitName = '<LOC tm_brnt3ow_name>Owens',
+    },
+    Description = '<LOC tm_brnt3ow_desc>Advanced Long-Range Missile Mech',
+    Interface = {
+        HelpText = '<LOC tm_brnt3ow_help>Advanced Long-Range Missile Mech',
+    },
+}

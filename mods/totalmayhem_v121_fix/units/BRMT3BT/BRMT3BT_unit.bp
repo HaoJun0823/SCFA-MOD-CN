@@ -1,0 +1,12 @@
+-- [Cybran] BRMT3BT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt3bt',
+    General = {
+        UnitName = '<LOC tm_brmt3bt_name>Demon mk.2',
+    },
+    Description = '<LOC tm_brmt3bt_desc>Battle Tank',
+    Interface = {
+        HelpText = '<LOC tm_brmt3bt_help>Battle Tank',
+    },
+}

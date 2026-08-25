@@ -1,0 +1,12 @@
+-- [Aeon] BROAT2FIBO
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'broat2fibo',
+    General = {
+        UnitName = '<LOC tm_broat2fibo_name>Twilight',
+    },
+    Description = '<LOC tm_broat2fibo_desc>Fighter/Bomber',
+    Interface = {
+        HelpText = '<LOC tm_broat2fibo_help>Fighter/Bomber',
+    },
+}

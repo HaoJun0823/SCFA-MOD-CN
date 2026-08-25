@@ -1,0 +1,12 @@
+-- [Aeon] BROST2ADVBATTLESHIP
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brost2advbattleship',
+    General = {
+        UnitName = '<LOC tm_brost2advbattleship_name>Magnetite Class',
+    },
+    Description = '<LOC tm_brost2advbattleship_desc>Advanced Battleship',
+    Interface = {
+        HelpText = '<LOC tm_brost2advbattleship_help>Advanced Battleship',
+    },
+}

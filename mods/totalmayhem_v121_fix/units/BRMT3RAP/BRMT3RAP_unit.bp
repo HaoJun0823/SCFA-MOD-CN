@@ -1,0 +1,12 @@
+-- [Cybran] BRMT3RAP
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt3rap',
+    General = {
+        UnitName = '<LOC tm_brmt3rap_name>Raptor',
+    },
+    Description = '<LOC tm_brmt3rap_desc>Assault Mech',
+    Interface = {
+        HelpText = '<LOC tm_brmt3rap_help>Assault Mech',
+    },
+}

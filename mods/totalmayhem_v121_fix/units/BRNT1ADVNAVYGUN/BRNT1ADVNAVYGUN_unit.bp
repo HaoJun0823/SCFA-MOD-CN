@@ -1,0 +1,12 @@
+-- [UEF] BRNT1ADVNAVYGUN
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt1advnavygun',
+    General = {
+        UnitName = '<LOC tm_brnt1advnavygun_name>Pulverizer',
+    },
+    Description = '<LOC tm_brnt1advnavygun_desc>Anti-Navy Defense',
+    Interface = {
+        HelpText = '<LOC tm_brnt1advnavygun_help>Anti-Navy Defense',
+    },
+}

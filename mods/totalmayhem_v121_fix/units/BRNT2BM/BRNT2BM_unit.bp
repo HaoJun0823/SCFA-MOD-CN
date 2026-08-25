@@ -1,0 +1,12 @@
+-- [UEF] BRNT2BM
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt2bm',
+    General = {
+        UnitName = '<LOC tm_brnt2bm_name>Banshee',
+    },
+    Description = '<LOC tm_brnt2bm_desc>Advanced Gatling Mech',
+    Interface = {
+        HelpText = '<LOC tm_brnt2bm_help>Advanced Gatling Mech',
+    },
+}

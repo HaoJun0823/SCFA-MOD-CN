@@ -1,0 +1,12 @@
+-- [UEF] BRNT3SHPD
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt3shpd',
+    General = {
+        UnitName = '<LOC tm_brnt3shpd_name>Ex-Catalyst mk.2',
+    },
+    Description = '<LOC tm_brnt3shpd_desc>Super Heavy Point Defense',
+    Interface = {
+        HelpText = '<LOC tm_brnt3shpd_help>Super Heavy Point Defense',
+    },
+}

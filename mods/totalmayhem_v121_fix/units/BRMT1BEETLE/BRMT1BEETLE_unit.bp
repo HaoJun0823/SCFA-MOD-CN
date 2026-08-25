@@ -1,0 +1,12 @@
+-- [Cybran] BRMT1BEETLE
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt1beetle',
+    General = {
+        UnitName = '<LOC tm_brmt1beetle_name>Karakurt',
+    },
+    Description = '<LOC tm_brmt1beetle_desc>Advanced Assault Bot',
+    Interface = {
+        HelpText = '<LOC tm_brmt1beetle_help>Advanced Assault Bot',
+    },
+}

@@ -1,0 +1,12 @@
+-- [UEF] BRNT2EXM1
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt2exm1',
+    General = {
+        UnitName = '<LOC tm_brnt2exm1_name>Jackhammer mk.2',
+    },
+    Description = '<LOC tm_brnt2exm1_desc>Advanced Assault Bot',
+    Interface = {
+        HelpText = '<LOC tm_brnt2exm1_help>Advanced Assault Bot',
+    },
+}

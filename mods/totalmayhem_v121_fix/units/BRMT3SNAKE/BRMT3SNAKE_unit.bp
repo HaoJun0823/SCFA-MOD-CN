@@ -1,0 +1,12 @@
+-- [Cybran] BRMT3SNAKE
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt3snake',
+    General = {
+        UnitName = '<LOC tm_brmt3snake_name>Snakebite mk.2',
+    },
+    Description = '<LOC tm_brmt3snake_desc>Prototype Battle Bot',
+    Interface = {
+        HelpText = '<LOC tm_brmt3snake_help>Prototype Battle Bot',
+    },
+}

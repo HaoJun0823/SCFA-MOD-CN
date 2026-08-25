@@ -1,0 +1,12 @@
+-- [Cybran] BRMT1ADVNAVYGUN
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt1advnavygun',
+    General = {
+        UnitName = '<LOC tm_brmt1advnavygun_name>Spearhead',
+    },
+    Description = '<LOC tm_brmt1advnavygun_desc>Anti-Navy Defense',
+    Interface = {
+        HelpText = '<LOC tm_brmt1advnavygun_help>Anti-Navy Defense',
+    },
+}

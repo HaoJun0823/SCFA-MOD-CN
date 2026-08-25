@@ -1,0 +1,8 @@
+-- [Aeon] BROBT1AIRST
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brobt1airst',
+    General = {
+        UnitName = '<LOC tm_brobt1airst_name>Refresher',
+    },
+}

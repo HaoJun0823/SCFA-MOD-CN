@@ -1,0 +1,12 @@
+-- [Cybran] BRMAT2GUNSHIP
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmat2gunship',
+    General = {
+        UnitName = '<LOC tm_brmat2gunship_name>Intruder',
+    },
+    Description = '<LOC tm_brmat2gunship_desc>Advanced Gunship',
+    Interface = {
+        HelpText = '<LOC tm_brmat2gunship_help>Advanced Gunship',
+    },
+}

@@ -1,0 +1,12 @@
+-- [UEF] BRNT2EXM2
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt2exm2',
+    General = {
+        UnitName = '<LOC tm_brnt2exm2_name>Tomahawk',
+    },
+    Description = '<LOC tm_brnt2exm2_desc>Advanced Tactical Missile Launcher',
+    Interface = {
+        HelpText = '<LOC tm_brnt2exm2_help>Advanced Tactical Missile Launcher',
+    },
+}

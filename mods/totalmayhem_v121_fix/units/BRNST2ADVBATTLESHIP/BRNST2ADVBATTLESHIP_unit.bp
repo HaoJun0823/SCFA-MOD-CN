@@ -1,0 +1,12 @@
+-- [Aeon] BRNST2ADVBATTLESHIP
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnst2advbattleship',
+    General = {
+        UnitName = '<LOC tm_brnst2advbattleship_name>Refiner Class',
+    },
+    Description = '<LOC tm_brnst2advbattleship_desc>Advanced Battleship',
+    Interface = {
+        HelpText = '<LOC tm_brnst2advbattleship_help>Advanced Battleship',
+    },
+}

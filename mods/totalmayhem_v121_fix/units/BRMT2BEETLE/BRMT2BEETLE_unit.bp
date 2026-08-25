@@ -1,0 +1,12 @@
+-- [Cybran] BRMT2BEETLE
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt2beetle',
+    General = {
+        UnitName = '<LOC tm_brmt2beetle_name>Argiope',
+    },
+    Description = '<LOC tm_brmt2beetle_desc>Advanced Mobile Artillery',
+    Interface = {
+        HelpText = '<LOC tm_brmt2beetle_help>Advanced Mobile Artillery',
+    },
+}

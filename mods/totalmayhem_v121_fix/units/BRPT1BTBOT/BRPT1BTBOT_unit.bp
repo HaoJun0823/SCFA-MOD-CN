@@ -1,0 +1,12 @@
+-- [Seraphim] BRPT1BTBOT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brpt1btbot',
+    General = {
+        UnitName = '<LOC tm_brpt1btbot_name>Tha-Yath',
+    },
+    Description = '<LOC tm_brpt1btbot_desc>Advanced AA Battle Bot',
+    Interface = {
+        HelpText = '<LOC tm_brpt1btbot_help>Advanced AA Battle Bot',
+    },
+}

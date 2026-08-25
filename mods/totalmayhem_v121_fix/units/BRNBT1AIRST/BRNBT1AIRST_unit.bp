@@ -1,0 +1,8 @@
+-- [UEF] BRNBT1AIRST
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnbt1airst',
+    General = {
+        UnitName = '<LOC tm_brnbt1airst_name>Refuel & Repair',
+    },
+}

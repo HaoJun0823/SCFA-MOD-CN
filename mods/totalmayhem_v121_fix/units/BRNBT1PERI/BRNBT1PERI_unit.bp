@@ -1,0 +1,12 @@
+-- [UEF] BRNBT1PERI
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnbt1peri',
+    General = {
+        UnitName = '<LOC tm_brnbt1peri_name>Overlook',
+    },
+    Description = '<LOC tm_brnbt1peri_desc>HydroCarbon Perimeter Monitoring System',
+    Interface = {
+        HelpText = '<LOC tm_brnbt1peri_help>HydroCarbon Perimeter Monitoring System',
+    },
+}

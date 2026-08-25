@@ -1,0 +1,12 @@
+-- [Cybran] BRMBT1PERI
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmbt1peri',
+    General = {
+        UnitName = '<LOC tm_brmbt1peri_name>Hacker',
+    },
+    Description = '<LOC tm_brmbt1peri_desc>HydroCarbon Perimeter Monitoring System',
+    Interface = {
+        HelpText = '<LOC tm_brmbt1peri_help>HydroCarbon Perimeter Monitoring System',
+    },
+}

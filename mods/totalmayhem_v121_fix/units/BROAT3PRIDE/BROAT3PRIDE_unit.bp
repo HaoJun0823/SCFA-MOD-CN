@@ -1,0 +1,12 @@
+-- [Aeon] BROAT3PRIDE
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'broat3pride',
+    General = {
+        UnitName = '<LOC tm_broat3pride_name>Illuminate Pride',
+    },
+    Description = '<LOC tm_broat3pride_desc>Prototype Flying Fortress',
+    Interface = {
+        HelpText = '<LOC tm_broat3pride_help>Prototype Flying Fortress',
+    },
+}

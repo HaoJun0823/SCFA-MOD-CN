@@ -1,0 +1,12 @@
+-- [UEF] BRNT3DOOMSDAY
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt3doomsday',
+    General = {
+        UnitName = '<LOC tm_brnt3doomsday_name>Doomsday',
+    },
+    Description = '<LOC tm_brnt3doomsday_desc>Prototype Mobile Fortress',
+    Interface = {
+        HelpText = '<LOC tm_brnt3doomsday_help>Prototype Mobile Fortress',
+    },
+}

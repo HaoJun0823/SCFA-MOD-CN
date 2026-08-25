@@ -1,0 +1,12 @@
+-- [Cybran] BRMT2BM
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt2bm',
+    General = {
+        UnitName = '<LOC tm_brmt2bm_name>Cybermech mk.2',
+    },
+    Description = '<LOC tm_brmt2bm_desc>Battle Mech',
+    Interface = {
+        HelpText = '<LOC tm_brmt2bm_help>Battle Mech',
+    },
+}

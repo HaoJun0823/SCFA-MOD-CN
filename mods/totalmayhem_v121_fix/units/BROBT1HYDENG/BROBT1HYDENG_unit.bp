@@ -1,0 +1,12 @@
+-- [Aeon] BROBT1HYDENG
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brobt1hydeng',
+    General = {
+        UnitName = '<LOC tm_brobt1hydeng_name>Mastermind',
+    },
+    Description = '<LOC tm_brobt1hydeng_desc>HydroCarbon Engineering Station',
+    Interface = {
+        HelpText = '<LOC tm_brobt1hydeng_help>HydroCarbon Engineering Station',
+    },
+}

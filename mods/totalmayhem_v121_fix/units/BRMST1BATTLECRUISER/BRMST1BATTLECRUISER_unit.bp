@@ -1,0 +1,12 @@
+-- [Cybran] BRMST1BATTLECRUISER
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmst1battlecruiser',
+    General = {
+        UnitName = '<LOC tm_brmst1battlecruiser_name>Coelacanth Class',
+    },
+    Description = '<LOC tm_brmst1battlecruiser_desc>Battlecruiser',
+    Interface = {
+        HelpText = '<LOC tm_brmst1battlecruiser_help>Battlecruiser',
+    },
+}

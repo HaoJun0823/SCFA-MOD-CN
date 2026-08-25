@@ -1,0 +1,12 @@
+-- [Aeon] BROT3NCM2
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brot3ncm2',
+    General = {
+        UnitName = '<LOC tm_brot3ncm2_name>NovaCat mk.2',
+    },
+    Description = '<LOC tm_brot3ncm2_desc>Experimental Battle Mech',
+    Interface = {
+        HelpText = '<LOC tm_brot3ncm2_help>Experimental Battle Mech',
+    },
+}

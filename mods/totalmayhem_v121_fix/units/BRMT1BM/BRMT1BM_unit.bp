@@ -1,0 +1,12 @@
+-- [Cybran] BRMT1BM
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt1bm',
+    General = {
+        UnitName = '<LOC tm_brmt1bm_name>Aes Supporter',
+    },
+    Description = '<LOC tm_brmt1bm_desc>Light Rocket Mech',
+    Interface = {
+        HelpText = '<LOC tm_brmt1bm_help>Light Battle Mech',
+    },
+}

@@ -1,0 +1,12 @@
+-- [Cybran] BRMT2WILDCAT
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt2wildcat',
+    General = {
+        UnitName = '<LOC tm_brmt2wildcat_name>WildCat',
+    },
+    Description = '<LOC tm_brmt2wildcat_desc>Advanced Gatling Mech',
+    Interface = {
+        HelpText = '<LOC tm_brmt2wildcat_help>Advanced Gatling Mech',
+    },
+}

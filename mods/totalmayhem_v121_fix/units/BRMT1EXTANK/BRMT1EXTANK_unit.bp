@@ -1,0 +1,12 @@
+-- [Cybran] BRMT1EXTANK
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt1extank',
+    General = {
+        UnitName = '<LOC tm_brmt1extank_name>Talon',
+    },
+    Description = '<LOC tm_brmt1extank_desc>Advanced Battle Tank',
+    Interface = {
+        HelpText = '<LOC tm_brmt1extank_help>Advanced Battle Tank',
+    },
+}

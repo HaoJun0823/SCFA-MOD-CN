@@ -1,0 +1,12 @@
+-- [UEF] BRNST1BATTLESHIP
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnst1battleship',
+    General = {
+        UnitName = '<LOC tm_brnst1battleship_name>Meridian Class',
+    },
+    Description = '<LOC tm_brnst1battleship_desc>Battleship',
+    Interface = {
+        HelpText = '<LOC tm_brnst1battleship_help>Battleship',
+    },
+}

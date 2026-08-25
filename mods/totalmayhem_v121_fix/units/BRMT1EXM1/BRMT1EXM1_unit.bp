@@ -1,0 +1,12 @@
+-- [Cybran] BRMT1EXM1
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmt1exm1',
+    General = {
+        UnitName = '<LOC tm_brmt1exm1_name>LaserBot',
+    },
+    Description = '<LOC tm_brmt1exm1_desc>Advanced Light Mech',
+    Interface = {
+        HelpText = '<LOC tm_brmt1exm1_help>Advanced Light Mech',
+    },
+}

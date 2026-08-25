@@ -1,0 +1,12 @@
+-- [UEF] BRNT3ML
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brnt3ml',
+    General = {
+        UnitName = '<LOC tm_brnt3ml_name>Superfly mk.2',
+    },
+    Description = '<LOC tm_brnt3ml_desc>Rocket Battery',
+    Interface = {
+        HelpText = '<LOC tm_brnt3ml_help>Rocket Battery',
+    },
+}

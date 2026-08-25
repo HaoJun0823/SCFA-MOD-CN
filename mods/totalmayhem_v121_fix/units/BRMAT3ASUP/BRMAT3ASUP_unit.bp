@@ -1,0 +1,12 @@
+-- [Cybran] BRMAT3ASUP
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'brmat3asup',
+    General = {
+        UnitName = '<LOC tm_brmat3asup_name>Cobra',
+    },
+    Description = '<LOC tm_brmat3asup_desc>Multi-Purpose Fighter',
+    Interface = {
+        HelpText = '<LOC tm_brmat3asup_help>Multi-Purpose Fighter',
+    },
+}
