@@ -1,7 +1,7 @@
 name = "BlackOps V6 简体中文补丁"
 uid = "A1B2C3D4-0000-0000-0000-BLACKOPSZHN6"
-version = 6
-description = "BlackOps 系列模组(ACUs/EXUnits/Unleashed/Balance/Support/NavalBalance)简体中文翻译，通过 ui_only 方式在不修改原模组文件的前提下汉化所有裸英文字段。"
+version = 1
+description = "BlackOps 系列模组简体中文翻译。\n推荐启动：ACUs/EXUnits/Unleashed/Balance/Support/NavalBalance"
 author = "HaoJun0823"
 url = "https://www.haojun0823.xyz/"
 selectable = true

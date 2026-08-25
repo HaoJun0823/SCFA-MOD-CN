@@ -1,7 +1,7 @@
 name = "BlackOps V6 Fix Patch"
 uid = "A1B2C3D4-0000-0000-0000-BLACKOPSBPF6"
 version = 1
-description = "Fix BlackOps V6 Bugs."
+description = "Fix BlackOps V6 Bugs By HaoJun0823 For Steam Version."
 author = "HaoJun0823"
 url = "https://www.haojun0823.xyz/"
 selectable = true
