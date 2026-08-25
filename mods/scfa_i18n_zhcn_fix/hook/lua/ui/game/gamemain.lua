@@ -82,23 +82,23 @@ local _SCFA_LOC_TABLE = {
     ['ueb0303_name'] = "海战船坞 3",
 
     -- 资源建筑
-    ['ueb1101_name'] = "EG-100基础发电机",      -- T1（新增）
+    ['ueb1101_name'] = "EG-100 基础发电机",      -- T1（新增）
     ['ueb1102_name'] = "HCPP-X1000",            -- 碳氢发电厂（新增）
     ['ueb1103_name'] = "质量帮浦 1",            -- T1萃取机（新增）
     ['ueb1104_name'] = "BBS质量制造机",            -- T1制造机
     ['ueb1105_name'] = "能源仓库",
     ['ueb1106_name'] = "质量仓库",
-    ['ueb1201_name'] = "EG-200能源生产器",      -- T2（新增）
+    ['ueb1201_name'] = "EG-200 能源生产器",      -- T2（新增）
     ['ueb1202_name'] = "质量帮浦 2",            -- T2萃取机（新增）
-    ['ueb1301_name'] = "EG-900融合反应炉",      -- T3（新增）
+    ['ueb1301_name'] = "EG-900 融合反应炉",      -- T3（新增）
     ['ueb1302_name'] = "质量帮浦 3",            -- T3萃取机（新增）
     ['ueb1303_name'] = "BBL质量制造机",        -- T3制造机（新增）
 
     -- 情报（新增）
-    ['ueb3101_name'] = "SA1-1000雷达",
-    ['ueb3102_name'] = "SP1-1000声呐",
-    ['ueb3201_name'] = "SA2-2000雷达",
-    ['ueb3202_name'] = "SP2-2000声呐",
+    ['ueb3101_name'] = "SA1-1000 雷达",
+    ['ueb3102_name'] = "SP1-1000 声呐",
+    ['ueb3201_name'] = "SA2-2000 雷达",
+    ['ueb3202_name'] = "SP2-2000 声呐",
 
     -- 防御/墙
     ['ueb5102_name'] = "UEF传送信标",
@@ -345,7 +345,7 @@ local _SCFA_LOC_TABLE = {
     -- 其他杂项
     ['opc1001_name'] = "共生体建筑",
     ['opc1002_name'] = "OpC1 共生体载具",
-    ['opc2001_name'] = "OpC2神殿",
+    ['opc2001_name'] = "OpC2 神殿",
     ['opc2002_name'] = "瑟拉芬技术碎片",
     ['ope2003_name'] = "平民卡车",
     ['ope6001_name'] = "「黑日」控制中心",
@@ -362,20 +362,20 @@ local _SCFA_LOC_TABLE = {
     ['xac2301_name'] = "万古忠诚者补给站",
 
     -- UEF额外建筑
-    ['xec1301_name'] = "万古行政建筑物",  -- 注意：此键名可能有误，但保留原样
-    ['xec1401_name'] = "UEF高阶指挥建筑物",
-    ['xec1501_name'] = "UEF莎曼莎．克拉克雕像",
-    ['xec1908_name'] = "UEF黑日残骸#1",
-    ['xec1909_name'] = "UEF黑日残骸#2",
+    ['xec1301_name'] = "UEF 行政建筑物",  -- 注意：此键名可能有误，但保留原样
+    ['xec1401_name'] = "UEF 高阶指挥建筑物",
+    ['xec1501_name'] = "UEF 莎曼莎．克拉克雕像",
+    ['xec1908_name'] = "UEF 黑日残骸#1",
+    ['xec1909_name'] = "UEF 黑日残骸#2",
     ['xea0002_name'] = "次轨道防御卫星",
 
     -- 塞布兰额外建筑
-    ['xrc1101_name'] = "QAI干扰站",
+    ['xrc1101_name'] = "QAI 干扰站",
     ['xrc1502_name'] = "战俘设施",
-    ['xrc2101_name'] = "QAI监狱建筑物",
-    ['xrc2201_name'] = "QAI主机",
-    ['xrc2301_name'] = "QAI节点",
-    ['xrc2401_name'] = "QAI尖塔节点",
+    ['xrc2101_name'] = "QAI 监狱建筑物",
+    ['xrc2201_name'] = "QAI 主机",
+    ['xrc2301_name'] = "QAI 节点",
+    ['xrc2401_name'] = "QAI 尖塔节点",
 
     -- 塞布兰特殊单位
     ['xrl0002_name'] = "蟹蛋",
@@ -399,13 +399,13 @@ local _SCFA_LOC_TABLE = {
     ['ueb0304_name'] = "QGW R-32 量子闸道",
     ['ueb2109_name'] = "DN1 鱼雷发射器",
     ['ueb2304_name'] = "剥皮者",
-    ['ues0305_name'] = "SP3-3000声呐",
-    ['urb2108_name'] = "TML-4战术导弹",
-    ['urb4202_name'] = "ED1护盾发生器",
-    ['urb4204_name'] = "ED2护盾发生器",
-    ['urb4205_name'] = "ED3护盾发生器",
-    ['urb4206_name'] = "ED4护盾发生器",
-    ['urb4207_name'] = "ED5护盾发生器",
+    ['ues0305_name'] = "SP3-3000 声呐",
+    ['urb2108_name'] = "TML-4 战术导弹",
+    ['urb4202_name'] = "ED1 护盾发生器",
+    ['urb4204_name'] = "ED2 护盾发生器",
+    ['urb4205_name'] = "ED3 护盾发生器",
+    ['urb4206_name'] = "ED4 护盾发生器",
+    ['urb4207_name'] = "ED5 护盾发生器",
     ['uxl0021_name'] = "实验性电弧",
     ['xsc0001'] = "瑟拉芬测试单位",  -- 注意：bp 引用 <LOC xsc0001>（无 _name 后缀）
 
