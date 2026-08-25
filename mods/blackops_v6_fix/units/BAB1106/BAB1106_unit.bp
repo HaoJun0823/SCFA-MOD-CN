@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'BAB1106',
+    BlueprintId = 'bab1106',
     General = {
         UnitName = '<LOC bab1106_name>Mass & Energy Storage',
     },

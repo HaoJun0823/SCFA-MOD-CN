@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'BRS0304',
+    BlueprintId = 'brs0304',
     General = {
         UnitName = '<LOC brs0304_name>Reaper Class',
     },

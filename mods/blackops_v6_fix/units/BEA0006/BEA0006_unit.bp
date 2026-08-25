@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'BEA0006',
+    BlueprintId = 'bea0006',
     General = {
         UnitName = '<LOC bea0006_name>Heavy Defense Drone',
     },

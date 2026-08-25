@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'BSB2402',
+    BlueprintId = 'bsb2402',
     Description = '<LOC bsb2402_desc>Seraphim Quantum Rift Archway',
     General = {
         UnitName = '<LOC bsb2402_name>Haasioz-Iya',

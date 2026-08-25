@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'EES0301',
+    BlueprintId = 'ees0301',
     Description = '<LOC ees0301_desc>Advanced Tactical Submarine',
     General = {
         UnitName = '<LOC ees0301_name>Seawolf',

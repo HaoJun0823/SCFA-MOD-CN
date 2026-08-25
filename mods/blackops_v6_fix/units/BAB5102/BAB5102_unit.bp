@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'BAB5102',
+    BlueprintId = 'bab5102',
     Description = '<LOC bab5102_desc>Light Staging Facility',
     General = {
         UnitName = '<LOC bab5102_name>Enclave',

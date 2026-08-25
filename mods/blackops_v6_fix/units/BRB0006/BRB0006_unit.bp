@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'BRB0006',
+    BlueprintId = 'brb0006',
     General = {
         UnitName = '<LOC brb0006_name>Anti-Teleport Emitter',
     },

@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'ERL0301',
+    BlueprintId = 'erl0301',
     Description = '<LOC erl0301_desc>Cloaked Bot',
     General = {
         UnitName = '<LOC erl0301_name>Shadow Splitter',

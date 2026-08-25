@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'BALK003',
+    BlueprintId = 'balk003',
     General = {
         UnitName = '<LOC balk003_name>Redeemer',
     },

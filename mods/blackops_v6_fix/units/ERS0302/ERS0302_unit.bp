@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'ERS0302',
+    BlueprintId = 'ers0302',
     Description = '<LOC ers0302_desc>Attack Frigate',
     General = {
         UnitName = '<LOC ers0302_name>Aries Class',

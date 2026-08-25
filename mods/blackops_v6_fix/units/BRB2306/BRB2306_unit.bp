@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'BRB2306',
+    BlueprintId = 'brb2306',
     Interface = {
         HelpText = '<LOC brb2306_help>Heavy Point Defense',
     },

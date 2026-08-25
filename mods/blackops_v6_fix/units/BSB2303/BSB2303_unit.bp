@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'BSB2303',
+    BlueprintId = 'bsb2303',
     General = {
         UnitName = '<LOC bsb2303_name>Land Mine Dispenser',
     },

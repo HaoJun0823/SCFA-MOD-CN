@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'BRB5205',
+    BlueprintId = 'brb5205',
     General = {
         UnitName = '<LOC brb5205_name>Naval Staging yard',
     },

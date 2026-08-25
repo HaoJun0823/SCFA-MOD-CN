@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'EEL0001',
+    BlueprintId = 'eel0001',
     General = {
         UnitName = '<LOC eel0001_name>Armored Command Unit',
     },

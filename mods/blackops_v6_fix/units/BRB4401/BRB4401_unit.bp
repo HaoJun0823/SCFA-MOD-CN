@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'BRB4401',
+    BlueprintId = 'brb4401',
     General = {
         UnitName = '<LOC brb4401_name>Shadow',
     },

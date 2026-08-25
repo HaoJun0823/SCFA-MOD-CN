@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'BRB0202',
+    BlueprintId = 'brb0202',
     General = {
         UnitName = '<LOC brb0202_name>Air Factory',
     },

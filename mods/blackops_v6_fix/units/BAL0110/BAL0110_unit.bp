@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'BAL0110',
+    BlueprintId = 'bal0110',
     Description = '<LOC bal0110_desc>Light Sniper Bot',
     General = {
         UnitName = '<LOC bal0110_name>Requiem',

@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'BSS0401',
+    BlueprintId = 'bss0401',
     General = {
         UnitName = '<LOC bss0401_name>Hovatha-Hauthu',
     },

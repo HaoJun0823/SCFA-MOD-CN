@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'BEL0308',
+    BlueprintId = 'bel0308',
     General = {
         UnitName = '<LOC bel0308_name>Rapier',
     },

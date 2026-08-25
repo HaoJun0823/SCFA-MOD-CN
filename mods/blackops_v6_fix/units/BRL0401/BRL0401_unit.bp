@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'BRL0401',
+    BlueprintId = 'brl0401',
     Description = '<LOC brl0401_desc>Ultra Heavy Assault Mech',
     General = {
         UnitName = '<LOC brl0401_name>Basilisk',

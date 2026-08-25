@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'EEB0402',
+    BlueprintId = 'eeb0402',
     Description = '<LOC eeb0402_desc>Stellar Generator',
     General = {
         UnitName = '<LOC eeb0402_name>Stellar Generator',

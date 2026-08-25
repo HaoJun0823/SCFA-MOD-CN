@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'ESB0003',
+    BlueprintId = 'esb0003',
     Description = '<LOC esb0003_desc>Lambda Emitter',
     General = {
         UnitName = '<LOC esb0003_name>Lambda Emitter',

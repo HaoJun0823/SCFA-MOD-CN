@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'BRB0004',
+    BlueprintId = 'brb0004',
     General = {
         UnitName = '<LOC brb0004_name>Drone Station',
     },

@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'BEB5102',
+    BlueprintId = 'beb5102',
     Description = '<LOC beb5102_desc>Light Air Staging Facility',
     General = {
         UnitName = '<LOC beb5102_name>Refuel & Repair',

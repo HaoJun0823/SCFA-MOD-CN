@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'BES0402',
+    BlueprintId = 'bes0402',
     General = {
         UnitName = '<LOC bes0402_name>Conquest Class',
     },

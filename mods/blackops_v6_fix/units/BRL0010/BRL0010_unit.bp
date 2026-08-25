@@ -1,6 +1,6 @@
 UnitBlueprint {
     Merge = true,
-    BlueprintId = 'BRL0010',
+    BlueprintId = 'brl0010',
     General = {
         UnitName = '<LOC brl0010_name>Crab Egg (Wagner)',
     },
