@@ -161,3 +161,8 @@ Description['bab1302'] = "生产能源。必须盖在碳氢矿床上。紧邻碳
 
 Description['brb1202'] = "生产能源。必须盖在碳氢矿床上。紧邻碳氢发电厂建造的建筑物可获得加成。"
 Description['brb1302'] = "生产能源。必须盖在碳氢矿床上。紧邻碳氢发电厂建造的建筑物可获得加成。"
+
+-- 修复：bab5205(Aeon 圣域)与 bab2404(阿尔忒弥斯)在 BlackOpsUnleashed 的 unitdescription.lua
+-- 中共用 Unit_Description_30006 这个 key，导致悬停圣域时显示成卫星描述。
+-- 直接用裸中文串覆盖该单位的长描述，绕过共享 key，无需改动第三方 mod 本体、也无需在 _BO_LOC_TABLE 加键。
+Description['bab5205'] = "这个平台是前线空中与海军单位的维修/补给站，配备新型防空、鱼雷，并可建造飞行器。"
