@@ -1,0 +1,57 @@
+# 量子通讯传送门（Quantum Gate）扩展可建造列表
+# 目标：让四个阵营的量子门都能建造「全部四个阵营」的副指挥官（Sub Commander / SCU）。
+# 设计：仅追加 SUBCOMMANDER 类别，不追加 ENGINEER / FIELDENGINEER（不造工程师）。
+# 说明：副指挥官蓝图自带 'BUILTBYQUANTUMGATE' 类别，故量子门只需显式声明可建造
+#       SUBCOMMANDER 即可解锁。四个阵营的 SCU 均带此类别，因而任意一门都能造四种 SCU。
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId="uab0304", # AEON_QUANTUM_GATE
+
+    Economy = {
+        BuildableCategory = {
+            'BUILTBYQUANTUMGATE MOBILE LAND',
+            'BUILTBYQUANTUMGATE MOBILE AIR',
+            'SUBCOMMANDER',
+        },
+	},
+}
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId="ueb0304", # UEF_QUANTUM_GATE
+
+    Economy = {
+        BuildableCategory = {
+            'BUILTBYQUANTUMGATE MOBILE LAND',
+            'BUILTBYQUANTUMGATE MOBILE AIR',
+            'SUBCOMMANDER',
+        },
+	},
+}
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId="urb0304", # CYBRAN_QUANTUM_GATE
+
+    Economy = {
+        BuildableCategory = {
+            'BUILTBYQUANTUMGATE MOBILE LAND',
+            'BUILTBYQUANTUMGATE MOBILE AIR',
+            'SUBCOMMANDER',
+        },
+	},
+}
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId="xsb0304", # SERAPHIM_QUANTUM_GATE
+
+    Economy = {
+        BuildableCategory = {
+            'BUILTBYQUANTUMGATE MOBILE LAND',
+            'BUILTBYQUANTUMGATE MOBILE AIR',
+            'SUBCOMMANDER',
+        },
+	},
+}

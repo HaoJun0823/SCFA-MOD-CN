@@ -1,0 +1,12 @@
+name = "Quantum Gate - All Faction SCU (AI)"
+uid = "b2c4d6e8-1a3f-4b7c-9d0e-5f2a1b0c0002"
+version = 1
+copyright = "None"
+description = "AI also can build all faction's scu.\nNeed Sorian AI."
+author = "haojun0823"
+selectable = true
+enabled = true
+exclusive = false
+ui_only = false
+requires = { "a1f3c9b2-7d4e-4a8c-9b6f-3e2c1d0a0001" }
+requiresNames = { "Quantum Gate - All Faction Sub Commanders" }
