@@ -1,0 +1,11 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'EEA0002',
+    Description = '<LOC eea0002_desc>Spy Satellite',
+    General = {
+        UnitName = '<LOC eea0002_name>Spy Satellite',
+    },
+    Interface = {
+        HelpText = '<LOC eea0002_help>Spy Satellite',
+    },
+}

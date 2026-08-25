@@ -1,0 +1,11 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BSB5104',
+    Description = '<LOC bsb5104_desc>Light Air Staging Beacon',
+    General = {
+        UnitName = '<LOC bsb5104_name>Iasuhthe',
+    },
+    Interface = {
+        HelpText = '<LOC bsb5104_help>Light Air Staging Beacon',
+    },
+}

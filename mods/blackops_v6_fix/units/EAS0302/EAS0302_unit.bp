@@ -1,0 +1,11 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'EAS0302',
+    Description = '<LOC eas0302_desc>Escort Frigate',
+    General = {
+        UnitName = '<LOC eas0302_name>Messiah Class',
+    },
+    Interface = {
+        HelpText = '<LOC eas0302_help>Escort Frigate',
+    },
+}

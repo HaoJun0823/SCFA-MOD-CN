@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BSS0401',
+    General = {
+        UnitName = '<LOC bss0401_name>Hovatha-Hauthu',
+    },
+    Interface = {
+        HelpText = '<LOC bss0401_help>Experimental Dreadnought',
+    },
+}

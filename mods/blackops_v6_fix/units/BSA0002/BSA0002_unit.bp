@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BSA0002',
+    General = {
+        UnitName = '<LOC bsa0002_name>Repair Drone',
+    },
+    Interface = {
+        HelpText = '<LOC bsa0002_help>Repair Drone',
+    },
+}

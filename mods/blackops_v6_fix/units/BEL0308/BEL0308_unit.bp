@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BEL0308',
+    General = {
+        UnitName = '<LOC bel0308_name>Rapier',
+    },
+    Interface = {
+        HelpText = '<LOC bel0308_help>Artillery Support Bot',
+    },
+}

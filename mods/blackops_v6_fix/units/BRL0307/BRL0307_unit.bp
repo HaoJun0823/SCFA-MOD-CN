@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BRL0307',
+    General = {
+        UnitName = '<LOC brl0307_name>Hailfire',
+    },
+    Interface = {
+        HelpText = '<LOC brl0307_help>Mobile Rocket Artillery',
+    },
+}

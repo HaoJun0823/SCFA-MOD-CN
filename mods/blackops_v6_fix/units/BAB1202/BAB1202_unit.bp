@@ -1,0 +1,7 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BAB1202',
+    General = {
+        UnitName = '<LOC bab1202_name>Hydrocarbon Power Plant',
+    },
+}

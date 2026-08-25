@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BSA0309',
+    General = {
+        UnitName = '<LOC bsa0309_name>Vishathal-Atah',
+    },
+    Interface = {
+        HelpText = '<LOC bsa0309_help>Tech3 Air Transport',
+    },
+}

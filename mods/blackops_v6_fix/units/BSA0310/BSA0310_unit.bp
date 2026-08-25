@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BSA0310',
+    General = {
+        UnitName = '<LOC bsa0310_name>Vulthatha-Ioz',
+    },
+    Interface = {
+        HelpText = '<LOC bsa0310_help>Missile Gunship',
+    },
+}

@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BAB2306',
+    General = {
+        UnitName = '<LOC bab2306_name>Aria',
+    },
+    Interface = {
+        HelpText = '<LOC bab2306_help>Heavy Point Defense',
+    },
+}

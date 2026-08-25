@@ -1,0 +1,7 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BEL9010',
+    General = {
+        UnitName = '<LOC bel9010_name>Jammer Crystal',
+    },
+}

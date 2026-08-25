@@ -1,0 +1,11 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BSB0001',
+    Description = '<LOC bsb0001_desc>Lambda Emitter',
+    General = {
+        UnitName = '<LOC bsb0001_name>Lambda Emitter',
+    },
+    Interface = {
+        HelpText = '<LOC bsb0001_help>Lamdba Emitter',
+    },
+}

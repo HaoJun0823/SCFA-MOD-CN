@@ -1,0 +1,11 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'EES0302',
+    Description = '<LOC ees0302_desc>Escort Frigate',
+    General = {
+        UnitName = '<LOC ees0302_name>Knox Class',
+    },
+    Interface = {
+        HelpText = '<LOC ees0302_help>Escort Frigate',
+    },
+}

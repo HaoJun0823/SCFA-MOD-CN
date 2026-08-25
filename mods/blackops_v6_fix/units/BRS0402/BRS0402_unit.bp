@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BRS0402',
+    General = {
+        UnitName = '<LOC brs0402_name>SeaDragon MKII Class',
+    },
+    Interface = {
+        HelpText = '<LOC brs0402_help>Experimental Dreadnaught',
+    },
+}

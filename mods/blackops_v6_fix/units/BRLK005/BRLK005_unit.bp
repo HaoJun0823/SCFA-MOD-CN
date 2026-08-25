@@ -1,0 +1,7 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BRLK005',
+    General = {
+        UnitName = '<LOC brlk005_name>Crab Egg (Bouncer)',
+    },
+}

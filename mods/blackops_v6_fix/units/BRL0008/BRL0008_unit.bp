@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BRL0008',
+    General = {
+        UnitName = '<LOC brl0008_name>Crab Egg (Deceiver)',
+    },
+    Interface = {
+        HelpText = '<LOC brl0008_help>Crab Egg (Deceiver)',
+    },
+}

@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BSL0310',
+    General = {
+        UnitName = '<LOC bsl0310_name>Ilthysathuum',
+    },
+    Interface = {
+        HelpText = '<LOC bsl0310_help>Lambda Equipped Assault Bot',
+    },
+}

@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BALK003',
+    General = {
+        UnitName = '<LOC balk003_name>Redeemer',
+    },
+    Interface = {
+        HelpText = '<LOC balk003_help>Shinaider!',
+    },
+}

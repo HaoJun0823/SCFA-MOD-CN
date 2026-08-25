@@ -1,0 +1,11 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BSB2211',
+    Description = '<LOC bsb2211_desc>Mine',
+    General = {
+        UnitName = '<LOC bsb2211_name>Mine',
+    },
+    Interface = {
+        HelpText = '<LOC bsb2211_help>Mine',
+    },
+}

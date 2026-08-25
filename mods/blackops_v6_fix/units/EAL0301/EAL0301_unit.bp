@@ -1,0 +1,11 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'EAL0301',
+    Description = '<LOC eal0301_desc>Teleport Harassment Bot',
+    General = {
+        UnitName = '<LOC eal0301_name>Faithbreaker',
+    },
+    Interface = {
+        HelpText = '<LOC eal0301_help>Teleport Harassment Bot',
+    },
+}

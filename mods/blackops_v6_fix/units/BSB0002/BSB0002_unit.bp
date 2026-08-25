@@ -1,0 +1,11 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BSB0002',
+    Description = '<LOC bsb0002_desc>Factory',
+    General = {
+        UnitName = '<LOC bsb0002_name>Factory',
+    },
+    Interface = {
+        HelpText = '<LOC bsb0002_help>Factory',
+    },
+}

@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BRB4401',
+    General = {
+        UnitName = '<LOC brb4401_name>Shadow',
+    },
+    Interface = {
+        HelpText = '<LOC brb4401_help>Cloak Field Generator',
+    },
+}

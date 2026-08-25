@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BSB0405',
+    General = {
+        UnitName = '<LOC bsb0405_name>Uttaus-Athellu',
+    },
+    Interface = {
+        HelpText = '<LOC bsb0405_help>Lambda Field Generator/Avanced Point Defense',
+    },
+}

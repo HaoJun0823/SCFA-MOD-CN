@@ -1,0 +1,7 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BRB4309',
+    General = {
+        UnitName = '<LOC brb4309_name>Shroud',
+    },
+}

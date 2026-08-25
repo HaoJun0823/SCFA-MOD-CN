@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BSS0306',
+    General = {
+        UnitName = '<LOC bss0306_name>Ithaluthe-Esel',
+    },
+    Interface = {
+        HelpText = '<LOC bss0306_help>Heavy Cruiser',
+    },
+}

@@ -1,0 +1,7 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BRB0303',
+    General = {
+        UnitName = '<LOC brb0303_name>Naval Factory',
+    },
+}

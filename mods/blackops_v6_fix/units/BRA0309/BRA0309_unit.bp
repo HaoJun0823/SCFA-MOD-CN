@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BRA0309',
+    General = {
+        UnitName = '<LOC bra0309_name>Vanisher',
+    },
+    Interface = {
+        HelpText = '<LOC bra0309_help>T3 Air Transport',
+    },
+}

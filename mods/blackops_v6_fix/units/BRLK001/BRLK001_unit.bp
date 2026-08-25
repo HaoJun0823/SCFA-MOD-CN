@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BRLK001',
+    General = {
+        UnitName = '<LOC brlk001_name>Bouncer',
+    },
+    Interface = {
+        HelpText = '<LOC brlk001_help>Mobile Missile Anti-Air',
+    },
+}

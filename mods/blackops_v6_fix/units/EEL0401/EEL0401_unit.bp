@@ -1,0 +1,11 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'EEL0401',
+    Description = '<LOC eel0401_desc>Experimental Harmonic Wave Generator',
+    General = {
+        UnitName = '<LOC eel0401_name>Disruptor',
+    },
+    Interface = {
+        HelpText = '<LOC eel0401_help>Experimental Harmonic Wave Generator',
+    },
+}

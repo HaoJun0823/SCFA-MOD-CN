@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BRL0205',
+    General = {
+        UnitName = '<LOC brl0205_name>Scorpion',
+    },
+    Interface = {
+        HelpText = '<LOC brl0205_help>Ambush Bot',
+    },
+}

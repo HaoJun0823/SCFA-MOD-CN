@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BEL0109b',
+    General = {
+        UnitName = '<LOC bel0109_name>TH-104 Avenger',
+    },
+    Interface = {
+        HelpText = '<LOC bel0109_help>Tank Hunter/Mobile PD',
+    },
+}

@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BAA0401',
+    General = {
+        UnitName = '<LOC baa0401_name>Artemis',
+    },
+    Interface = {
+        HelpText = '<LOC baa0401_help>Experimental Satellite',
+    },
+}

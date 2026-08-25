@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BAB2308',
+    General = {
+        UnitName = '<LOC bab2308_name>Purifier',
+    },
+    Interface = {
+        HelpText = '<LOC bab2308_help>Tactical Missile Launcher',
+    },
+}

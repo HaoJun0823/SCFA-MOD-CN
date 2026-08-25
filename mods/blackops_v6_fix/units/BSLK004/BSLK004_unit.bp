@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BSLK004',
+    General = {
+        UnitName = '<LOC bslk004_name>Uyanah',
+    },
+    Interface = {
+        HelpText = '<LOC bslk004_help>Unstable Lightning Tank',
+    },
+}

@@ -1,0 +1,15 @@
+name = "BlackOps V6 Fix Patch"
+uid = "A1B2C3D4-0000-0000-0000-BLACKOPSBPF6"
+version = 1
+description = "Fix BlackOps V6 Bugs."
+author = "HaoJun0823"
+url = "https://www.haojun0823.xyz/"
+selectable = true
+enabled = true
+exclusive = false
+ui_only = false
+requires = { "9e8ea941-c306-4751-b367-e00000000302", "9e8ea941-c306-4751-b367-a20000000502", "9e8ea941-c306-4751-b367-f00000000005", "9e8ea941-c306-4751-b367-a11000000600", "9e8ea941-c306-4751-b367-e10000000104", "9e8ea941-c306-4751-b367-e20000000102" }
+requiresNames = { "BlackOpsACUs","BlackOpsBalance","BlackOpsEXUnits","BlackOpsNavalBalance","BlackOpsUnleashed","BlackOpsSupport" }
+conflicts = { }
+after = { "9e8ea941-c306-4751-b367-e00000000302", "9e8ea941-c306-4751-b367-a20000000502", "9e8ea941-c306-4751-b367-f00000000005", "9e8ea941-c306-4751-b367-a11000000600", "9e8ea941-c306-4751-b367-e10000000104", "9e8ea941-c306-4751-b367-e20000000102" }
+before = { }

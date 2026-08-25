@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BAA0309',
+    General = {
+        UnitName = '<LOC baa0309_name>Illuminate',
+    },
+    Interface = {
+        HelpText = '<LOC baa0309_help>T3 Heavy Air Transport',
+    },
+}

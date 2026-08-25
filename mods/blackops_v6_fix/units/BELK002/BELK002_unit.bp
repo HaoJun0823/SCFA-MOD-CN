@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BELK002',
+    General = {
+        UnitName = '<LOC belk002_name>Cougar',
+    },
+    Interface = {
+        HelpText = '<LOC belk002_help>Mobile Rapid-fire AA Cannon',
+    },
+}

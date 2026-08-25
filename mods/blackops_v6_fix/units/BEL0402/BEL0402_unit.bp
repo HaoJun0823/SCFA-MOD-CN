@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BEL0402',
+    General = {
+        UnitName = '<LOC bel0402_name>Goliath MKII',
+    },
+    Interface = {
+        HelpText = '<LOC bel0402_help>Experimental Assault Bot',
+    },
+}

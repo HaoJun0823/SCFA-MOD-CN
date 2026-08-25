@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BSA0001',
+    General = {
+        UnitName = '<LOC bsa0001_name>Ground Attack/Anti-Air Drone',
+    },
+    Interface = {
+        HelpText = '<LOC bsa0001_help>Ground Attack/Anti-Air Drone',
+    },
+}

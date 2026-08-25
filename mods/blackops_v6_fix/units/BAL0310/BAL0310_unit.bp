@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BAL0310',
+    General = {
+        UnitName = '<LOC bal0310_name>Wraith',
+    },
+    Interface = {
+        HelpText = '<LOC bal0310_help>Heavy Hover Tank',
+    },
+}

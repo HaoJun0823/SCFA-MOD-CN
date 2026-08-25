@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BSB5205',
+    General = {
+        UnitName = '<LOC bsb5205_name>Iathuum-Hovathu',
+    },
+    Interface = {
+        HelpText = '<LOC bsb5205_help>Advanced Air Staging Beacon',
+    },
+}

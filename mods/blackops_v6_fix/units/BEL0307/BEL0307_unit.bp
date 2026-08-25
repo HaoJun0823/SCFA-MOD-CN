@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BEL0307',
+    General = {
+        UnitName = '<LOC bel0307_name>Juggernaut',
+    },
+    Interface = {
+        HelpText = '<LOC bel0307_help>Battle Station',
+    },
+}

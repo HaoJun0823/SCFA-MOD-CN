@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BRB5205',
+    General = {
+        UnitName = '<LOC brb5205_name>Naval Staging yard',
+    },
+    Interface = {
+        HelpText = '<LOC brb5205_help>Advanced Air Staging Facility',
+    },
+}

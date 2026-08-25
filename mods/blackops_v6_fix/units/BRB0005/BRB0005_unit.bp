@@ -1,0 +1,11 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BRB0005',
+    Description = '<LOC brb0005_desc>AA Laser Emitter',
+    General = {
+        UnitName = '<LOC brb0005_name>AA Laser Emitter',
+    },
+    Interface = {
+        HelpText = '<LOC brb0005_help>AA Laser Emitter',
+    },
+}

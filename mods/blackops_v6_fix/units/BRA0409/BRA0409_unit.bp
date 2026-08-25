@@ -1,0 +1,10 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'BRA0409',
+    General = {
+        UnitName = '<LOC bra0409_name>Gargantuan',
+    },
+    Interface = {
+        HelpText = '<LOC bra0409_help>Experimental Assault Transport',
+    },
+}
