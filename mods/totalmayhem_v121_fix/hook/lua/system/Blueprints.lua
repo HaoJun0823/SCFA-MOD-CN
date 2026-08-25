@@ -12,7 +12,7 @@
 --   在你这 4 连删场景失效的根因. 改用「手动重建数组」—— 遍历一次把保留项塞进新表、整体
 --   赋值, 纯 table 语义、与 Lua 实现无关, 100% 确定生效.
 --
--- [调试版] 含 LOG('TM_TARMAC: ...'). 确认生效后请删除这些 LOG 行.
+-- 已确认禁造生效 (v1.1.8, 用户实机复测), 调试 LOG 已移除.
 
 do
     local oldModBlueprints = ModBlueprints
@@ -36,9 +36,6 @@ do
     function ModBlueprints(all_bps)
         oldModBlueprints(all_bps)
 
-        -- ★ 版本标记: 若 LOG 里看不到这一行, 说明游戏加载的不是本文件(旧副本/未重启)
-        LOG('TM_TARMAC: === VERSION v1.1.8-fix-T-spelling ===')
-
         local tarmacs = {
             'brmgrnd1', 'brmgrnd2',   -- Cybran
             'brngrnd1', 'brngrnd2',   -- UEF
@@ -60,7 +57,6 @@ do
                     end
                 end
                 all_bps.Unit[uid].Categories = newcats
-                LOG('TM_TARMAC: ' .. uid .. ' removed=' .. removed .. ' after=' .. table.concat(newcats, ','))
             end
         end
     end
