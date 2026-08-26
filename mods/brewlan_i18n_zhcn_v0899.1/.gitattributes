@@ -1,0 +1,3 @@
+# 强制本模组所有文件以 LF 换行，避免 Git autocrlf 转回 CRLF
+# 复现 FA Lua 5.0 解析失败（mod_info.lua 曾因换行/格式问题整模组被拒）
+* text eol=lf

@@ -605,7 +605,7 @@ local _BL_SIMPLIFIED = {
     ['srl0000_desc'] = '蟹蛋',
     ['srl0001_desc'] = '蟹蛋（驱逐舰）',
     ['srl0002_desc'] = '蟹蛋（战地工程师）',
-    ['srl0003_desc'] = '蟹蛋（手术）',
+    ['srl0003_desc'] = '蟹蛋（隐形）',
     ['srl0004_desc'] = '蟹蛋（潜伏）',
     ['srl0005_desc'] = '蟹蛋（刺猬）',
     ['srl0006_desc'] = '蟹蛋 （多管火箭炮）',
@@ -793,6 +793,14 @@ local _BL_SIMPLIFIED = {
     ['tooltipbrewturrets0003'] = '通过相邻工厂设置单位构建，以启用Stealth。',
     ['tooltipbrewturrets0004'] = '工厂建立斗篷切换',
     ['tooltipbrewturrets0005'] = '通过相邻工厂设置单位构建以启用斗篷。',
+    ['sab5401_name'] = '飞升',
+    ['sab5401_desc'] = '实验性量子传送器',
+    ['seb94vv_name'] = '黑太阳',
+    ['seb94vv_desc'] = '实验性超级武器',
+    ['sel0326_desc'] = '移动式空中补给平台',
+    ['srl0007_desc'] = '蟹蛋（导弹）',
+    ['ssb2380_name'] = '乌陶斯',
+    ['ssb2380_desc'] = '原型解除武装点防御',
 }
 
 local _oldLOC = rawget(_G, 'LOC')
