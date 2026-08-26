@@ -1,0 +1,31 @@
+name = "BrewLAN 简体中文补丁"
+uid = "A1B2C3D4-0000-0000-0000-BREWLANZHN0899"
+version = 1
+description = "BrewLAN 模组家族简体中文翻译。\n推荐启动：BrewLAN 各子模组（Units/Gameplay/Plenae/RNG/Cursed）"
+author = "HaoJun0823"
+url = "https://www.haojun0823.xyz/"
+selectable = true
+enabled = true
+exclusive = false
+ui_only = true
+requires = { }
+requiresNames = { }
+conflicts = { }
+after = {
+    "25D57D85-7D84-27HT-A501-BR3WL4N0000899",
+    "BREWLANS-22b4-4936-820e-CRYSTAL00019",
+    "BREWLANS-22b4-4936-820e-PARAGON0050",
+    "16678e1e-7fc9-11e5-8bcf-TEAD00000007",
+    "190261d0-4bb0-11e2-bcSC-CITIES000001",
+    "BREWLANS-a0a7-426d-88f2-SPOMEN00000",
+    "BREWLANS-a0a7-426d-88f2-CRATESZ00012",
+    "25D57D85-9JA7-D842-BREW-AIR0000000002",
+    "25D57D85-9JA7-D842-BREW-INTEL000000003",
+    "25D57D85-9JA7-D842-BREW-MAGNUMD000002",
+    "25D57D85-9JA7-D842-BREW-RESEARCH000007",
+    "25D57D85-9JA7-D842-BREW-SHIELDS000006",
+    "25D57D85-9JA7-D842-BREW-BOATS000000001",
+    "25D57D85-9JA7-D842-BREW-TURRETS000003",
+    "A1B2C3D4-0000-0000-0000-BLACKOPSZHN6"
+}
+before = { }
