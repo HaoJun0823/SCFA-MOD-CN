@@ -1,0 +1,15 @@
+name = "4th UnitCap Fix Patch"
+uid = "A1B2C3D4-0000-0000-0000-4THUNITCPFIX"
+version = 1
+description = "Fix 4th Dimension Unit Cap crash (capcosts nil) By HaoJun0823."
+author = "HaoJun0823"
+url = "https://www.haojun0823.xyz/"
+selectable = true
+enabled = true
+exclusive = false
+ui_only = false
+requires = { "3f7a0b73-b8d7-4cc5-a040-21646a8ba1c1" }
+requiresNames = { "4th Dimension Unit Cap 1.0" }
+conflicts = { }
+after = { "3f7a0b73-b8d7-4cc5-a040-21646a8ba1c1" }
+before = { }
