@@ -1,8 +1,18 @@
 # 量子通讯传送门（Quantum Gate）扩展可建造列表
-# 目标：让四个阵营的量子门都能建造「全部四个阵营」的副指挥官（Sub Commander / SCU）。
-# 设计：仅追加 SUBCOMMANDER 类别，不追加 ENGINEER / FIELDENGINEER（不造工程师）。
-# 说明：副指挥官蓝图自带 'BUILTBYQUANTUMGATE' 类别，故量子门只需显式声明可建造
-#       SUBCOMMANDER 即可解锁。四个阵营的 SCU 均带此类别，因而任意一门都能造四种 SCU。
+# 目标：让四个阵营的量子门都能建造「全部四个阵营」的副指挥官（Sub Commander / SCU）
+#       以及「全部四个阵营」的 T3 工程师。
+# 重要机制：BuildableCategory 里的每个字符串是「类别的 AND 组合」，引擎用它去比
+#           对每个单位的 Categories；里面写单位 BlueprintId 是无效的（没有单位会带
+#           一个名为该 ID 的类别），必须写真实类别。
+# 设计：
+#   - SUBCOMMANDER：副指挥官（0301，Support Armored Command Unit）携带此类别，
+#     故量子门声明可建造 SUBCOMMANDER 即可解锁，任意一门都能造四种 SCU。
+#   - TECH3 ENGINEER LAND：四个「陆军」T3 工程师（0309）与四个副指挥官（0301）都
+#     同时携带 'TECH3' + 'ENGINEER' + 'LAND'。加上 LAND 是为了排除来自其它 mod 的
+#     「海军 T3 工程师船」——它们带 'NAVAL' 而不带 'LAND'，因此不会被命中。
+#     这样任意一门都能造四族「陆军」T3 工程师（SCU 已含于 SUBCOMMANDER，按
+#     BlueprintId 去重，不会重复出现）。
+#     来源：gamedata/units.scd 内各单位 *_unit.bp 的 Categories。
 
 UnitBlueprint {
 	Merge = true,
@@ -13,6 +23,7 @@ UnitBlueprint {
             'BUILTBYQUANTUMGATE MOBILE LAND',
             'BUILTBYQUANTUMGATE MOBILE AIR',
             'SUBCOMMANDER',
+            'TECH3 ENGINEER LAND',   # 四族「陆军」T3 工程师（0309，带 LAND）；排除海军工程师船（带 NAVAL 不带 LAND）。SCU(0301) 也带 LAND，仍由 SUBCOMMANDER 兜底
         },
 	},
 }
@@ -26,6 +37,7 @@ UnitBlueprint {
             'BUILTBYQUANTUMGATE MOBILE LAND',
             'BUILTBYQUANTUMGATE MOBILE AIR',
             'SUBCOMMANDER',
+            'TECH3 ENGINEER LAND',   # 四族「陆军」T3 工程师（0309，带 LAND）；排除海军工程师船（带 NAVAL 不带 LAND）。SCU(0301) 也带 LAND，仍由 SUBCOMMANDER 兜底
         },
 	},
 }
@@ -39,6 +51,7 @@ UnitBlueprint {
             'BUILTBYQUANTUMGATE MOBILE LAND',
             'BUILTBYQUANTUMGATE MOBILE AIR',
             'SUBCOMMANDER',
+            'TECH3 ENGINEER LAND',   # 四族「陆军」T3 工程师（0309，带 LAND）；排除海军工程师船（带 NAVAL 不带 LAND）。SCU(0301) 也带 LAND，仍由 SUBCOMMANDER 兜底
         },
 	},
 }
@@ -52,6 +65,7 @@ UnitBlueprint {
             'BUILTBYQUANTUMGATE MOBILE LAND',
             'BUILTBYQUANTUMGATE MOBILE AIR',
             'SUBCOMMANDER',
+            'TECH3 ENGINEER LAND',   # 四族「陆军」T3 工程师（0309，带 LAND）；排除海军工程师船（带 NAVAL 不带 LAND）。SCU(0301) 也带 LAND，仍由 SUBCOMMANDER 兜底
         },
 	},
 }

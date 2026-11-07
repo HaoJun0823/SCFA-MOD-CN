@@ -1,0 +1,78 @@
+BlackOps V6 解除 T4 建造限制补丁 Changelog
+==========================================
+
+版本 1.0（2026-11-07）
+----------------------
+
+【问题定位】
+限制来自 BlackOpsBalance（主）+ BlackOpsACUs（副本），不是单位蓝图本身：
+
+1) BlackOpsBalance/hook/lua/system/Blueprints.lua
+   --Limit heavy experimental construction to SCU/T4 only
+   把 22 个原版实验级 + BlackOps T4 单位（paragon / tempest / mavor /
+   novax / soul ripper / megalith / scathis / yolona oss / ahwassa /
+   artemis / goliath / citadel / bismarck / inquisitor / seadragon /
+   basilisk / rift archway / sera dread / tele hub / firestorm ×2 等）
+   的 Categories 改成只有 BUILTBYTIER4COMMANDER，并删掉
+   BUILTBYTIER3COMMANDER / BUILTBYTIER3ENGINEER。
+   同时给 ACU、SCU、T3 工程师的 BuildableCategory 补上
+   'BUILTBYTIER4COMMANDER <阵营>'（让 AI 能造，人类在运行时被挡）。
+
+2) BlackOpsBalance/hook/units/???0001/*_unit.bp
+   新增 Enhancements.T4Engineering「Tech 4 Engineering Suite」，
+   前置 T3Engineering，BuildableCategoryAdds = 'BUILTBYTIER4COMMANDER <阵营>'。
+
+3) BlackOpsBalance/hook/units/???0001/*_script.lua（四族 ACU）
+   BlackOpsBalance/hook/units/???0309/*_script.lua（四族 T3 工程师，仅 Human）
+   BlackOpsACUs/units/E??0001/*_script.lua（ACUs 自定义 ACU：
+     eel0001 / eal0001 / erl0001 / esl0001，由 factions.lua 设为开局单位）
+   OnCreate() 里 AddBuildRestriction( 阵营 * BUILTBYTIER4COMMANDER )；
+   只有 CreateEnhancement('T4Engineering') 才 RemoveBuildRestriction。
+   各 *EngineeringRemove 分支 RestoreBuildRestrictions 后还会重新加回来。
+
+   净效果：人类玩家只能用 SCU，或先给 ACU 做完 T4 工程升级，才能造这批单位。
+
+【解除思路：两层，均不改源模组文件】
+第 1 层 hook/lua/system/Blueprints.lua
+  排在 ModBlueprints 调用链最外层，先调旧链再收尾；给所有
+  COMMAND / SUBCOMMANDER / TECH3+ENGINEER 且阵营明确的建造者补
+  'BUILTBYTIER4COMMANDER <阵营>' 权限。属于兜底：即使没启用
+  BlackOpsBalance，或被别的模组重置了 BuildableCategory，也能建。
+  刻意不覆盖 T1/T2 工程师与 T3 工厂，T4 仍是后期科技。
+
+第 2 层 hook/lua/sim/Unit.lua（核心）
+  链式包装 Unit.AddBuildRestriction，两条路径互为保险：
+    a) 若 EntityCategory 可按内容比较，认出是 T4 限制就直接吞掉，不加进去；
+    b) 否则照常加完，再用「完全相同的表达式」RemoveBuildRestriction 精确
+       撤掉（源模组自己的 T4Engineering 分支就是这么解锁的）。
+  处理对象是 4 个阵营 × BUILTBYTIER4COMMANDER，外加纯 BUILTBYTIER4COMMANDER。
+  一次覆盖全部 12 份源脚本的所有 OnCreate / CreateEnhancement 分支，
+  不复制任何源脚本，不丢原有的升级 buff / 武器 / 特效逻辑；
+  保留 T2、T3 的正常科技限制；保留 BUILTBYTIER4COMMANDER 类别本身，
+  避免源脚本引用 categories.BUILTBYTIER4COMMANDER 时出现 nil。
+
+【保留的东西】
+- T4 工程升级本身仍在，升级带来的建造速率 / 血量 / 回血加成照常有效，
+  只是不再是「能不能造 T4」的硬门槛。
+- SCU 本来就能造，不变。
+- AI 本来就不受人类玩家的运行时限制，不变。
+
+【部署】
+1. 把本目录复制到游戏 mods/（与 blackops_v6_fix、unitcap_fix 等一起）。
+2. mod_info.lua 已用 requires + after 声明依赖 6 个 BlackOps 源模组及两个
+   既有补丁，务必保证本补丁在它们之后加载，否则第 1 层会被源模组改回去。
+3. 启用本模组即可；卸载直接删目录，源模组零改动。
+
+【联机提示】
+本补丁改了 sim 侧逻辑（ui_only = false），联机时所有玩家必须启用同一套
+模组组合，否则会造成不同步。
+
+【建议的验证方式】
+- 开局不选 T4 工程升级，直接用 T3 工程师 / SCU 查看建造菜单，
+  Goliath、Citadel、Inquisitor、Basilisk、Artemis、Paragon 等应已出现。
+- 给 ACU 做完 T3 工程升级（不做 T4）也应能造。
+- 反复装卸 T3/T4 工程升级，T4 建造项不应消失。
+- 检查 T2/T3 科技仍按升级进度解锁，确认没有误删正常限制。
+- 游戏日志里应有
+  [BlackOps Unlock T4] blueprints: N T4/experimental units, M builders ...
+  若出现 WARN ... unlock skipped，说明类别名或 Unit 方法没取到，需排查加载顺序。

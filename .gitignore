@@ -1,0 +1,19 @@
+# 游戏运行 / 编辑器产生的临时文件
+*.log
+*.bak
+*.tmp
+*.orig
+*.rej
+*.swp
+*~
+
+# 操作系统与编辑器缓存
+Thumbs.db
+desktop.ini
+.DS_Store
+__pycache__/
+.idea/
+.vscode/
+
+# 本地一次性分析产物（非模组资产，含生成标识，不入库）
+loc缺失对比报告.md

@@ -1,0 +1,15 @@
+name = "UnitCap Fix Patch"
+uid = "A1B2C3D4-0000-0000-0000-MODUNITCPFIX"
+version = 1
+description = "Fix Unit Cap crash (capcosts nil) By HaoJun0823."
+author = "HaoJun0823"
+url = "https://www.haojun0823.xyz/"
+selectable = true
+enabled = true
+exclusive = false
+ui_only = false
+requires = {}
+requiresNames = {  }
+conflicts = { }
+after = { "3f7a0b73-b8d7-4cc5-a040-21646a8ba1c1","77775cf2-9b8b-11dc-8314-0800200c9a66" }
+before = { }
