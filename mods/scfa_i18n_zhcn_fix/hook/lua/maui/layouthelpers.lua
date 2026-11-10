@@ -64,8 +64,9 @@ do
             local lines = height / row
             if lines < 3.5 or lines > 6.5 then return false end
 
-            -- Top 必须是函数式布局 (字幕都绑在影片底边或屏幕底边)
-            if type(control.Top[4]) ~= 'function' then return false end
+            -- Top 必须支持函数式布局 (字幕都绑在影片底边或屏幕底边).
+            -- 只用公开的 SetFunction 方法判断, 不碰 LazyVar 内部字段.
+            if type(control.Top.SetFunction) ~= 'function' then return false end
             return true
         end)
         return ok and matched == true
@@ -76,7 +77,6 @@ do
 
         if SCZH_fixEnabled and SCZH_IsMovieSubtitle(control) then
             pcall(function()
-                local oldTopFn = control.Top[4]
                 local top = control.Top()
                 local bottom = parent.Bottom()
                 local height = control.Height()
@@ -93,11 +93,10 @@ do
                 if shouldPin then
                     control.Top:SetFunction(function()
                         local b = parent.Bottom()
-                        local h = control.Height()
-                        if type(b) ~= 'number' or type(h) ~= 'number' or b ~= b or h ~= h then
-                            return oldTopFn()
+                        if type(b) ~= 'number' or b ~= b then
+                            return bottom
                         end
-                        return math.floor(b - h - 4)
+                        return math.floor(b - height - 4)
                     end)
                     if not SCZH_fixLogged then
                         SCZH_fixLogged = true
