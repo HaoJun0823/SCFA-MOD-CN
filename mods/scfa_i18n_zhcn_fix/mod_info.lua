@@ -1,7 +1,7 @@
 name = "SCFA 官方简体中文修复补丁"
 uid = "A1B2C3D4-0000-0000-0000-SCFAZHCNFIX"
-version = 1
-description = "修复原版游戏一些单位缺少文本Key的问题。"
+version = 2
+description = "修复原版游戏一些单位缺少文本Key的问题。\n修复 FA 过场影片字幕被顶出屏幕（中文无配音，剧情依赖字幕）。"
 author = "HaoJun0823"
 url = "https://www.haojun0823.xyz/"
 selectable = true
